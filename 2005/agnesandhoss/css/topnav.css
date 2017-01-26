@@ -1,0 +1,68 @@
+/* Topnav CSS Document */
+#topnav {border-bottom:1px dotted #666; text-align:left; background-color:#F7F7F7}
+#topnav table {font-size:9px; color:#666; font-family:Arial, Helvetica, sans-serif;}
+#topnav ul li {margin-left:0; border:none; list-style:none;}
+#topnav ul li ul {margin-left:0px; padding-left:0px; border:none; list-style:none;}
+#topnav li a {display:block; text-align:left; padding:0px 10px 4px 0px; text-decoration:none; background:#F7F7F7;}
+#topnav li a span {color:#09c;}
+
+a {text-decoration:none;}
+a:link {color:#666;}
+a:visited {color:#666;}
+a:active {color:red;}
+a:hover {text-decoration:underline; color:#09c;}
+
+ul {list-style:none; padding:0; margin:0;}
+
+/* new tab-nav styles */
+.subpad{padding: 4px 0px;}
+.submen{background-color:#f7f7f7; padding-left:6px; font-weight:normal;text-align:left;}
+.submen a:link, a:visited, a:active {text-decoration:none;color: #000;}
+.submenover{background-color:#eee; padding-left:6px; font-weight: normal; text-align:left;}
+.submenover a:link, a:visited, a:active {text-decoration:none; color:#666;}
+.submenover a:hover {text-decoration:none; color:#09c;}
+/* new tab-nav styles*/
+#menu1 {
+	position:absolute; 
+	top:66px; 
+	width:109; 
+	visibility:hidden; 
+	z-index:3;
+	/* Again, the ugly brilliant hack. */
+	voice-family: "\"}\"";
+	voice-family:inherit;}
+
+#menu2 {
+	position:absolute; 
+	top:66px; 
+	width:90; 
+	visibility:hidden; 
+	z-index:3;
+	/* Again, the ugly brilliant hack. */
+	voice-family: "\"}\"";
+	voice-family:inherit;}
+
+/*
+#nav a {color:#666;}
+#nav a {text-decoration:none;}
+#nav li li a {display:block; font-weight:normal; color:#666; padding:0.35em 10px;}
+#nav li li a:hover {padding:0.35em 0 0.35em 5px; border-left:5px solid #09c; background-color:#eee; border-width:0 0 0 5px; color:#09c;}
+
+#nav1 a {color:#666;}
+#nav1 a {text-decoration: none;}
+#nav1 li li a {display:block; font-weight:normal; color:#666; padding:0.35em 10px;}
+#nav1 li li a:hover {padding:0.35em 0 0.35em 5px; border-left:5px solid #09c; background-color:#eee; border-width:0 0 0 5px; color:#09c;}
+
+li {float:left; position:relative; width:90px; text-align:left; cursor:pointer; background-color:white;}
+
+li.patterns {width:65px;}
+li.stores {width:55px;}
+li.about {width:50px;}
+li.press {width:50px;}
+li.contact {width:60px;}
+
+li ul {display:none; position:absolute; top:100%; left:0; font-weight:normal; padding:0 0 1em 0;}
+li>ul {top:auto; left:auto;}
+
+li li {display:block; float:none; width:11em; background-color:transparent; border:0;}
+li:hover ul, li.over ul {display:block;} */

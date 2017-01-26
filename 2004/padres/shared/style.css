@@ -1,0 +1,71 @@
+
+
+BODY 
+	{
+	font-family :arial, helvetica, verdana, sans-serif; 
+	font-size : 11px; 
+	font-weight : normal; 
+	font-style : normal; 
+	color: #000;
+	}
+
+
+TD 
+	{
+	font-family : arial, helvetica, verdana, sans-serif; 
+	font-size : 11px; 
+	font-weight : normal; 
+	font-style : normal; 
+	color: #000;
+	}
+
+H3 
+	{
+	font-family : arial, helvetica, verdana, sans-serif; 
+	font-size : 16px; 
+	font-weight : bold; 
+	font-style : normal; 
+	color: #000;
+	}
+
+P 
+	{
+	font-family : arial, helvetica, verdana, sans-serif; 
+	font-size : 12px; 
+	font-weight : normal; 
+	font-style : normal; 
+	color: #000;
+	}
+
+
+.eleven
+	{
+	font-size : 11px;
+	font-weight : bold;
+	color: #036;
+	}
+
+A:visited { color : #036; text-decoration : underline;}
+A:active { color : #036; text-decoration : underline;}
+A:hover { color : #036; text-decoration : underline;}
+A:link { color : #036; text-decoration : underline;}
+
+
+.ten 
+	{
+	font-size: 10px;
+	}
+
+.thirteen
+	{
+	font-size: 13px;
+	font-weight : bold;
+	
+	}
+	
+.error 
+	{
+	color: #FF0000;
+	}
+
+

@@ -1,0 +1,16 @@
+/* CSS descriptions Document */
+#container {padding-top:12px; padding-left:10px; padding-right:10px; text-align:left;}
+#product {float:left; padding:0;}
+#description {float:right; width:175px; text-align:left; padding:0px;}
+#description p {float:left; font-family:Arial,Helvetica,sans-serif; color:#000; font-size:11px; line-height:16px;}
+#description p img {padding-top:8px;}
+
+/* CSS for pillow, handbag, scarves main pages*/
+#cntnav {padding-top:0px; padding-left:5px; padding-right:5px; height:478px;}
+#cntnav table {background-image:url(/images/bkg_squares.gif); background-repeat:no-repeat;}
+#cntnav table tr td{padding-right:1px; padding-bottom:1px;}
+
+/* CSS for collections*/
+#cntnavcollection {padding-top:0px; padding-left:5px; padding-right:5px; height:450px;}
+#cntnavcollection table {background-image:url(/images/collections/bkg_collections.jpg); background-repeat:no-repeat;}
+#cntnavcollection table tr td{padding-right:1px; padding-bottom:1px;}

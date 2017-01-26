@@ -1,0 +1,971 @@
+/*
+ * HTML5 Boilerplate
+ *
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+
+/* =============================================================================
+   HTML5 element display
+   ========================================================================== */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio[controls], canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+
+
+/* =============================================================================
+   Base
+   ========================================================================== */
+
+/*
+ * 1. Correct text resizing oddly in IE6/7 when body font-size is set using em units
+ *    http://clagnut.com/blog/348/#c790
+ * 2. Force vertical scrollbar in non-IE
+ * 3. Remove Android and iOS tap highlight color to prevent entire container being highlighted
+ *    www.yuiblog.com/blog/2010/10/01/quick-tip-customizing-the-mobile-safari-tap-highlight-color/
+ * 4. Prevent iOS text size adjust on device orientation change, without disabling user zoom
+ *    www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/
+ */
+
+html { font-size: 100%; overflow-y: scroll; -webkit-overflow-scrolling: touch; -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+body { margin: 0; font-size: 13px; line-height: 1.231; }
+
+body, button, input, select, textarea { font-family:"Avenir LT W01 65 Medium", sans-serif; color: #7F90A1; }
+
+
+/*
+ * These selection declarations have to be separate
+ * No text-shadow: twitter.com/miketaylr/status/12228805301
+ * Also: hot pink!
+ */
+
+::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+
+
+/* =============================================================================
+   Links
+   ========================================================================== */
+
+a { color: #fa7500; }
+a:hover { color:#002144; }
+a:visited { /*color: #551a8b;*/ }
+a:focus { outline: thin dotted; }
+
+/* Improve readability when focused and hovered in all browsers: people.opera.com/patrickl/experiments/keyboard/test */
+a:hover, a:active { outline: 0; }
+
+
+/* =============================================================================
+   Typography
+   ========================================================================== */
+
+abbr[title] { border-bottom: 1px dotted; }
+
+b, strong { font-weight: bold; }
+
+blockquote { margin: 1em 40px; }
+
+dfn { font-style: italic; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+ins { background: #ff9; color: #000; text-decoration: none; }
+
+mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+
+/* Redeclare monospace font family: en.wikipedia.org/wiki/User:Davidgothberg/Test59 */
+pre, code, kbd, samp { font-family: monospace, monospace; _font-family: 'courier new', monospace; font-size: 1em; }
+
+/* Improve readability of pre-formatted text in all browsers */
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+
+q { quotes: none; }
+q:before, q:after { content: ""; content: none; }
+
+small { font-size: 85%; }
+
+/* Position subscript and superscript content without affecting line-height: gist.github.com/413930 */
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+p { font-size:14px; line-height:16px; margin:7px 0; padding:0; }
+
+.black { font-family:"Avenir LT W01 95 Black"; }
+
+.italic { font-family:"AvenirLTW01-55Oblique"; }
+
+.bold-italic { font-family:"AvenirLTW01-95BlackObli"; }
+
+.light { font-family:"Avenir LT W01 35 Light"; }
+
+.link { color:#002144; font-size:14px; line-height:14px; margin:0; padding:0; padding-right:20px; font-family:"Avenir LT W01 85 Heavy"; background:url('/Content/images/link-icons.png') 100% 2px no-repeat; }
+.link:hover { background-position:100% -18px; color:#fa7500; }
+
+
+/* =============================================================================
+   Lists
+   ========================================================================== */
+
+ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+dd { margin: 0 0 0 40px; }
+nav ul, nav ol { list-style: none; margin: 0; padding: 0; }
+
+
+/* =============================================================================
+   Embedded content
+   ========================================================================== */
+
+/*
+ * Improve image quality when scaled in IE7
+ * code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/
+ */
+
+img { border: 0; -ms-interpolation-mode: bicubic; }
+
+/*
+ * Correct overflow displayed oddly in IE9
+ */
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+
+/* =============================================================================
+   Figures
+   ========================================================================== */
+
+figure { margin: 0; }
+
+
+/* =============================================================================
+   Forms
+   ========================================================================== */
+
+form { margin: 0; }
+fieldset { border: 0; margin: 0; padding: 0; }
+
+/*
+ * 1. Correct color not inheriting in IE6/7/8/9
+ * 2. Correct alignment displayed oddly in IE6/7
+ */
+
+legend { border: 0; *margin-left: -7px; padding: 0; }
+
+/* Indicate that 'label' will shift focus to the associated form element */
+label { cursor: pointer; }
+
+/*
+ * 1. Correct font-size not inheriting in all browsers
+ * 2. Remove margins in FF3/4 S5 Chrome
+ * 3. Define consistent vertical alignment display in all browsers
+ */
+
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
+
+/*
+ * 1. Define line-height as normal to match FF3/4 (set using !important in the UA stylesheet)
+ * 2. Correct inner spacing displayed oddly in IE6/7
+ */
+
+button, input { line-height: normal; *overflow: visible; }
+
+/*
+ * 1. Display hand cursor for clickable form elements
+ * 2. Allow styling of clickable form elements in iOS
+ */
+
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; }
+
+/*
+ * Consistent box sizing and appearance
+ */
+
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; }
+input[type="search"] { -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+
+/*
+ * Remove inner padding and border in FF3/4
+ * www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/
+ */
+
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+
+/* Remove default vertical scrollbar in IE6/7/8/9 */
+textarea { overflow: auto; vertical-align: top; }
+
+/* Colors for form validity */
+input:valid, textarea:valid {  }
+input:invalid, textarea:invalid { background-color: #f0dddd; }
+
+
+/* =============================================================================
+   Tables
+   ========================================================================== */
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+
+
+/* =============================================================================
+   Primary styles
+   Authors: Razorfish http://www.razorfish.com
+            Mike Ryan mjryan@hotmail.com
+   ========================================================================== */
+
+h2	{clear:both;padding-top:20px;}
+p, div, ul, li {
+	padding:0;
+	margin:0;
+	font-family:arial,helvetica,verdana, sans-serif;
+	font-size:12px;
+}
+
+.page {
+	width: 810px;
+	margin:0 auto;
+	padding:0;
+	}
+
+header{
+	background:url(../images/bg-top.jpg) no-repeat 0 0;
+	width:809px;
+	height:71px;
+	position:relative;
+}
+
+header .cta-submit-hand {
+	display:block;
+	position:absolute;
+	top: 32px;
+	right: 28px;
+	width: 157px;
+	height: 28px;
+	background:url(../images/btn-submit-your-hand.png) no-repeat 0 0;
+}
+
+#logo {
+	position:absolute;
+	z-index:4;
+	left:6px;
+	width:251px;
+	height:149px;
+	background:url(../images/logo-big-hand.png) no-repeat 0 0;
+}
+
+nav {
+	padding-top:53px;
+	margin:0 auto;
+	width:167px;
+	height:18px;
+}
+
+nav ul{
+	list-style:none;
+}
+
+nav ul li {
+	font-size:10px;
+	display:inline-block;
+	font-weight:bold;
+	height:18px;
+}
+
+nav ul li:hover {
+	cursor:pointer;
+}
+/* end: Global Styles */
+
+/* root element for tabs  */
+ul.tabs {
+    list-style:none;
+    margin:0 !important;
+    padding:0;
+     height:18px;
+}
+
+/* single tab */
+ul.tabs li {
+    float:left;
+    text-indent:-9999px;
+    margin:0 !important;
+    list-style-image:none !important;
+}
+
+/* link inside the tab. uses a background image */
+ul.tabs a {
+    display:block;
+    text-decoration:none;
+    color:#333;
+    padding:0px;
+    margin:0px;
+    position:relative;
+}
+
+ul.tabs a.tab-mano {
+	width:101px;
+	height:18px;
+	background:url(../images/icon-tab.png) no-repeat 0 -18px;
+	overflow:hidden;
+}
+
+ul.tabs a.tab-mano.current {
+	background:url(../images/icon-tab.png) no-repeat 0 0;
+}
+
+ul.tabs a.tab-gallery {
+	width:66px;
+	height:18px;
+	background:url(../images/icon-tab.png) no-repeat -101px 0;
+	overflow:hidden;
+}
+
+ul.tabs a.tab-gallery.current {
+	background:url(../images/icon-tab.png) no-repeat -101px -18px;
+}
+
+ul.tabs a:active {
+    outline:none;
+}
+
+/* when mouse enters the tab move the background image */
+ul.tabs a:hover {
+    color:#fff;
+}
+
+/* active tab uses a class name "current". its highlight is also done by moving the background image. */
+ul.tabs a.current, ul.tabs a.current:hover, ul.tabs li.current a {
+    cursor:default !important;
+    color:#000 !important;
+}
+
+/* initially all panes are hidden */
+.panes .pane {
+    display:none;
+}
+
+
+nav li.mano {
+		font-weight:bold;
+		color:#fff;
+	}
+
+	#mano-a-mano{
+		position:fixed;
+		width:809px;
+		height:488px;
+		background:url(../images/bg-frames.png) no-repeat 0 0;
+		}
+
+	#photo1, #photo2 {
+		position:absolute;
+		top:90px;
+		width:335px;
+		height:360px;
+		overflow:hidden;
+		}
+
+	#photo1 {left:13px;}
+	#photo2 {right:15px;}
+
+	#photo1 div, #photo2 div {
+		position:absolute;
+		top:0;
+		left:0;
+		z-index:4;
+		width:345px;
+		height:360px;
+		}
+
+	#photo1 div {background:url(../images/choice-left.png) no-repeat 0px 26px;}
+	#photo2 div {background:url(../images/choice-right.png) no-repeat 0px 26px;}
+
+	#photo1 div p {
+		position:absolute;
+		bottom:28px;
+		left:20px;
+		color:#303030;
+		}
+	 #photo2 div p {
+		position:absolute;
+		bottom:29px;
+		right:31px;
+		color:#303030;
+		}
+
+	#photo1 span.img-frame, #photo2 span.img-frame {
+		position:absolute;
+		top:34px;
+		z-index:3;
+		display:block;
+		width:330px;
+		}
+
+	#photo1 img, #photo2 img {
+		position:relative;
+		margin:0 auto;
+		display:block;
+		height:280px;
+		}
+
+
+
+	#photo1 a, #photo2 a {
+		position:absolute;
+		z-index:10;
+		display:block;
+		width:350px;
+		height:350px;
+		}
+
+	#pointer {
+		position:absolute;
+		z-index:6;
+		bottom:1px;
+		left:235px;
+		width:340px;
+		height:229px;
+		overflow:hidden;
+		background:url(../images/pointer.png) repeat -340px 0px;
+	}
+
+	/* Gallery Styles */
+	#gallery {
+		position:fixed;
+		display:none;
+		width:809px;
+		height:488px;
+		background:url(../images/bg-redrays.jpg) no-repeat 0 0;
+		}
+
+.firstDiv {
+  margin: 0px auto;
+  width: 639px;
+  height: 390px;
+  padding-top: 86px;
+}
+
+	.range {
+		clear:both;
+		text-align:center;
+		color:#fff;
+		font-size:16px;
+		font-weight:bold;
+		font-family:Verdana,helvetica,arial;
+		}
+
+	#gallery form#galleryOrder {
+		float: right;
+		position: relative;
+		top: -20px;
+		right: 46px;
+	}
+
+	#gallery form#galleryOrder select {
+		color: red;
+		font-size:11px;
+		font-weight: bold;
+	}
+
+	#gallery form#galleryOrder select option {
+		color: #000;
+		font-weight: bold;
+	}
+
+	/* Middle Section */
+	#win-the-ultimate {
+		position:relative;
+		width:809px;
+		height:582px;
+		background:url(../images/bg-submit-hand.png) no-repeat 0 0;
+		top:-30px;
+	}
+
+	#win-the-ultimate .cta-submit-hand,
+	#win-the-ultimate .cta-details {
+		position:absolute;
+		display:block;
+	}
+
+/*	#win-the-ultimate a:hover.cta-submit-hand,
+	#win-the-ultimate a:hover.cta-details {
+		background-color:green;
+	}
+*/
+	#win-the-ultimate .cta-submit-hand {
+		top: 310px;
+		left: 120px;
+		width: 233px;
+		height: 40px;
+	}
+
+	#win-the-ultimate .cta-details {
+		top: 4px;
+		left: 513px;
+		width: 95px;
+		height: 490px;
+	}
+
+/*
+  root element for the scrollable.
+  when scrolling occurs this element stays still.
+  */
+.scrollable {
+    /* required settings */
+    position:relative;
+    overflow:hidden;
+    width: 650px;
+    height:120px;
+    /* custom decorations
+    border:1px solid #ccc;
+    background:url(/media/images/gradient/h300.png) repeat-x;*/
+}
+
+/*
+   root element for scrollable items. Must be absolutely positioned
+   and it should have a extremely large width to accomodate scrollable
+   items.  it's enough that you set the width and height for the root
+   element and not for this element.
+*/
+.scrollable .entries {
+    /* this cannot be too large */
+    width:20000em;
+    position:absolute;
+    clear:both;
+}
+
+.entries ul {
+	list-style-type:none;
+	padding:0;
+	margin:0;
+    float:left;
+    width:565px;
+}
+
+.entries ul li {
+	list-style-type:none;
+	float:left;
+	margin:0;
+	padding:4px 20px 12px 4px;
+    width:117px;
+    height:72px;
+	background:url(../images/gallery/photo-frame.png) no-repeat 0 0;
+}
+
+/* single scrollable item */
+.scrollable img {
+    height:72px;
+    max-width:117px;
+    max-width:117px;
+    margin:0 auto;
+    text-align:center;
+    display:block;
+	/*float:left;
+    margin:0px 6px 20px 0px;
+    padding:4px 20px 12px 4px;
+    width:117px;
+    background:url(../images/gallery/photo-frame.png) no-repeat 0 0;
+*/
+}
+
+/* active item */
+.scrollable .active {
+    border:2px solid #000;
+    position:relative;
+    cursor:default;
+}
+
+
+/*
+root element for the scrollable.  when scrolling occurs this
+element stays still.
+*/
+.scrollable {
+  /* required settings */
+  position:relative;
+  overflow:hidden;
+  width: 556px;
+  height:360px;
+  margin-left:43px;
+}
+
+/*
+root element for scrollable items. Must be absolutely positioned
+and it should have a extremely large width to accommodate scrollable
+items.  it's enough that you set width and height for the root element
+and not for this element.
+*/
+.scrollable .entries {
+  /* this cannot be too large */
+  width:20000em;
+  position:absolute;
+}
+
+/*
+a single item. must be floated in horizontal scrolling.  typically,
+this element is the one that *you* will style the most.
+*/
+.entries ul {
+  float:left;
+}
+
+
+/* this makes it possible to add next button beside scrollable */
+.scrollable {
+    float:left;
+}
+
+/* prev, next, prevPage and nextPage buttons */
+a.browse {
+    background:url(../images/scrollable/arrow/hori_large.png) no-repeat;
+    display:block;
+    width:30px;
+    height:30px;
+    float:left;
+    margin:40px 10px;
+    cursor:pointer;
+    font-size:1px;
+}
+
+/* right */
+a.right { background-position: 0 -30px; clear:right; margin-right: 0px;}
+a.right:hover { background-position:-30px -30px; }
+a.right:active { background-position:-60px -30px; }
+
+a.prev {
+	position:absolute;
+
+}
+
+
+/* left */
+a.left { margin-left: 0px; }
+a.left:hover  { background-position:-30px 0; }
+a.left:active { background-position:-60px 0; }
+
+/* up and down */
+a.up, a.down  {
+    background:url(../images/scrollable/arrow/vert_large.png) no-repeat;
+    float: none;
+    margin: 10px 50px;
+}
+
+/* up */
+a.up:hover { background-position:-30px 0; }
+a.up:active { background-position:-60px 0; }
+
+/* down */
+a.down { background-position: 0 -30px; }
+a.down:hover { background-position:-30px -30px; }
+a.down:active { background-position:-60px -30px; }
+
+
+/* disabled navigational button */
+a.disabled {
+    visibility:hidden !important;
+}
+
+
+/* the overlayed element */
+.apple_overlay {
+
+    /* initially overlay is hidden */
+    display:none;
+
+    /* growing background image */
+    background-image:url(../images/overlay/white.png);
+
+    /*
+      width after the growing animation finishes
+      height is automatically calculated
+      */
+    width:640px;
+
+    /* some padding to layout nested elements nicely  */
+    padding:35px;
+
+    /* a little styling */
+    font-size:11px;
+}
+
+/* default close button positioned on upper right corner */
+.apple_overlay .close {
+    background-image:url(../images/overlay/btn-close.png);
+    position:absolute; right:12px; top:12px;
+    cursor:pointer;
+    height:28px;
+    width:28px;
+}
+
+
+
+/* the overlayed element */
+.apple_overlay_choice {
+
+    /* initially overlay is hidden */
+    display:none;
+
+    /* growing background image */
+    background-image:url(../images/overlay/overlay-choice.png);
+
+    /*
+      width after the growing animation finishes
+      height is automatically calculated
+      */
+    width:717px;
+
+    /* some padding to layout nested elements nicely  */
+    padding:35px;
+
+    /* a little styling */
+    font-size:11px;
+}
+
+/* default close button positioned on upper right corner */
+.apple_overlay_choice .close {
+    background-image:url(../images/overlay/btn-close.png);
+    position:absolute; right: 172px; top: 176px;
+    cursor:pointer;
+    height:28px;
+    width:28px;
+}
+
+/* the overlayed element */
+.apple_overlay_privacy {
+
+    /* initially overlay is hidden */
+    display:none;
+
+    /* growing background image */
+    background-image:url(../images/overlay/mod-privacy-policy.png);
+
+    /*
+      width after the growing animation finishes
+      height is automatically calculated
+      */
+    width:619px;
+
+    /* some padding to layout nested elements nicely
+    padding:35px;*/
+
+    /* a little styling */
+    font-size:11px;
+}
+
+/* default close button positioned on upper right corner */
+.apple_overlay_privacy .close {
+    background-image:url(../images/overlay/btn-close.png);
+    position:absolute;
+    right: -14px;
+    top: 106px;
+    cursor:pointer;
+    height:28px;
+    width:28px;
+}
+
+#privacyContent {
+	width:567px;
+	color:#636363;
+	height:342px;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	margin-top:200px;
+	padding:0 18px;
+	}
+
+#privacyContent h2 {
+	font-size:13px;
+	color:#c9262d;
+	padding:0;
+	}
+
+#privacyContent p {
+	font-size:12px;
+	line-height:17px;
+	font-family:Times;
+	padding-bottom:15px;
+}
+
+/* use a semi-transparent image for the overlay */
+	#overlay {
+		background-image:url(../images/overlay/transparent.png);
+		color:#efefef;
+		height:450px;
+	}
+
+/* container for external content. uses vertical scrollbar, if needed */
+	div. {
+		height:441px;
+		overflow-y:auto;
+	}
+
+
+
+
+/* next/prev buttons */
+.navi {
+    background-image:url(../images/scrollable/arrow/hori_large.png);
+    width:30px;
+    height:30px;
+    float:left;
+    margin-top:55px;
+}
+
+.navi:hover  		{ background-position:-30px 0; }
+.navi:active  		{ background-position:-60px 0; }
+.next 				{ background-position: 0 -30px; clear:right; }
+.next:hover 		{ background-position:-30px -30px; }
+.next:active 		{ background-position:-60px -30px; }
+
+
+.navi.disabled {
+    visibility:hidden;
+}
+
+
+/* the thumbnail scrollable */
+
+/* overlay styling */
+#box {
+    background-image:url(../images/overlay/photo-overlay.png);
+    width:428px;
+    height:317px;
+    position:absolute;
+    display:none;
+}
+
+/*
+  image is contained on the overlay background image.
+  the closing button is thus just a transparent container.
+  */
+#box .close {
+    background-image: url(../images/overlay/btn-close.png);
+position: absolute;
+right: -12px;
+top: -12px;
+cursor: pointer;
+height: 28px;
+width: 28px;
+z-index:101;
+}
+
+/* overlay scrollable */
+#images {
+    position:absolute;
+    margin:10px 9px 10px 9px;
+    width:410px;
+    height:259px;
+}
+
+#images img {
+	display:block;
+	position:relative;
+	margin:0 auto;
+	height:100%;
+	min-height:257px;
+	max-width:408px;
+}
+
+/* single image */
+#images .items div.img {
+    width:408px;
+    height:257px;
+    border:1px solid #ccc;
+    background-color:#eee;
+    overflow:hidden;
+}
+
+/* the tooltip */
+#images .items .info {
+    float:none;
+    font-size:13px;
+    margin-top:7px;
+    z-index:90;
+    position:absolute;
+    width:410px;
+    text-align:center;
+    color:#c9262d;
+}
+#images .items .fb-like {
+	position:absolute;
+	top:7px;
+	left:2px;
+	z-index:100;
+}
+
+#images .items .info h3 {
+    margin:0px;
+}
+
+
+/* override button style on the overlay */
+#box .navi {
+    position:absolute;
+    bottom:33px;
+    left:50px;
+}
+
+#box .next {
+    left:580px;
+}
+
+
+/* Good Choices Overlay Styles */
+#goodChoice h2{
+	clear:both;
+	padding:0;
+	margin:0;
+}
+
+#goodChoice p {
+	padding-top:5px;
+	text-align:center;
+}
+
+#goodChoice a.btn-submit-hand {
+	display:block;
+	text-indent:-9999px;
+	background:url(../images/overlay/btn-submit-hand-overlay.png);
+	width:192px;
+	height:29px;
+	margin:0 auto;
+	}
+
+#goodChoice h2 {
+	font-family:verdana,helvetica,arial;
+	font-size:21px;
+	font-weight:bold;
+	line-height:23px;
+	color:#b42b18;
+}
+
+#goodChoice {
+	position:relative;
+	top:235px;
+	left:150px;
+	width:392px;
+	padding:0 10px;
+	height:140px;
+	overflow:hidden;
+	background-color:transparent;
+	color:#fff;
+	vertical-align:middle;
+	text-align:center;
+}
+
+#goodChoice .players_agree {
+	position: absolute;
+	bottom: 3px;
+	width: 390px;
+	vertical-align: middle;
+}
+
+#goodChoice .players_agree b {
+	font-size: 17px;
+}

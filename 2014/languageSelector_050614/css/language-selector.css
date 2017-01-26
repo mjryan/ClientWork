@@ -1,0 +1,122 @@
+body.language-selector,
+body.language-selector .container-fluid {
+	background-color:#000;
+}
+
+body.language-selector .eyebrow a,
+body.language-selector h2, 
+body.language-selector h3,
+body.language-selector h4,
+body.language-selector h5,
+body.language-selector p {
+	color:#fff;
+}
+
+/**** styles for the continent boxes ****/
+*, *:before, *:after {box-sizing:  border-box !important;}
+
+.column {
+	margin:5px 8px;
+	margin:0.5rem 0.25rem;
+}
+.row {
+column-width: 20em;
+column-gap: 2em;
+ -moz-column-width: 20em;
+ -webkit-column-width: 20em;
+ -moz-column-gap: 2em;
+ -webkit-column-gap: 2em; 
+  
+}
+body.language-selector .menu-countries.row {
+	margin-left:0px;
+}
+.menu-category {
+	display: inline-block;
+	margin: 5px;
+	margin: 0.5rem 0.25rem;
+	width: 100%;
+	background-color: #1e1e1e; 
+}
+.menu-category img {
+	width:100%;
+}
+.menu-category-content {
+	padding:  0 20px 20px 20px;
+	padding:  0rem 2rem 2rem 2rem;
+}
+.menu-category.list-group ul,
+.menu-category.list-group ul li {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+.menu-category.list-group ul {
+	padding-top:12px;
+}
+.menu-category.list-group ul li {
+	padding-bottom:8px;
+}
+.menu-category.list-group ul a {
+	color:#fff;
+}
+.menu-category.list-group ul a:hover {
+	text-decoration:underline;
+}
+/***
+end of styles for the continent boxes ****/
+
+body.language-selector > footer,
+body.language-selector footer .container-fluid {
+	border:none;
+	background: none;
+	background-color:#fff;
+}
+
+body.language-selector > footer h5,
+body.language-selector > footer a,
+body.language-selector > footer ul li strong {
+	color:#565656;
+}
+
+/*** this removes/overwrites the global css element 
+that addes the carrot underneath location ****/
+header nav > ul > li.location {
+	right: 80px;
+}
+header nav > ul > li.location.active > a:before {
+	display:none;
+}
+/**** end ***/
+
+/** styles for adding the globe icon to the header nav ****/
+body.language-selector header nav >ul > li.location a {
+	min-height: 70px;
+	min-width: 30px;
+	padding-left: 37px;
+	background-image: url(../img/language-selector/icon-globe.png);
+	background-position: 1px 20px;
+	background-repeat: no-repeat;
+	display: block;
+}
+body.language-selector header nav >ul > li.location a:hover {
+		background-position: 1px -43px;
+}
+@media screen and (max-width: 767px){
+	body.language-selector header nav > ul > li.location {
+		display: block !important;
+		right:96px;
+	}
+	body.language-selector header nav >ul > li.location a {
+		padding-left:30px;
+	}
+}
+@media screen and (max-width: 900px){
+	body.language-selector header nav > ul > li.location span {
+		display: none;
+	}
+	body.language-selector header nav >ul > li.location a {
+		padding-left:30px;
+	}
+
+}

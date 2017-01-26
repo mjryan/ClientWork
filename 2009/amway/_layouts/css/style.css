@@ -1,0 +1,270 @@
+@charset "UTF-8";
+/* resource library CSS Document */
+div.promoBannerTop {width:795px;height:120px; background-color:#CCC;margin:0 0 3px 0;text-align:center;}
+div#LYT_Body {background-image:url(../../_layouts/images/fake-gutter.gif);background-position:left;background-repeat:repeat-y;}
+table.gLayout {width:795px;background-color:#EAEBED;font-size:0.7em; color:#5C5C5A;}
+table.gLayout img {border:none;}
+table.gLayout a.paginationNext {background-image:url(../../_layouts/images/arrow-next.gif);background-position:right center;margin-right:20px;padding-right:5px;background-repeat:no-repeat;}
+table.gLayout a.paginationAll {background-image:url(../../_layouts/images/arrow-view-all.gif);background-position:right center;padding-right:10px;background-repeat:no-repeat;}
+table.gLayout th{border-bottom:3px solid #FFFFFF;}
+table.gLayout div.sortByListHdr {float:left;width:30%;text-align:left;padding:0 0 0 19px;}
+table.gLayout div.paginationHdr {float:right;width:60%;text-align:right;padding:0 19px 0 0;}
+table.gLayout div.sortByListHdr, table.gLayout div.paginationHdr {line-height:30px;font-weight:normal;}
+table.gLayout th.headingCont {border-top:1px solid #FFFFFF;padding:0 19px 0 19px;}
+div.viewAllLink {
+	float:right;
+	width:auto;
+	line-height:30px;
+}
+
+div.mMedia {float:left;text-align:left;width:auto;line-height:30px;}
+table.gLayout table.vidRow {border-bottom:3px solid #fff;}
+table.gLayout table.vidRow tr td {width:198px;}
+table.gLayout table.vidRow tr td  div.vidThumbs {background-image:url(../../_layouts/images/bg-td.jpg);background-position:top center;background-repeat:no-repeat;padding:20px 19px 19px 19px;border-bottom:1px solid #fff;}
+table.gLayout table.vidRow tr td div.vidTxt {padding:10px;height:55px;font-style:normal;}
+table.gLayout table.vidRow td {border-right:1px solid #fff;}
+table.gLayout table.vidRow tr td.lTd {border-right:none;}
+
+/* landing page - css document */
+div.flashTop {width:795px;margin:0 0 3px 0;color:#5C5C5A;}
+.hdrTxt p {
+	text-align:left;
+	margin:0 0 0 20px;
+}
+div.hdrTxtLink {
+	background-color:#EAEBED;
+	height:30px;
+	line-height:30px;
+	color:#5C5C5A;
+}
+	
+div.hdrTxtLink p {
+	width:200px;
+	float:left;
+}
+div.hdrTxtLink a.btn {
+	float:right;
+	width:150px;
+	font-size:.8em;
+	text-align:right;
+	margin-right:20px;
+}
+div.flashTop p.playerTop {
+	margin:0 0 0.2em;
+	float:left;
+	padding:0;
+	width:480px;
+}
+div.flashTop .hdrTxt {
+	margin:0 0 3px 0;
+}
+
+div.flashTop p.rtText {
+	float:left;
+	padding:0 8px;
+	width:290px;
+}
+div.vidInfoContainer {
+	width:480px;
+	font-size:.7em;
+}
+div.vidViews, div.commentDate {
+	margin:0;
+	padding:0;
+	float:right;
+}
+div.rating  {
+	background-repeat: no-repeat;
+	background-position:left;
+	text-align:right;
+	margin:0 85px 0 0;
+	padding:0 0 0 45px;
+	float:left;
+}
+ul.commentList {
+	color:#5C5C5A;
+	list-style:none;
+	margin:0;
+	padding:0;
+	font-size:.7em;	
+}
+div.commentInfoContainer {
+	margin-top:8px;
+	
+}
+div.commentName{
+	float:left;
+	font-weight:bold;
+	margin:0 15px 8px 0;
+}
+div.numComments {
+	float:left;
+	width:150px;
+}
+table.gLayout table.vidRow tr td p, div.vidStats p{
+	padding:0;
+	margin:0;
+}
+div.vidStats {
+	display:block;
+	font-size:0.7em;
+	background-color:#EAEBED;
+	border-right:1px solid #fff;
+	border-top:1px solid #fff;
+	padding:8px;
+}
+/* Carousel */
+.carousel-container {
+	color:#5C5C5A;
+	position:relative;
+	width:795px;
+	height:275px;
+	overflow:hidden;
+	text-align:center;
+	margin-bottom:1px;
+}
+.carouselHdr, .hdrTxt {
+	background-color:#EAEBED;
+	line-height:30px;
+}
+.carousel-container p {
+	text-align:left;
+	margin:10px 0 0 20px;
+}
+.carousel {
+	height:235px;
+	left:0;
+	position:absolute;
+	top:41px;
+	width:795px;
+}
+.carousel-bus {
+	height:235px;
+	left:73px;
+	overflow:hidden;
+	position:absolute;
+	top:0;
+	width:649px;
+}
+.carousel a.carousel-move-left {
+	display:block;
+	position:absolute;
+	width:72px;
+	height:234px;
+	text-indent:-1000em;
+	overflow:hidden;
+	left:0;
+	background:#C3D8E9 url(../../_layouts/images/landing/arrow-left.gif) no-repeat scroll left;
+}
+.carousel a.carousel-move-right {
+	background:#C3D8E9 url(../../_layouts/images/landing/arrow-right.gif) no-repeat scroll left;
+	display:block;
+	height:234px;
+	left:723px;
+	overflow:hidden;
+	position:absolute;
+	text-indent:-1000em;
+	top:0;
+	width:72px;
+}
+.carousel a.button-disabled {
+	background-color:#EAEBED;
+	cursor: default;
+}
+.carousel ul {
+	width:5000px;
+	position:absolute;
+	top:0;
+	left:0px;
+	margin:0;
+	padding:0;
+}
+.carousel ul li {
+	list-style:none;
+	position:relative;
+	float:left;
+	width:163px;
+	height:235px;
+	padding:0;
+	text-align:center;
+	overflow:hidden;
+}
+.carousel ul li.focus a {
+	border:1px dotted #000;
+}
+.carousel ul li a.down {
+	color:#000;
+}
+.carousel ul li a.down:hover {
+	color:#000;
+}
+.carousel ul li a:hover {
+	text-decoration:none;
+}
+/* vertical centering */
+.carousel ul li span a {
+	display:table;
+	cursor:pointer;
+}
+.carousel ul li span a {
+	
+}
+.carousel ul li span.wrapper {
+	display:table-cell;
+	vertical-align: baseline;
+	position:static;
+	/*
+*position:absolute;
+*display:block;
+*top:50%;
+*left:0;
+*width:136px;
+*/
+}
+.carousel ul li a span.text {
+	display:block;
+	line-height:1.3em;
+	width:72px;
+	min-height:20px;
+	position:static;
+	/*
+*position:relative;
+*top:-50%;
+*/
+}
+div.rating0 {
+	display:block;
+	width:51px;
+	height:12px;
+	background-image:url(../../_layouts/images/landing/rate-0.gif);
+}
+div.rating1 {
+	display:block;
+	width:51px;
+	background-image:url(../../_layouts/images/landing/rate-1.gif);
+}
+div.rating2 {
+	display:block;
+	width:51px;
+	height:12px;
+	background-image:url(../../_layouts/images/landing/rate-2.gif);
+}
+div.rating3 {
+	display:block;
+	width:51px;
+	height:12px;
+	background-image:url(../../_layouts/images/landing/rate-3.gif);
+}
+div.rating4 {
+	display:block;
+	width:51px;
+	height:12px;
+	background-image:url(../../_layouts/images/landing/rate-4.gif);
+}
+div.rating5 {
+	display:block;
+	width:51px;
+	height:12px;
+	background-image:url(../../_layouts/images/landing/rate-5.gif);
+}
+

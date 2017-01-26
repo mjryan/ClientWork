@@ -1,0 +1,33 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 1:38:24 Jul 13, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:48:58 Jan 23, 2017.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+
+#customDropDown #selectedOption {width:190px;height:16px;display:block;float:left;padding:3px 5px;cursor:default;text-decoration:none;border:solid 1px #7f9db9;background:#ecf4f9 url(/web/20100713013824/https://www.nationalcity.com/content/images/custom_select_background.gif) no-repeat 182px 1px;}
+#customDropDown #selectedOption:Hover {background:#ecf4f9 url(../../content/images/custom_select_over.gif) no-repeat 182px 1px;}
+#customDropDown a.button {width:17px;height:19px;display:block;float:left;padding:0px 10px;font-weight:bold;color:#ffffff;background:url(/web/20100713013824/https://www.nationalcity.com/content/images/button_go_blue.jpg) no-repeat top;}
+#customDropDown a.button:Hover {background:url(/web/20100713013824/https://www.nationalcity.com/content/images/button_go_blue_over.gif) no-repeat top;}
+#customDropDown #optionList {width:300px;background:#ecf4f9;border:solid 1px #000000;float:left;clear:left;}
+#customDropDown #optionList ul {margin:0px;padding:0px;}
+#customDropDown #optionList ul li {margin:0px;padding:0px;list-style:none;}
+#customDropDown #optionList ul li span {display:block;cursor:default;font-weight:bold;font-style:italic;}
+#customDropDown #optionList ul li ul {}
+#customDropDown #optionList ul li ul li {width:300px;height:16px;}
+#customDropDown #optionList ul li ul li a {display:block;width:290px;height:16px;color:#5B7897;text-decoration:none;font-size:11px;cursor:default;padding:0px;margin:0px;padding-left:10px;}
+#customDropDown #optionList ul li ul li a:Hover {background:#0000ff;color:#ffffff;}
+
+#customDropDown .off#optionList  {display:none;}
+#customDropDown .on#optionList  {display:block;}
+
+
+/*---------------Pre Load Images ------------------------*/
+#preLoadCustomDropDown {background:url(../../content/images/custom_select_over.gif);}

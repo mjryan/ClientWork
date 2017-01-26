@@ -1,0 +1,76 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 1:38:36 Jul 13, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:49:57 Jan 23, 2017.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+
+/* The underscores apply the styles to only IE 6 */
+/* http://allinthehead.com/retro/150/css-underscore-hack */
+
+/* IE 6 displays select boxes on top of all content. This is used to hide it */
+.masked {_visibility:hidden;}
+.unmasked {_visibility:visible;}
+
+/* This removes the dark blue gradient from the page background */
+body {_background:#d6e9f4 url(/web/20100713013836/https://www.nationalcity.com/content/images/background2.jpg) repeat-x top;}
+.templateA1#main #outerWrapper #innerWrapper {_background:url(/web/20100713013836/https://www.nationalcity.com/content/images/content2_top.jpg) no-repeat top left;}
+.templateA2#main #outerWrapper #innerWrapper {_background:url(/web/20100713013836/https://www.nationalcity.com/content/images/content2_top2.jpg) no-repeat top left;}
+.templateA3#main #outerWrapper #innerWrapper {_background:url(/web/20100713013836/https://www.nationalcity.com/content/images/content2_top2.jpg) no-repeat top left;}
+.templateB1#main #outerWrapper #innerWrapper {_background:url(/web/20100713013836/https://www.nationalcity.com/content/images/content2_top4.jpg) no-repeat top left;}
+.templateB2#main #outerWrapper #innerWrapper {_background:url(/web/20100713013836/https://www.nationalcity.com/content/images/content2_top3.jpg) no-repeat top left;}
+.templateG1#main #outerWrapper #innerWrapper {_background:url(/web/20100713013836/https://www.nationalcity.com/content/images/content2_top3.jpg) no-repeat top left;}
+.templateG2#main #outerWrapper #innerWrapper {_background:url(/web/20100713013836/https://www.nationalcity.com/content/images/content2_top3.jpg) no-repeat top left;}
+.templateC1#main #outerWrapper #innerWrapper {_background:url(/web/20100713013836/https://www.nationalcity.com/content/images/content2_top4.jpg) no-repeat top left;}
+.templateC2#main #outerWrapper #innerWrapper {_background:url(/web/20100713013836/https://www.nationalcity.com/content/images/content2_top4.jpg) no-repeat top left;}
+
+/* Locator Template */
+.locator#container .templateB2#main #outerWrapper #innerWrapper {_background:url(/web/20100713013836/https://www.nationalcity.com/content/images/content2_top_locator.jpg) no-repeat top left;}
+
+/* Points Gateway Template */
+.pointsgateway#container .templateB2#main #outerWrapper #innerWrapper {_background:url(/web/20100713013836/https://www.nationalcity.com/content/images/content_top_pointsGatewayIE6.jpg) no-repeat top left;}
+
+/* Special Offers Code Template */
+.specialoffercode#container .templateB2#main #outerWrapper #innerWrapper {_background:url(/web/20100713013836/https://www.nationalcity.com/content/images/content_top_SpecialOfferCode_IE6.jpg) no-repeat top left;}
+
+/* Promo Module Template */
+.moduleBody {_background:url(/web/20100713013836/https://www.nationalcity.com/content/images/module_bottom.jpg) no-repeat bottom;}
+.moduleHeader {_background:url(/web/20100713013836/https://www.nationalcity.com/content/images/module_top.jpg) no-repeat top;}
+
+.moduleBody_bca {_background:url(/web/20100713013836/https://www.nationalcity.com/content/images/module_bottom_bca.jpg) no-repeat bottom;}
+.moduleHeader_bca {_background:url(/web/20100713013836/https://www.nationalcity.com/content/images/module_top_bca.jpg) no-repeat top;}
+
+/* Secure Login */
+#secureLogin #loginBody {_background:url(/web/20100713013836/https://www.nationalcity.com/content/images/login_bottom.jpg) no-repeat bottom;}
+#secureLogin .full#loginBody {_background:url(/web/20100713013836/https://www.nationalcity.com/content/images/login_bottom_link.jpg) no-repeat bottom;}
+
+#secureLogin_bca #loginBody {_background:url(/web/20100713013836/https://www.nationalcity.com/content/images/login_bottom_bca.jpg) no-repeat bottom;}
+#secureLogin_bca .full#loginBody {_background:url(/web/20100713013836/https://www.nationalcity.com/content/images/login_bottom_link.jpg) no-repeat bottom;}
+
+/* Quick Job Search */
+#jobSearch .moduleBody {_background:url(/web/20100713013836/https://www.nationalcity.com/content/images/quickjobsearch_bottom.jpg) no-repeat top;}
+
+/* Custom Drop Down */
+#customDropDown #optionList ul li ul li {_float:left;}
+
+/* Product Tab Row */
+.tabRow table {_margin-top:-13px;}
+
+/* Special offers */
+.specialItemLeft .promo .rateleft {_position:relative;_left:1px;}
+.specialItemLeft .promo .rateright {_position:relative;_left:1px;}
+.specialItemLeft .promo .percentapy {_position:relative;_left:1px;}
+
+/* Enter code pages */
+#codeFormRight {_margin-left:-20px;}
+
+/* orange carrot  */
+#customerService .general .helpfaqs {_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/content/images/icoFAQsm.png', sizingMethod='crop');_width:140px;_height:13px;}
+#customerServiceExpanded .general .helpfaqs {_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/content/images/icoFAQsm.png', sizingMethod='crop');_width:140px;_height:13px;}

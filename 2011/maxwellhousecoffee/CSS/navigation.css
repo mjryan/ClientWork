@@ -1,0 +1,154 @@
+/* --------------------------------------------- */
+/* Title	Default Maxwell House Styles
+/* Author	Paul Karlik | Razorfish
+/* Updated	Sept 18th 2009
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* Title	Default Maxwell House Styles
+/* Author	Michael Ryan | Razorfish
+/* Updated	March 18th 2011
+/* --------------------------------------------- */
+
+/* brand navigation styles --------------------- */
+
+#navigation{
+	margin:2px 0px 9px 0px;
+	height:35px;
+	width:960px;
+}
+
+#navigation ul{
+	position:absolute;
+	width:960px;
+}
+
+#navigation ul li{
+	float:left;
+}
+
+#navigation ul ul{
+	visibility:hidden;
+	display:none;
+	position:relative;
+	width: 320px;
+	clear:both;
+}
+
+#navigation ul ul li{
+	clear:both;
+}
+
+#navigation ul ul li{
+	width: 284px;
+	height:38px;
+	background:url("../images/brand/drop-down-bottom.gif") bottom no-repeat;
+	font-size:12px;
+	padding:2px 18px 8px 18px;
+	color:#ffc617;
+}
+
+#navigation ul ul li a{
+	color:#ffc617;
+}
+
+/* ie6 using className fix also below for hover  */
+
+#navigation ul li:hover ul,
+#navigation ul li.iehover ul {
+	visibility:visible;
+	display:block;
+}
+
+/* to maintain the over state for the top nav -- */
+/* the ul has the hover image of that button --- */
+/* top padding must equal the hight of image --- */
+
+#navigation ul li:hover ul#Our-Brews {
+	background:url("../images/brand/navigation-sprite.gif") 0px -35px top no-repeat;
+	top:0px;
+}
+
+#navigation ul li:hover ul#Recipes {
+	background:url("../images/brand/navigation-sprite.gif") -320px -35px top no-repeat;
+	top:0px;
+}
+
+#navigation ul li:hover ul#Inside-Scoop {
+	background:url("../images/brand/navigation-sprite.gif") -640px -35px top no-repeat;
+	top:0px;
+}
+
+
+/* #navigation ul li.iehover a. ie fix to keep - */
+/* parent li items in an active state if you --- */
+/* roll off the original li item.            --- */
+
+a.Our-Brews:hover,
+#navigation ul li.iehover a.Our-Brews{
+	background:url("../images/brand/navigation-sprite.gif") 0px -35px no-repeat;
+}
+
+a.Recipes:hover,
+#navigation ul li.iehover a.Recipes{
+	background:url("../images/brand/navigation-sprite.gif") -320px -35px no-repeat;
+}
+
+a.Inside-Scoop:hover,
+#navigation ul li.iehover a.Inside-Scoop{
+	background:url("../images/brand/navigation-sprite.gif") -640px -35px no-repeat;
+}
+/*
+a.Flavor-Lock-Fun:hover,
+#navigation ul li.iehover a.Flavor-Lock-Fun{
+	background:url("../images/brand/navigation-sprite.gif") -720px -35px no-repeat;
+}
+*/
+a.Drops-Of-Good{
+	display:none;
+}
+
+/* standard over images for navigation --------- */
+
+a.Our-Brews{
+	display:block;
+	/*width:204px;*/
+	width: 320px;
+	height:35px;
+	background:url("../images/brand/navigation-sprite.gif") 0px 0px no-repeat;
+	text-indent:-9999px;
+}
+
+a.Recipes{
+	display:block;
+	/*width:204px;*/
+	width: 320px;
+	height:35px;
+	background:url("../images/brand/navigation-sprite.gif") -320px 0px no-repeat;
+	text-indent:-9999px;
+}
+
+a.Inside-Scoop{
+	display:block;
+	/*width:204px;*/
+	width: 320px;
+	height:35px;
+	background:url("../images/brand/navigation-sprite.gif") -640px 0px no-repeat;
+	text-indent:-9999px;
+}
+
+
+/* navigation active states -------------------- */
+
+body.Our-Brews a.Our-Brews{
+background:url("../images/brand/navigation-sprite.gif") 0px -70px no-repeat;
+}
+
+body.Recipes a.Recipes{
+background:url("../images/brand/navigation-sprite.gif") -320px -70px no-repeat;
+}
+
+body.Inside-Scoop a.Inside-Scoop{
+background:url("../images/brand/navigation-sprite.gif") -640px -70px no-repeat;
+}
+
+/* --------------------------------------------- */

@@ -1,0 +1,52 @@
+/* styles for the various callout boxes */
+/* universal styles for callout boxes */
+.callout-box {
+	position:relative;
+	left:7px;
+	padding-top:5px;
+	margin-top:9px;
+	width:242px;
+	height:128px;
+}
+.callout-box h3,
+.callout-box p {
+	text-indent:-9999px;
+}
+.callout-box .cta {
+	padding:0;
+	margin:0;
+	position:absolute;
+	font-size:12px;
+	text-indent:-9999px;
+}
+
+.callout-box-wide {
+	position:relative;
+	width:478px;
+	height:125px;
+	float:left;
+}
+.callout-box-wide h3,
+.callout-box-wide p {
+	text-indent:-9999px;
+}
+
+.callout-box-wide .cta {
+	padding:0;
+	margin:0;
+	position:absolute;
+	font-size:12px;
+	text-indent:-9999px;
+}
+/* universal styles for callout boxes */
+
+/* styles specfic to the recipes callout */
+#callout-recipes {
+	background:url("../images/brand/callout-recipes.jpg") no-repeat top left;
+}
+#callout-recipes .cta {
+	left:11px;
+	bottom:11px;
+	width:100px;
+	height:19px;
+}

@@ -1,0 +1,203 @@
+#MastheadContainer {
+	position: absolute;
+	top: 16px;
+	left: 33px;
+	width: 921px; 
+	height: 96px;
+	z-index: 999;
+}
+
+
+#MastheadLeftContainer {
+	border: 1px solid #d2d2d2;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+#MastheadLeft {
+	width: 180px; 
+	height: 94px;
+}
+#WelcomeContainer {
+	border-bottom: 1px solid #d2d2d2;
+	padding: 5px 10px;
+}
+	#Welcome {
+		font-size: 9px;
+		height: 37px;
+	}
+#SmallLogoContainer {
+	border-bottom: 1px solid #d2d2d2;
+	padding: 1px 0px 2px 0px;
+}
+	#SmallLogo {
+		font-size: 9px;
+		height: 44px;
+	}
+#MyAccountContainer {
+	border-bottom: 1px solid #d2d2d2;
+	padding: 1px 1px;
+}
+	#MyAccount {
+		cursor: pointer;
+		height: 21px;
+	}
+	#MyAccount td {
+		background-color: #ecebeb;
+		line-height: 21px;
+	}
+	#MyAccount td.Icon {
+		background-color: #ecebeb;
+		padding: 0px 2px 0px 0px;
+		margin: 0px;
+		text-align: right;
+	}
+#MyClippingsContainer {
+	padding: 1px 1px;
+}
+	#MyClippings {
+		cursor: pointer;
+		height: 20px;
+	}
+	#MyClippings td {
+		background-color: #ecebeb;
+		line-height: 20px;
+	}
+	#MyClippings td.Icon {
+		background-color: #ecebeb;
+		padding: 0px 2px 0px 0px;
+		margin: 0px;
+		text-align: right;
+	}
+#MyAccount .Link a, #MyClippings .Link a {
+	font-size: 10px;
+	font-weight: bold;
+	padding: 0px 8px;
+	text-decoration: none;
+	display: block;
+}
+
+
+
+#MastheadAdContainer {
+	border: 1px solid #d2d2d2;
+	position: absolute;
+	top: 0px;
+	left: 184px;
+	z-index: 999;
+}
+	#MastheadAd {
+		text-align: center;
+		width: 735px; 
+		height: 94px;
+	}
+	#MastheadAd MastheadAdCore {
+		margin-top: 2px;
+	}
+
+
+
+#MastheadCenterContainer {
+	border: 1px solid #d2d2d2;
+	position: absolute;
+	top: 0px;
+	left: 184px;
+}
+	#MastheadCenter {
+		text-align: center;
+		width: 423px; 
+		height: 94px;
+	}
+	#Today {
+		font-size: 10px;
+		padding-top: 1em;
+	}
+
+
+
+#MastheadRightContainer {
+	border: 1px solid #d2d2d2;
+	position: absolute;
+	top: 0px;
+	left: 611px;
+}
+	#MastheadRight {
+		text-align: center;
+		width: 308px; 
+		height: 94px;
+	}
+	#MastheadRight table {
+		margin: 2px;
+	}
+	#MastheadRight td {
+		background-color: #ecebeb;
+	}
+	#MastheadRightBox1 {
+		text-align: left;
+		vertical-align: top;
+		height: 90px;
+	}
+	#MastheadRightBox2, #MastheadRightBox3 {
+		border-left: 1px solid white;
+		border-bottom: 1px solid white;
+		padding: 2px 5px;
+	}
+	#MastheadRightBox2 div, #MastheadRightBox3 div {
+		font-size: 9px;
+		text-align: left;
+		height: 25px;
+	}
+	#MastheadRightBox4 {
+		border-left: 1px solid white;
+		height: 30px;
+	}
+	#MastheadRight td table {
+		background: none;
+		width: 0px;
+		padding: 0px;
+		margin: 0px;
+	}
+
+
+
+#MastheadBottom {
+	position: absolute;
+	top: 96px;
+}
+	#MastheadBottom #LoginLogout {
+		font-weight: bold;
+		font-size: 10px;
+		padding: 6px 8px;
+	}
+
+	#Breadcrumbs {
+		position: absolute;
+		top: 0px;
+		left: 184px;
+		font-size: 9px;
+		padding: 6px 10px;
+		white-space: nowrap;
+	}
+		#Breadcrumbs a {
+			text-decoration: underline;
+		}
+
+
+#MastheadRight td table#TopRSS {
+	margin: 2px 0px 0px 0px;
+}
+	#MastheadRight td table#TopRSS td {
+		padding: 0px 5px 0px 0px;
+		vertical-align: middle;
+	}
+	#MastheadRight td table#TopRSS a {
+		color: #ff6622;
+		font-size: 11px; 
+		font-weight: bold; 
+		text-decoration: none; 
+	}
+	#MastheadRight td table#TopRSS .RSSIcon {
+		padding: 0px;
+		text-align: right;
+	}
+

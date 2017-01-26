@@ -1,0 +1,181 @@
+/* CSS Document */
+body {
+	font-family: verdana, arial, helvetica, serif;
+	font-size: 12px;
+	background-color: #8A9E9F;
+	padding: 0;
+	margin: 0;
+}
+
+td {
+	vertical-align:top;
+	}
+
+#main {
+	padding-top:20px;
+	width:810px;
+	margin:auto;
+	background-color: #fff;
+	voice-family: "\"}\""; 
+	voice-family:inherit;
+	width: 800px;
+}	
+html>body #main {
+	width: 800px;
+} 
+
+#topcontainer {
+	width: 761px;
+	padding:0;
+	margin: auto;
+	voice-family: "\"}\""; 
+	voice-family:inherit;
+	width: 756px;
+}
+
+html>body #topcontainer {
+	width: 756px;
+} 
+
+#footer {
+	width: 761px;
+	padding: 16px 0px;
+	margin: auto;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	voice-family: "\"}\""; 
+	voice-family:inherit;
+	width: 756px;
+}
+
+html>body #footer {
+	width: 756px;
+} 
+
+
+#footer a {
+	text-decoration: none;
+}
+
+#footer a:link {
+	color: #000;
+}
+
+#footer a:visited {
+	color: #000;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+}
+
+#footer a:active {
+	color: red;
+}
+
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+
+	/* new tab-nav styles */
+.subpad{
+padding: 2px 0px;
+}
+
+.submen{
+	background-color:#2BACC1;
+	font-weight: normal;
+	font-size:10px;
+	text-align:center;
+}
+
+.submen a:link, a:visited, a:active {
+	text-decoration:none;
+	color: #000;
+}
+
+.submenover{
+	background-color:#80CED9;
+	font-weight: normal;
+	font-size:10px;
+	text-align:center;
+}
+
+.submenover a:link, a:visited, a:active {
+	text-decoration:none;
+	color: #000;
+}
+/* new tab-nav styles */
+
+
+
+/*Opacity Effect works on IE 5.5+ and Mozilla Browsers*/
+.opacityit img{
+filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+-moz-opacity: 1;
+}
+
+.opacityit:hover img{
+filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+-moz-opacity: 0.6;
+}
+
+#secondarynav {
+	padding:0;
+	margin:0;
+	table-layout:fixed; 
+	width:756px;
+}
+
+#secondarynav td {
+	border:1px solid #000;
+}
+
+#bodycontainer {
+	width:761px;
+	padding-top:36px;
+	margin: auto;
+	voice-family: "\"}\""; 
+	voice-family:inherit;
+	width: 756px;
+}
+
+html>body #bodycontainer {
+	width: 756px;
+} 
+
+#bodycontainer p {
+	padding-bottom:25px;
+	margin:0px;
+}
+
+#bodycontainer p img {
+	display:block;
+	padding-bottom:11px;
+	margin:0px;
+}
+
+/*------- Styles for the Rates Table -----*/
+#ratestable {
+	table-layout:fixed;
+	padding-bottom:20px;
+	width:auto;
+}
+
+#ratestable thead th {
+	font-weight:normal;
+	color:#f60;
+	padding:0px 20px 5px 5px;
+	text-align:left;
+	border-bottom:2px solid #666;
+}
+
+#ratestable tbody td {
+	padding:10px 20px 10px 5px;
+	border-bottom:2px solid #666;
+}

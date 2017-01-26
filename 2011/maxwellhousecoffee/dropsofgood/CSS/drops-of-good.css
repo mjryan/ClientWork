@@ -1,0 +1,1534 @@
+/* --------------------------------------------- */
+/* Title	Default Maxwell House Drops of Good Styles
+/* Author	Michael Ryan | Razorfish
+/* Updated	June 2nd 2011
+/* --------------------------------------------- */
+
+
+/* hide Maxwell House Grayscale Chrome -------------------- */
+
+body.dropsofgood{
+	background-color: #fff;
+    font-family: tahoma,arial,sans-serif;
+}
+
+body.dropsofgood #brand-header {
+	display:none;
+}
+
+body.dropsofgood #brand-container{
+	margin:0;
+}
+
+body.dropsofgood #brand-content #brand-wrapper #brand-container{
+	width:978px;
+	min-height:780px;
+	margin-left:7px;
+	background:transparent url(../../images/dropsofgood/mh-cup.png) no-repeat 15px 522px; 
+}
+
+body.dropsofgood #brand-footer {
+    display:none;
+}
+/* --------------------------------------------- */
+
+
+
+/**
+ * HTML5  Boilerplate
+ *
+ * contains a reset, font normalization and some base styles.
+ *
+ * Credit is left where credit is due.
+ * Much inspiration was taken from these projects:
+ * - yui.yahooapis.com/2.8.1/build/base/base.css
+ * - camendesign.com/design/
+ * - praegnanz.de/weblog/htmlcssjs-kickstart
+ */
+
+
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ''; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+
+/**
+ * Font normalization inspired by YUI Library's fonts.css: developer.yahoo.com/yui/
+ */
+
+body { font:62.5%/1.45em sans-serif; *font-size:small; } /* Hack retained to preserve specificity */
+select, input, textarea, button { font:99% sans-serif; }
+
+/* Normalize monospace sizing:
+   en.wikipedia.org/wiki/MediaWiki_talk:Common.css/Archive_11#Teletype_style_fix_for_Chrome */
+pre, code, kbd, samp { font-family: monospace, sans-serif; }
+
+
+/**
+ * Minimal base styles.
+ */
+
+/* Always force a scrollbar in non-IE */
+html { overflow-y: scroll; }
+
+/* Accessible focus treatment: people.opera.com/patrickl/experiments/keyboard/test */
+a:hover, a:active, *:focus { outline: none; }
+
+ul, ol { margin-left: 2em; }
+ol { list-style-type: decimal; }
+
+/* Remove margins for navigation lists */
+nav ul, nav li { margin: 0; list-style:none; list-style-image: none; }
+
+small { font-size: 85%; }
+strong, th { font-weight: bold; }
+
+td { vertical-align: top; }
+
+/* Set sub, sup without affecting line-height: gist.github.com/413930 */
+sub, sup { font-size: 75%; line-height: 0; position: relative; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+pre {
+  /* www.pathf.com/blogs/2008/05/formatting-quoted-code-in-blog-posts-css21-white-space-pre-wrap/ */
+  white-space: pre; white-space: pre-wrap; word-wrap: break-word;
+  padding: 15px;
+}
+
+textarea { overflow: auto; } /* www.sitepoint.com/blogs/2010/08/20/ie-remove-textarea-scrollbars/ */
+
+/* Align checkboxes, radios, text inputs with their label by: Thierry Koblentz tjkdesign.com/ez-css/css/base.css  */
+input[type="radio"] { vertical-align: text-bottom; }
+input[type="checkbox"] { vertical-align: bottom; }
+
+/* Hand cursor on clickable input elements */
+label, input[type="button"], input[type="submit"], input[type="image"], button { cursor: pointer; }
+
+/* Webkit browsers add a 2px margin outside the chrome of form elements */
+button, input, select, textarea { margin: 0; }
+
+
+/* j.mp/webkit-tap-highlight-color */
+a:link { -webkit-tap-highlight-color: #FF5E99; }
+
+/* Make buttons play nice in IE:
+   www.viget.com/inspire/styling-the-button-element-in-internet-explorer/ */
+button {  width: auto; overflow: visible; }
+
+/* IE HACKS */
+* html legend { margin-left: -7px; }
+* html input[type="checkbox"] { vertical-align: baseline; }
+* html img { -ms-interpolation-mode: bicubic; }
+
+
+
+
+
+/* main.css */
+	/*
+	 * COLOR SCHEME:
+	 * Dark blue:		#014272
+	 * Medium Blue:		#0678bc
+	 * Light Blue:		#3398d8
+	 */
+body, select, input, textarea{
+	color:#8a877f;
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-smooth:always;
+	text-rendering:optimizeLegibility;
+}
+
+/* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
+h1, h2, h3, h4, h5, h6{ font-weight:bold; }
+
+a{ color:#607890; text-decoration:underline;}
+a:hover{ color:#036; text-decoration:underline; }
+a.btn{ text-decoration:none; }
+/*#
+* Layout
+*/
+body{
+	padding-bottom:2em;
+	background-image:url(../../images/dropsofgood/page-bg/default.jpg);
+	background-position:left top;
+	background-repeat:no-repeat;
+}
+.nav, .nav ul, .nav li{ list-style-type:none; margin-left:0;}
+
+#content{
+	/* 686 + 8 + 8 + 46 + 22 = 970 - 200*/
+	position:relative;
+	width:702px;
+	left:264px;
+	z-index:20;
+	padding-top:40px;
+	padding-right:22px;
+}
+	#content .hgroup{
+		margin-left:8px;
+		padding-top:90px;
+		width:694px;
+	}
+		.hgroup h1,
+		.hgroup h2{
+			position:relative;
+			z-index:1;
+		}
+		.hgroup h1{
+			margin-bottom:.25em;
+			font-size:36px;
+			line-height:1em;
+			letter-spacing:.025em;
+			text-shadow:2px 2px 4px #464545;
+			text-transform:uppercase;
+			color:#fefefe;
+		}
+		.hgroup h2{
+			width:100%;
+			overflow:hidden;
+			clear:both;
+		}
+		.hgroup h2, .hgroup h2 span{
+			font-size:22px;
+			font-weight:normal;
+		}
+		.hgroup h2 span{
+			float:left;
+			clear:both;
+			margin-bottom:.2em;
+			padding:.15em .25em;
+			font-size:22px;
+			line-height:28px;
+			display:block;
+			color:#03558c;
+			background-color:#fff;
+			opacity:.8;
+			filter:alpha(opacity=80);
+			-ms-filter:"alpha(opacity=80)";
+			-khtml-opacity:.8;
+			-moz-opacity:.8;
+		}
+		.hgroup h3{
+			color:#fff;
+		}
+	#main_top{
+		clear:both;
+		margin-top:40px;
+		padding-top:8px;
+		background:transparent url(../../images/dropsofgood/main-top.png) no-repeat;
+	}
+	#main_bottom{
+		padding-bottom:8px;
+		background:transparent url(../../images/dropsofgood/main-bottom.png) no-repeat left bottom;
+	}
+	#main_wrapper{
+		padding:0 8px;
+		background:transparent url(../../images/dropsofgood/main-repeat.png) repeat-y left center;
+	}
+		#tabNav{
+			background-color:#dcdbd8;
+				width:100%;
+				overflow:hidden;
+		}
+			#tabNav a{
+				display:inline-block;
+				padding:16px;
+				text-transform:uppercase;
+				text-decoration:none;
+				font-size:12px;
+				font-weight:bold;
+				line-height:1em;
+				color:#9a9790;
+			}
+			#tabNav a:hover{
+				color:#0678bc;
+			}
+			#tabNav a.current{
+				color:#0678bc;
+				background-color:#fff;
+			}
+			#tabNav a.current:hover{
+			}
+		.main, .tabContent{
+			clear:both;
+		}
+		.tabContent{
+			padding:6px 26px 28px;
+			background:#fff url(../../images/dropsofgood/tabContent-bg.gif) no-repeat center bottom;
+		}
+			#tabRenovations{
+				padding-left:36px;
+			}
+			#tabAbout{
+				padding-left:36px;
+			}
+			#tabMedia h2{
+				margin-left:10px;
+			}
+		.tabContent h2{
+			margin-top:22px;
+			text-transform:uppercase;
+		}
+		#tabRenovations  p:first-child {
+			margin-top:22px;
+		}
+		.main{
+			overflow:hidden;
+			min-height:450px;
+			padding:28px 40px 0 36px;
+			background-color:#fff;
+		}
+		.tabContent h2,
+		.main h2 {
+			margin-bottom:.5em;
+			font-size:18px;
+			font-weight:bold;
+			line-height:1em;
+			color:#0678bc;
+		}
+		.main h2 a {
+			color:#0678bc;
+			text-decoration:none;
+		}
+
+		.callout{
+			margin-top:15px;
+			margin-bottom:35px;
+			padding-top:16px;
+			padding-left:38px;
+			background-repeat:none;
+			background-position:13px 0;
+		}
+		.callout + .callout {
+			margin-top:-20px;
+		}
+		.callout:first-child{
+			margin-top:0;
+		}
+			.tabContent p + p,
+			.callout p + p {
+				margin-top:1em;
+			}
+			.callout h2, .callout h3{
+				font-size:16px;
+			}
+			.callout + h2{
+			margin-top:40px;
+			}
+			.callout .cta,
+			.tabContent .cta{
+				display:block;
+				margin-top:15px;
+				font-size:14px;
+				font-weight:bold;
+				text-transform:uppercase;
+				text-decoration:none;
+				line-height:1em;
+				color:#a1d9fc;
+			}
+			.callout .cta:hover,
+			.tabContent .cta:hover{
+				color:#0678bc;
+				text-decoration:none;
+			}
+
+		.icon_vote{
+			background:url(../../images/dropsofgood/icon_vote.png) no-repeat 0 0;
+		}
+		.icon_check{
+			background:url(../../images/dropsofgood/icon_check.png) no-repeat 0 0;
+		}
+		.icon_winners{
+			background:url(../../images/dropsofgood/icon_winners.png) no-repeat 0 0;
+		}
+
+
+#tracking_tag {
+	visibility:hidden;
+}
+	/*
+	 * HOME PAGE
+	 */
+
+	#header.home{
+		min-height:520px;
+		width:794px;
+	}
+	.home h1{
+		font-size:44px;
+	}
+	#content .home h2,
+	#content .home h2 span{
+		font-size:18px !important;
+	}
+	#explore-vote{
+		width:169px;
+		height:33px;
+		margin-top:1.75em;
+		background-image:url(../../images/dropsofgood/btn-explore-vote-sprite.png);
+	}
+	#explore-vote:hover{
+		background-position:0 -33px;
+	}
+
+	#hdrcountdown-container {
+		background:url(../../images/dropsofgood/hdrcountdown-lt.png) no-repeat 0 1px;
+		*background:url(../../images/dropsofgood/hdrcountdown-lt.png) no-repeat 0 5px;
+		float:left;
+		margin-top:-2px;
+		}
+#hdrcountdown {
+    background: url(../../images/dropsofgood/hdrcountdown-rt.png) no-repeat scroll right 1px transparent;
+    *background: url(../../images/dropsofgood/hdrcountdown-rt.png) no-repeat scroll right 5px transparent;
+    display: block;
+    float: left;
+    height: 52px;
+    margin-left: 13px;
+    padding-right: 14px;
+    vertical-align: middle;
+}
+
+#visit-us-on-facebook {
+    background-image: url(../../images/dropsofgood/btn-visit-us-on-facebook.png);
+    height: 33px;
+    margin-top: 1.75em;
+    width: 219px;
+}
+#visit-us-on-facebook:hover{
+	background-position:0 -34px;
+}
+#see-who-won {
+    background-image: url(../../images/dropsofgood/btn-see-who-won.png);
+    height: 33px;
+    margin-top: 1.75em;
+    width: 149px;
+}
+#see-who-won:hover{
+	background-position:0 -33px;
+}
+#follow-on-facebook {
+    background-image: url(../../images/dropsofgood/btn-follow-on-facebook.png);
+    height: 38px;
+    margin-top: 1.75em;
+    width: 232px;
+}
+#follow-on-facebook:hover{
+	background-position:0 -40px;
+}
+
+/* Winning Houses Promo */
+#winningHouses{
+	position:absolute;
+	overflow:visible;
+	height:127px;
+	top:400px;
+	left:0px;
+	z-index:49;
+	width:368px;
+	/* drop-shadow */
+	/* For IE 8
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=90, Color='#444444')";
+	/* For IE 5.5 - 7
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=90, Color='#444444');
+	*/
+}
+
+#winningHouses > h3,
+#winningHouses > a{
+	float:left;
+	display:inline-block;
+	margin-left:175px;
+
+}
+#winningHouses > h3{
+	text-align:left;
+	vertical-align:middle;
+	width:170px;
+	padding-bottom:10px;
+	padding-top:30px;
+	font-size:12px;
+	font-weight:bold;
+	line-height:17px;
+	color:#fff;
+}
+#winningHouses a{
+	text-decoration:none;
+	border-bottom:1px solid #67A1C4;
+	border-left-width:0;
+	color:#fff;
+	font-size:12px;
+	text-transform:uppercase;
+}
+#winningHouses a{
+	color:#efefef;
+}
+
+
+#promoFacebook {
+	position:absolute;
+	overflow:visible;
+	height:127px;
+	top:400px;
+	left:370px;
+	z-index:49;
+	width:368px;
+	/**/background:url(../../images/dropsofgood/promo-facebook.png) no-repeat 0 0;
+	/* drop-shadow */
+	/* For IE 8
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=90, Color='#444444')";
+	/* For IE 5.5 - 7
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=90, Color='#444444');
+	*/
+}
+
+#promoFacebook > h3{
+	float:left;
+	display:inline-block;
+	margin-left:135px;
+
+}
+#promoFacebook > h3{
+	text-align:left;
+	vertical-align:middle;
+	width:220px;
+	padding-top:15px;
+	font-size:12px;
+	font-weight:bold;
+	line-height:17px;
+	color:#fff;
+}
+#promoFacebook a{
+	text-decoration:none;
+	border-bottom:1px solid #67A1C4;
+	color:#fff;
+	font-size:12px;
+	text-transform:uppercase;
+	background:url(../../images/dropsofgood/icon-fb-sml.png) no-repeat 0 -20px;
+}
+#promoFacebook a{
+	color:#efefef;
+}
+#promoFacebook img {
+ vertical-align:middle;
+}
+
+	/* MEET THE HOUSES PROMO */
+	#meetTheHouses{
+		position:absolute;
+		overflow:visible;
+		height:80px;
+		top:440px;
+		z-index:49;
+		width:938px;
+		/* drop-shadow */
+		-moz-box-shadow: 0px 2px 6px #444;
+		-webkit-box-shadow: 0px 2px 6px #444;
+		box-shadow: 0px 2px 6px #444;
+		/* For IE 8
+		-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=90, Color='#444444')";
+		/* For IE 5.5 - 7
+		filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=90, Color='#444444');
+		*/
+		display:none;
+	}
+		#meetTheHouses > br{
+			display:none;
+		}
+		#meetTheHouses > h3,
+		#meetTheHouses > a{
+			float:left;
+			display:inline-block;
+		}
+		#meetTheHouses > h3{
+			text-align:center;
+			vertical-align:middle;
+			width:146px;
+			height:60px;
+			padding-top:20px;
+			background-color:#0678bc;
+			font-size:18px;
+			font-weight:bold;
+			text-transform:uppercase;
+			line-height:1em;
+			color:#fff;
+		}
+		#meetTheHouses a.ir{
+			height:78px;
+			width:78px;
+			border:1px solid #fbfbfb;
+			border-left-width:0;
+			background-color:#ccc;
+			background-repeat:no-repeat;
+
+		}
+		#meetTheHouses a.ir:hover{
+			background-color:#efefef;
+			background-position:0 -78px;
+		}
+		#meetTheHouses a.ir:first-child,
+		#meetTheHouses a.first{
+			border-left-width:1px;
+		}
+			/* MeetTheHouses thumbnails */
+			#meetTheHouses .adamsville{ background-image:url(../../images/dropsofgood/thumb-adamsville.jpg); }
+			#meetTheHouses .tacolcy{ background-image:url(../../images/dropsofgood/thumb-tacolcy.jpg); }
+			#meetTheHouses .austintownhall{ background-image:url(../../images/dropsofgood/thumb-austintownhall.jpg); }
+			#meetTheHouses .brightwood{ background-image:url(../../images/dropsofgood/thumb-brightwood.jpg); }
+			#meetTheHouses .mcgruder{ background-image:url(../../images/dropsofgood/thumb-mcgruder.jpg); }
+			#meetTheHouses .cec{ background-image:url(../../images/dropsofgood/thumb-cec.jpg); }
+			#meetTheHouses .growhaus{ background-image:url(../../images/dropsofgood/thumb-growhaus.jpg); }
+			#meetTheHouses .millbrook{ background-image:url(../../images/dropsofgood/thumb-millbrook.jpg); }
+			#meetTheHouses .sabathani{ background-image:url(../../images/dropsofgood/thumb-sabathani.jpg); }
+			#meetTheHouses .wlcac{ background-image:url(../../images/dropsofgood/thumb-wlcac.jpg); }
+		#meetTheHouses #infoPop{
+			position:absolute
+		}
+		#houseInfo{
+			display:none;
+			position:absolute;
+			width:280px;
+			padding:16px 9px 0 34px;
+			height:200px;
+			bottom:70px;
+			left:0;
+			background:transparent url(../../images/dropsofgood/homeinfo-bg.png) no-repeat left bottom;
+		}
+			#houseInfo div,
+			#houseInfo h3{
+				float:left;
+			}
+			#houseInfo div{
+				width:235px;
+			}
+			#houseInfo #carat{
+				position:absolute;
+				display:block;
+				width:66px;
+				height:22px;
+				bottom:0px;
+				left:50%;
+				border:0;
+				background:transparent url(../../images/dropsofgood/homeinfo-carat.png) no-repeat;
+			}
+			#houseInfo h2,
+			#houseInfo h3,
+			#houseInfo h4{
+				text-transform:uppercase;
+				line-height:1em;
+			}
+			#houseInfo h2{
+				position:relative;
+				font-size:18px;
+				color:#0678bc;
+			}
+			#houseInfo h3{
+				width:36px;
+				height:31px;
+				margin-top:2px;
+				margin-right:3px;
+				padding-top:24px;
+				background:transparent url(../../images/dropsofgood/state-bg.png) no-repeat;
+				font-size:18px;
+				text-align:center;
+				color:#fff;
+			}
+			#houseInfo h4{
+				font-size:11px;
+				color:#95938c;
+				padding-top:6px;
+			}
+				#houseInfo span{
+					color:#0678bc;
+				}
+			#houseInfo p{
+				clear:both;
+				width:95%;
+				padding-top:1em;
+			}
+			#houseInfo a{
+				position:absolute;
+				left:30px;
+				bottom:45px;
+				height:1.25em;
+				font-size:14px;
+				color:#0678bc;
+				text-decoration:none;
+			}
+			#houseInfo a:hover{ color:#036; }
+	/* FACEBOOK PROMO */
+	#facebookBug{
+		position:absolute;
+		display:block;
+		height:42px;
+		top:555px;
+		left:520px;
+		padding-top:8px;
+		padding-left:70px;
+		background:transparent url(../../images/dropsofgood/fb-bug-bg.png) no-repeat 0 50%;
+		vertical-align:middle;
+		color:#fff;
+		font-size:12px;
+		font-weight:bold;
+		text-decoration:none;
+		z-index:1;
+		width:200px;
+	}
+	#facebookBug:hover{color:#a1d9fc;}
+	/*
+	 * HOUSE DETAIL PAGE
+	 */
+	#header.houseDetail{
+		padding-top:50px;
+	}
+	#houseNav{
+		float:right;
+		text-align:right;
+		color:#fdfdfd;
+		margin-bottom:30px;
+	}
+		#houseNav li{
+			display:inline;
+			margin-left:6px;
+		}
+		#houseNav a{
+			display:inline-block;
+			color:#fdfdfd;
+			text-transform:uppercase;
+			line-height:1em;
+			font-weight:bold;
+			text-decoration:none;
+		}
+		#houseNav a:hover{
+			color:#0678bc;
+		}
+		#houseNav .viewAll{
+			margin-right:25px;
+			font-size:10px;
+		}
+		#houseNav .previousHouse, #houseNav .nextHouse{
+			height:12px;
+			background-repeat:no-repeat;
+		}
+		#houseNav .previousHouse{
+			padding-left:16px;
+			background-image:url(../../images/dropsofgood/bg-nav-prev-sprite.png);
+			background-position:left top;
+		}
+		#houseNav .previousHouse:hover{
+			background-position:0 -12px;
+		}
+		#houseNav .nextHouse{
+			padding-right:16px;
+			background-image:url(../../images/dropsofgood/bg-nav-next-sprite.png);
+			background-position:right top;
+		}
+		#houseNav .nextHouse:hover{
+			background-position:100% -12px;
+		}
+	#header .col{
+		width:475px;
+		margin-bottom:20px;
+	}
+	#header .state,
+	#header .winner,
+	#header .houseStats,
+	#header .houseStats h3{
+		float:left;
+	}
+	#header .state,
+	#header .winner,
+	#header .houseStats{
+		display:inline;
+		margin-bottom:20px;
+	}
+	#header .state,
+	#header .winner,
+	#header .houseStats h3{
+		text-transform:uppercase;
+		line-height:1em;
+		color:#fbfbfb;
+	}
+	#header .state{
+		width:69px;
+		height:52px;
+		padding-top:46px;
+		font-size:38px;
+		text-align:center;
+		background:transparent url(../../images/dropsofgood/bg-state-header.png) no-repeat;
+	}
+	#header .winner{
+		width:69px;
+		height:52px;
+		padding-top:46px;
+		font-size:38px;
+		text-align:center;
+		background:transparent url(../../images/dropsofgood/bg-gold-star.png) no-repeat;
+	}
+	#header .banner-winner{
+		width:249px;
+		height:31px;
+		margin-left:80px;
+		background:transparent url(../../images/dropsofgood/banner-winners.png) no-repeat;
+	}
+	#header .banner-blue-ribbon{
+		width:220px;
+		height:31px;
+		margin-left:80px;
+		background:transparent url(../../images/dropsofgood/banner-blue-ribbon.png) no-repeat;
+	}
+
+	#header .houseStats{
+		width:394px;
+		padding-left:12px;
+	}
+		#header .houseStats h3{
+		display:inline-block;
+		position:relative;
+			margin-right:1.65em;
+			font-size:14px;
+			z-index:1;
+		}
+			#header .houseStats h3 span{
+				color:#a1d9fc;
+			}
+	#voteButton{
+		float:left;
+		width:160px;
+		height:56px;
+		text-indent:-9999px;
+		background-image:url(../../images/dropsofgood/btn-vote-large-sprite-deactive.png);
+	}
+	/*#voteButton:hover{
+		background-position:0 -56px;
+	}*/
+	#voteButton,
+	#header .note{
+		margin:24px 0;
+	}
+	#header .note{
+		float:left;
+		padding:16px 20px;
+		color:#fbfbfb;
+	}
+	#heroPlayVideo{
+		float:left;
+		display:block;
+		margin-top:60px;
+		width:211px;
+		height:134px;
+		background:transparent url(../../images/dropsofgood/btn-play-video.png) no-repeat;
+	}
+	/*
+	 * MEDIAPLAYER
+	 */
+	.mediaContent{
+		margin-left:-16px;
+		margin-right:-12px;
+		list-style-type:none;
+	}
+		.mediaContent li{
+			float:left;
+			display:inline;
+		}
+		.mediaContent a{
+			display:inline-block;
+			width:230px;
+			overflow:hidden;
+			margin-top:10px;
+			text-decoration:none;
+			color:#8a877f;
+		}
+		.mediaContent a:hover{
+			color:#8a877f;
+		}
+		.mediaContent img{
+			float:left;
+			display:inline;
+			margin-left:16px;
+			margin-right:3px;
+			height:63px;
+			width:107px;
+			padding:11px;
+			background:transparent url(../../images/dropsofgood/bg-media-item-sprite.gif) no-repeat;
+		}
+		.mediaContent a:hover img,
+		.mediaContent a.inViewer img{
+			background-position:0 -85px
+		}
+		.mediaContent span{
+			padding-top:9px;
+			display:block;
+			color:#0e7ec6;
+		}
+		.mediaContent a:hover span{
+			color:#607890;
+		}
+	#mediaViewerGallery,
+	.mediaViewerControl{
+			position:absolute;
+	}
+	#mediaViewerGallery{
+		display:none;
+		border:1px solid #fbfbfb;
+		background:#111;
+		z-index:98;
+		/* drop-shadow */
+		-moz-box-shadow: 0px 2px 6px #444;
+		-webkit-box-shadow: 0px 2px 6px #444;
+		box-shadow: 0px 2px 6px #444;
+		/* For IE 8
+		-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=90, Color='#444444')";
+		/* For IE 5.5 - 7
+		filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=90, Color='#444444');
+		*/
+	}
+
+	#mediaViewerVideo{
+		z-index:97;
+	}
+	#mediaViewerFrame{
+		position:relative;
+		overflow:hidden;
+	}
+		#mediaViewerFrame img.detail{
+			position:absolute;
+			display:block;
+			top:0;
+			left:0;
+		}
+		.mediaViewerControl{
+			background-repeat:no-repeat;
+			text-align:center;
+			top:50%;
+			margin-top:-22px;
+			height:48px;
+			width:47px;
+			z-index:99;
+			cursor:pointer;
+		}
+		.mediaViewerControl:hover{
+			background-position:0 -48px;
+		}
+		#mediaViewerBack{
+			left:-21px;
+			background-image:url(../../images/dropsofgood/btn-control-rewind-sprite.png);
+		}
+		#mediaViewerNext{
+			right:-21px;
+			background-image:url(../../images/dropsofgood/btn-control-advance-sprite.png);
+		}
+		#mediaViewerClose{
+			width:42px;
+			height:42px;
+			top:-24px;
+			right:-22px;
+			margin-top:0;
+			background-image:url(../../images/dropsofgood/btn-control-close-sprite.png);
+		}
+		#mediaViewerClose:hover{
+			background-position:0 -42px;
+		}
+	.inViewer{
+		cursor:default;
+	}
+	/*
+	* COMMUNITY HOUSES
+	*/
+	body.community-homes .main{
+		overflow:hidden;
+		min-height:250px;
+		padding-bottom:20px;
+		background-color:#fff;
+	}
+		body.homes-page {background-image:url(../../images/dropsofgood/page-bg/communityhouses.jpg);}
+		body.adamsville-recreation-center {background-image:url(../../images/dropsofgood/page-bg/adamsville.jpg);}
+		body.the-advisory-committee-of-liberty-city-youth {background-image:url(../../images/dropsofgood/page-bg/tacolcy.jpg);}
+		body.austin-town-hall-park {background-image:url(../../images/dropsofgood/page-bg/austintownhall.jpg);}
+		body.brightwood-community-center {background-image:url(../../images/dropsofgood/page-bg/brightwood.jpg);}
+		body.ce-mcgruder-family-resource-center {background-image:url(../../images/dropsofgood/page-bg/mcgruder.jpg);}
+		body.community-education-center {background-image:url(../../images/dropsofgood/page-bg/cec.jpg);}
+		body.the-grow-haus {background-image:url(../../images/dropsofgood/page-bg/growhaus.jpg);}
+		body.mill-brook-community-center {background-image:url(../../images/dropsofgood/page-bg/millbrook.jpg);}
+		body.sabathani-community-center {background-image:url(../../images/dropsofgood/page-bg/sabathani.jpg);}
+		body.wlcac-howard-bingham-institute {background-image:url(../../images/dropsofgood/page-bg/wlcac.jpg);}
+
+
+		ul#allHouses {
+    	    margin-top:30px;
+    	    margin-left:-61px;
+    	}
+    	ul#allHouses li {
+    		position:relative;
+    		width:262px;
+    		min-height:366px;
+    		margin-left:60px;
+    		float:left;
+    	}
+    	ul#allHouses li h2 {
+        	min-height:33px;
+	    }
+    	ul#allHouses li h4 span {
+        	font-weight:normal;
+        	color:#95d0f8;
+	    }
+	    ul#allHouses a.house-photo{
+    	    width:259px;
+    	    height:162px;
+    	    overflow:hidden;
+    	}
+		ul#allHouses li#adamsville a.house-photo{
+			background:url(../../images/dropsofgood/photo-adamsville.jpg) no-repeat 0 0;
+		}
+		ul#allHouses li#adamsville a.house-photo:hover{
+    	    background-position: 0 -162px;
+    	}
+		ul#allHouses li#tacolcy a.house-photo{
+			background:url(../../images/dropsofgood/photo-tacolcy.jpg) no-repeat 0 0;
+		}
+		ul#allHouses li#tacolcy a.house-photo:hover{
+    	    background-position: 0 -162px;
+    	}
+		ul#allHouses li#austintownhall a.house-photo{
+			background:url(../../images/dropsofgood/photo-austintownhall.jpg) no-repeat 0 0;
+		}
+		ul#allHouses li#austintownhall a.house-photo:hover{
+    	    background-position: 0 -162px;
+    	}
+		ul#allHouses li#brightwood a.house-photo{
+			background:url(../../images/dropsofgood/photo-brightwood.jpg) no-repeat 0 0;
+		}
+		ul#allHouses li#brightwood a.house-photo:hover{
+    	    background-position: 0 -162px;
+    	}
+		ul#allHouses li#mcgruder a.house-photo{
+			background:url(../../images/dropsofgood/photo-mcgruder.jpg) no-repeat 0 0;
+		}
+		ul#allHouses li#mcgruder a.house-photo:hover{
+    	    background-position: 0 -162px;
+    	}
+		ul#allHouses li#cec a.house-photo{
+			background:url(../../images/dropsofgood/photo-cec.jpg) no-repeat 0 0;
+		}
+		ul#allHouses li#cec a.house-photo:hover{
+    	    background-position: 0 -162px;
+    	}
+		ul#allHouses li#sabathani a.house-photo{
+			background:url(../../images/dropsofgood/photo-sabathani.jpg) no-repeat 0 0;
+		}
+		ul#allHouses li#sabathani a.house-photo:hover{
+    	    background-position: 0 -162px;
+    	}
+		ul#allHouses li#growhaus a.house-photo{
+			background:url(../../images/dropsofgood/photo-growhaus.jpg) no-repeat 0 0;
+		}
+		ul#allHouses li#growhaus a.house-photo:hover{
+    	    background-position: 0 -162px;
+    	}
+		ul#allHouses li#millbrook a.house-photo{
+			background:url(../../images/dropsofgood/photo-millbrook.jpg) no-repeat 0 0;
+		}
+		ul#allHouses li#millbrook a.house-photo:hover{
+    	    background-position: 0 -162px;
+    	}
+		ul#allHouses li#wlcac a.house-photo{
+			background:url(../../images/dropsofgood/photo-wlcac.jpg) no-repeat 0 0;
+		}
+		ul#allHouses li#wlcac a.house-photo:hover{
+    	    background-position: 0 -162px;
+    	}
+
+		ul#allHouses li a + h2{
+			padding-top:10px;
+		}
+    	.community-homes .explore-vote{
+			position:absolute;
+			bottom:45px;
+			width:112px;
+			height:33px;
+			background-image:url(../../images/dropsofgood/btn-explore-sprite.png);
+		}
+		.community-homes .explore-vote:hover{
+			background-position:0 -33px;
+		}
+	/*
+	 * LOCAL GRANTS
+	 */
+	body.local-grants {background-image:url(../../images/dropsofgood/page-bg/localgrants.jpg);}
+
+	 .icon_nominate{
+		background:url(../../images/dropsofgood/icon_nominate.png) no-repeat 0 0;
+	}
+
+	#nominate-on-facebook{
+		cursor:pointer;
+		width:467px;
+		height:38px;
+		margin-left:30px;
+		background-image:url(../../images/dropsofgood/btn-nominate-on-fb.png);
+		overflow:hidden;
+	}
+	#nominate-on-facebook:hover{
+		background-position:0 -38px;
+	}
+
+	body.local-grants .callout {
+		margin-bottom:20px;
+	}
+
+	/*
+	 * VOLUNTEER
+	 */
+	body.volunteer{
+		background-image:url(../../images/dropsofgood/page-bg/volunteer.jpg);
+	}
+
+	body.volunteer #content .hgroup {
+		padding-top:58px;
+	}
+
+	 .icon-volunteer{
+		background:url(../../images/dropsofgood/icon_volunteer.png) no-repeat 0 0;
+	}
+
+	#volunteer-opportunities{
+		cursor:pointer;
+		width:467px;
+		height:294px;
+		margin-left:61px;
+		background-image:url(../../images/dropsofgood/btn-volunteer-opportunities.png);
+		overflow:hidden;
+	}
+	#volunteer-opportunities:hover{
+		background-position:0 -294px;
+	}
+
+	/*
+	* ABOUT THE PROGRAM
+	*/
+	body.about-the-program {background-image:url(../../images/dropsofgood/page-bg/about.jpg);}
+
+	body.about-the-program #content .hgroup {
+		padding-top:58px;
+	}
+	#our-partners {
+		padding-top:15px;
+	}
+	#our-partners h3{
+		color: #0678BC;
+		font-size:12px;
+		border-bottom:1px solid #d0cfcc;
+		padding-bottom:15px;
+	}
+
+	#our-partners .callout{
+		margin-bottom:35px;
+		padding-top:5px;
+		padding-left:98px;
+		background-repeat:none;
+		background-position:0 0;
+	}
+
+	#our-partners .callout p {
+		font-size:11px;
+		line-height:16px;
+	}
+
+	#our-partners .callout .cta-sml{
+		display:block;
+		margin-top:10px;
+		font-size:12px;
+		text-decoration:none;
+		line-height:1em;
+		color:#a1d9fc;
+	}
+
+	#our-partners .callout .cta-sml:hover{
+		color:#0678bc;
+		text-decoration:none;
+	}
+
+	#our-partners .disclaimer {
+		color:#b2aea5;
+	}
+
+	.icon_rebuilding{
+		background:url(../../images/dropsofgood/icon_building_together.png) no-repeat 0 0;
+	}
+	.icon_julie_brown{
+		background:url(../../images/dropsofgood/icon_julie_brown.png) no-repeat 0 0;
+	}
+	.icon_wheel{
+		background:url(../../images/dropsofgood/icon_wheel_of_fortune.png) no-repeat 0 0;
+	}
+
+
+	/*
+	 * FOOTER
+	 */
+	#footer{
+		clear:both;
+		float:left;
+		position:relative;
+		padding:54px 122px 30px 196px;
+		width:670px;
+		text-align:center;
+	}
+	#partneredWith{
+		position:absolute;
+		display:block;
+		width:141px;
+		height:64px;
+		top:15px;
+		right:0;
+		background:transparent url(../../images/dropsofgood/rebuilding-together-logo.gif) no-repeat;
+	}
+	#footer, #footer a, #footer a:hover{ color:#a19f99; }
+		#footer .nav{
+			margin:0 auto .5em;
+		}
+		#footer .nav li{
+			display:inline;
+			font-size:12px;
+			line-height:14px;
+		}
+		#footer .nav li:before{
+			content:"|";
+		}
+		#footer .nav li:first-child{
+			border-width:0;
+		}
+		#footer .nav li:first-child:before{
+			content: "";
+		}
+			#footer .nav a{
+				display:inline-block;
+				padding:0 .5em .2em;
+				text-decoration:none;
+			}
+			#footer .nav a:hover{
+				text-decoration:underline;
+			}
+		#footer p{
+			margin-top:1.5em;
+			font-size:10px;
+		}
+	/*
+	 * STATUSBAR
+	 */
+	#statusbar{
+		position:absolute;
+		top:0;
+		left:248px;
+		width:733px;
+		height:32px;
+		padding-top:8px;
+		text-align:right;
+	}
+		#infopanel{
+			float:right;
+			font-size:12px;
+			font-weight:bold;
+			text-transform:uppercase;
+			line-height:1em;
+			color:#a1d9fc;
+			text-align:right;
+		}
+		#infopanel .item{
+			float:left;
+			display:inline;
+			margin-left:18px;
+		}
+			#infopanel h4, #infopanel p{
+				float:left;
+				display:inline;
+				white-space:nowrap;
+			}
+			#infopanel h4{
+				padding-top:7px;
+				margin-right:8px;
+			}
+			/* TODO:use border-radius instead of images */
+			#infopanel p{
+				height:24px;
+				padding-left:12px;
+				background:transparent url(../../images/dropsofgood/infopanel-item-wrapper.gif) no-repeat;
+				font-family:"arial black",arial,sans-serif;
+				font-size:14px;
+				color:#005e9b;
+			}
+			#infopanel span{
+				display:block;
+				height:18px;
+				padding-top:6px;
+				padding-right:13px;
+				background:transparent url(../../images/dropsofgood/infopanel-item-bg.gif) no-repeat right top;
+				text-align:center;
+			}
+			#infopanel #countdown h4 {
+				color:#fdb713;
+			}
+
+			#infopanel #countdown p{
+				height:24px;
+				padding-left:12px;
+				background:transparent url(../../images/dropsofgood/infopanel-item-wrapper-gold.gif) no-repeat;
+				font-family:"arial black",arial,sans-serif;
+				font-size:14px;
+				color:#005e9b;
+			}
+			#infopanel #countdown span{
+				display:block;
+				height:18px;
+				padding-top:6px;
+				padding-right:13px;
+				background:transparent url(../../images/dropsofgood/infopanel-item-bg-gold.gif) no-repeat right top;
+				text-align:center;
+			}
+
+		#facebook_like{
+			float:left;
+			margin-top:2px;
+		}
+
+/*
+ * SIDEBAR
+ */
+#sidebar{
+	position:absolute;
+	top:0;
+	z-index:4;
+	width:210px;
+	padding-bottom:8px;
+	background:transparent url(../../images/dropsofgood/sidebar-btm.png) no-repeat right bottom;
+}
+	#sidebar .nav{
+		margin:0;
+		padding:0 8px;
+		background:transparent url(../../images/dropsofgood/sidebar-repeat.png) repeat-y center center;
+	}
+		#sidebar .nav li,
+		#sidebar .nav li a,
+		#sidebar .nav a img{
+			vertical-align:bottom;
+		}
+
+		#sidebar .nav a{
+			display:inline-block;
+			width:186px;
+			border-top:1px solid #3398d8;
+			border-bottom:1px solid #014272;
+			padding:15px 0 16px 8px;
+			background-color:#0678bc;
+			font-size:11px;
+			font-weight:bold;
+			text-transform:uppercase;
+			text-decoration:none;
+			line-height:1em;
+			color:#a1d9fc;
+		}
+		#sidebar .nav a:hover,
+		#sidebar .nav .current a,
+		.drops-of-good-home #sidebar .nav #navDropsOfGoodHome a,
+		.community-homes #sidebar .nav #navCommunityHome a,
+		.local-grants #sidebar .nav #navLocalGrants a,
+		.volunteer #sidebar .nav #navVolunteer a,
+		.about-the-program #sidebar .nav #navAbout a{
+			color:#fff;
+		}
+		#sidebar .nav a:hover{
+			background-color:#0898ee;
+		}
+			#sidebar .nav li:first-child a{
+				border-top-width:0;
+				width:194px;
+				padding:0;
+			}
+			#sidebar .nav li:first-child a,
+			#sidebar .nav .current a{
+				background-color:#0678bc !important;
+			}
+			#sidebar .nav li:last-child a{
+				border-bottom-width:0;
+			}
+			#sidebar .nav a img {
+				display:block;
+			}
+
+/**
+ * domModal.css
+ */
+#modalOverlay,
+#modalContent{
+	position:fixed;
+	display:none;
+}
+#modalOverlay{
+	z-index:100;
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+	background:#000;
+}
+#modalContent{
+	z-index:101;
+	top:50%;
+	left:50%;
+	/* following styles should be modified for your needs */
+	color:#444;
+	text-align:left;
+	border:2px solid #fff;
+	background-color:#fff;
+    /*rounded-corners*/
+    -moz-border-radius:0px;
+    border-radius:0px;
+    /*drop-shadow*/
+	-moz-box-shadow: 0px 2px 8px #444;
+	-webkit-box-shadow: 0px 2px 8px #444;
+	box-shadow: 0px 2px 8px #444;
+    /*
+    -ms-filter:"progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#111111')";/* For IE 8 /
+    filter:progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#111111');/* For IE 5.5 - 7 /
+    */
+}
+/* adjust styling below for alternate implementations */
+#modalClose{
+    position:absolute;
+	width:42px;
+	height:42px;
+	top:-24px;
+	right:-22px;
+	margin-top:0;
+	background-image:url(../../images/dropsofgood/btn-control-close-sprite.png);
+}
+#modalClose:hover{
+    background-position:0 -42px;
+}
+
+/**
+* Cufon
+*/
+.cufon {
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+}
+
+/**
+* Non-semantic helper classes:please define your styles before this section.
+*/
+.col{
+	float:left;
+	display:inline;
+	/*overflow:hidden;*/
+}
+/* For image replacement
+ *! USE Cufon INSTEAD OF IMAGES WHERE POSSIBLE!
+*/
+.ir{ display:block; text-indent:-999em; overflow:hidden; background-repeat:no-repeat; text-align:left; direction:ltr; }
+
+/* Hide for both screenreaders and browsers:
+css-discuss.incutio.com/wiki/Screenreader_Visibility */
+.hidden{ display:none; visibility:hidden; }
+
+/* Hide only visually, but have it available for screenreaders:by Jon Neal.
+www.webaim.org/techniques/css/invisiblecontent/  &  j.mp/visuallyhidden */
+.visuallyhidden{ border:0; clip:rect(0 0 0 0); height:1px; margin:-1px; overflow:hidden; padding:0; position:absolute; width:1px; }
+/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard:drupal.org/node/897638 */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus{ clip:auto; height:auto; margin:0; overflow:visible; position:static; width:auto; }
+
+/* Hide visually and from screenreaders, but maintain layout */
+.invisible{ visibility:hidden; }
+
+/* The Magnificent Clearfix:Updated to prevent margin-collapsing on child elements.
+j.mp/bestclearfix */
+.clear{clear:both;position:relative;display:block;overflow:hidden;visibility:hidden;width:100%;height:1px;margin-top:-1px;}
+.clearfix:before, .clearfix:after{ content:"\0020"; display:block; height:0; overflow:hidden; }
+.clearfix:after{ clear:both; }
+/* Fix clearfix:blueprintcss.lighthouseapp.com/projects/15318/tickets/5-extra-margin-padding-bottom-of-page */
+.clearfix{ zoom:1; }
+
+#main_wrapper span.final-votes-msg {
+	font-weight:bold;
+ 	color:#8A877F;
+}
+#main_wrapper span.final-votes-msg a {
+	color:#8A877F;
+	position:relative;
+	text-decoration:none;
+	border-bottom: 1px dashed #8A877F;
+
+}
+
+.houseStats p#final-votes-msg {
+	font-weight:bold;
+ 	font-size:15px;
+ 	color:#fff;
+}
+.houseStats p#final-votes-msg a {
+	color:#fff;
+	position:relative;
+	text-decoration:none;
+	border-bottom: 1px dashed #fff;
+}
+
+.final-votes-msg .ienot span,
+#final-votes-msg .ienot span {
+	display:none;
+}
+.final-votes-msg .iehover span,
+#final-votes-msg .iehover span {
+	display:block;
+	position:absolute;
+	bottom:14px;
+	left:-38px;
+	width:228px;
+	height:95px;
+	background:url(../../images/dropsofgood/voting-tips.png) no-repeat 0 0;
+	z-index:99;
+}

@@ -1,0 +1,298 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 1:38:45 Jul 13, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:50:23 Jan 23, 2017.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/* Careers pages only */
+
+.italic {font-style:italic;}
+
+/*********************************************************************************************************************
+ * HOME PAGE  																							 *
+ *********************************************************************************************************************/
+
+#flash { height:523px; }
+
+/* Campus Module style */
+#campus {}
+#campus p {background:#ffffff;margin-bottom:8px;}
+#campus ul {list-style:none;margin:5px 0px 0px 0px;padding:0px;position:relative;top:-4px;left:1px;}
+#campus ul li {background:url(/web/20100713013845/https://www.nationalcity.com/content/images/imgLinkArrow.gif) no-repeat 0px 4px;padding:0px 0px 0px 10px;margin-bottom:10px;}
+#campus ul li a {font-size:11px;font-weight:bold;}
+#campus ul li a span {padding-left:5px;}
+#campus .general {position:relative;left:-1px;}
+#campus .general li {padding-left:5px;font-weight:bold;font-size:11px;margin-bottom:10px;}
+#campus .arrowlink{background:url(/web/20100713013845/https://www.nationalcity.com/content/images/imgLinkArrow.gif) no-repeat 3px 3px;}
+
+
+
+/*********************************************************************************************************************
+ * WHAT WE OFFER  																							 *
+ *********************************************************************************************************************/
+
+/* Control the Flash content */ 
+/*#flashContainer1 { margin-left: 172px; }*/
+
+/* classes for the three wrapper divs to change their heights */
+/* these have to be a few pixels larger than the flash */
+.contentHeight1 { height: 537px; }
+.contentHeight2 { height: 549px; }
+.contentHeight3 { height: 537px; }
+.contentHeight4 { height: 800px; }
+.contentHeight5 { height: 980px; }
+
+/* div behind Flash div*/
+#flashcontent {height:543px;float:left;margin-left:6px;}
+#flashcontent2 {height:530px;float:left;margin-left:6px;}
+#flashcontent3 {float:left;margin-left:0;}
+
+
+
+/*********************************************************************************************************************
+ * YOUR GROWTH  																							 *
+ *********************************************************************************************************************/
+ 
+/* Contains content of page */
+#content_back1 { 
+	float:left;
+	/* the contentB1 div has a padding-bottom of 50. Without this margin-bottom, the div overlaps blue gradient */
+	margin-bottom:25px;
+	width:809px;
+	/* margin-left to put into place. Give contentB1 a padding-left of 14px! */
+	margin-left:6px;
+	background:url(/web/20100713013845/https://www.nationalcity.com/content/images/background_yourgrowth.jpg) no-repeat #fff;
+	background-position: top right;
+}
+
+
+
+/*********************************************************************************************************************
+ * WORK CULTURE  																							 *
+ *********************************************************************************************************************/
+ 
+/* Contains content of page */
+#content_back2 { 
+	float:left;
+	/* the contentB1 div has a padding-bottom of 50. Without this margin-bottom, the div overlaps blue gradient */
+	margin-bottom:25px;
+	width:809px;
+	/* margin-left to put into place. Give contentB1 a padding-left of 14px! */
+	margin-left:6px;
+	background:url(/web/20100713013845/https://www.nationalcity.com/content/images/background_workculture.jpg) no-repeat #fff;
+	background-position: top right;
+}
+
+
+/*********************************************************************************************************************
+ * COMMUNITY INVOLVEMENT  																							 *
+ *********************************************************************************************************************/
+ 
+/* Contains content of page */
+#content_back3 { 
+	float:left;
+	/* the contentB1 div has a padding-bottom of 50. Without this margin-bottom, the div overlaps blue gradient */
+	margin-bottom:25px;
+	width:809px;
+	/* margin-left to put into place. Give contentB1 a padding-left of 14px! */
+	margin-left:6px;
+	/*background:url(/web/20100713013845/https://www.nationalcity.com/content/images/background_community.jpg) no-repeat #fff;*/
+	background:url(/web/20100713013845/https://www.nationalcity.com/content/images/background_community_short.jpg) no-repeat #fff;
+	background-position: top right;
+}
+
+
+/*********************************************************************************************************************
+ * WORKFORCE DIVERSITY  																							 *
+ *********************************************************************************************************************/
+ 
+/* Contains content of page */
+#content_back4 { 
+	float:left;
+	/* the contentB1 div has a padding-bottom of 50. Without this margin-bottom, the div overlaps blue gradient */
+	margin-bottom:25px;
+	width:809px;
+	/* margin-left to put into place. Give contentB1 a padding-left of 14px! */
+	margin-left:6px;
+	background:url(/web/20100713013845/https://www.nationalcity.com/content/images/background_workforce.jpg) no-repeat #fff;
+	background-position: top right;
+}
+
+
+/*********************************************************************************************************************
+ * BENEFITS 																							 *
+ *********************************************************************************************************************/
+ 
+/* Contains content of page */
+#content_back5 { 
+	float:left;
+	/* the contentB1 div has a padding-bottom of 50. Without this margin-bottom, the div overlaps blue gradient */
+	margin-bottom:25px;
+	width:809px;
+	/* margin-left to put into place. Give contentB1 a padding-left of 14px! */
+	margin-left:6px;
+	background:url(/web/20100713013845/https://www.nationalcity.com/content/images/background_benefits.jpg) no-repeat #fff;
+	background-position: top right;
+}
+
+
+/*********************************************************************************************************************
+ * BALANCE 																							 *
+ *********************************************************************************************************************/
+ 
+/* Contains content of page */
+#content_back6 { 
+	float:left;
+	/* the contentB1 div has a padding-bottom of 50. Without this margin-bottom, the div overlaps blue gradient */
+	margin-bottom:25px;
+	width:809px;
+	/* margin-left to put into place. Give contentB1 a padding-left of 14px! */
+	margin-left:6px;
+	background:url(/web/20100713013845/https://www.nationalcity.com/content/images/background_balance.jpg) no-repeat #fff;
+	background-position: top right;
+}
+
+
+/*********************************************************************************************************************
+ * CAREER EXPLORER  																							 *
+ *********************************************************************************************************************/
+
+/* classes for the three wrapper divs to change their heights */
+/* these have to be a few pixels larger than the flash */
+.contentHeightCE3 { height: 490px; }
+
+#contentCE{
+	float:left;
+	/* the contentB1 div has a padding-bottom of 50. Without this margin-bottom, the div overlaps blue gradient */
+	padding-left:20px;
+	padding-top:20px;
+	margin-bottom:50px;
+	margin-left:6px;
+	width:790px;
+	background:url(/web/20100713013845/https://www.nationalcity.com/content/images/background_swish.jpg) no-repeat #fff;
+	background-position: top right;
+}
+
+/* div behind Flash div*/
+#flashcontentCE {height:230px;float:left;margin:0;}
+#flashcontentCE2 {height:230px;float:left;margin-left:6px;}
+
+
+/*********************************************************************************************************************
+ * CAREER EXPLORER > BRANCH BANKING  																							 *
+ *********************************************************************************************************************/
+#box{background:url(/web/20100713013845/https://www.nationalcity.com/content/images/careerEx_boxBG.gif) repeat-y #ff6600;width:741px;margin-left:auto;margin-right:auto;margin-top:25px;}
+#box img{margin-left:-1px;position:relative;z-index:0;}
+.box_bot{margin-bottom:-7px;}
+
+#title{margin-top:-220px;padding:0 0 20px 38px;position:relative;}
+#white{width:660px;background-color:#FFFFFF;margin-left:auto;margin-right:auto;border:solid 1px #cccccc;padding-bottom:50px;position:relative;z-index:1;}
+
+#person{float:right;position:absolute;top:35px;margin-left:530px;z-index:2;}
+ 
+ 
+ /*********************************************************************************************************************
+ * SEARCH OPENINGS > OUR HIRING PROCESS 																							 *
+ *********************************************************************************************************************/
+ 
+/* Contains content of page */
+#content_back8 { 
+	float:left;
+	/* the contentB1 div has a padding-bottom of 50. Without this margin-bottom, the div overlaps blue gradient */
+	margin-bottom:25px;
+	width:809px;
+	/* margin-left to put into place. Give contentB1 a padding-left of 14px! */
+	margin-left:6px;
+	background:url(/web/20100713013845/https://www.nationalcity.com/content/images/background_ourhiring.jpg) no-repeat #fff top right;
+}
+
+
+
+/*********************************************************************************************************************
+ * GET JOB ALERTS IN EMAIL  																							 *
+ *********************************************************************************************************************/
+ 
+/* Contains content of page */
+#content_back { 
+	float:left;
+	/* the contentB1 div has a padding-bottom of 50. Without this margin-bottom, the div overlaps blue gradient */
+	margin-bottom:25px;
+	width:809px;
+	/* margin-left to put into place. Give contentB1 a padding-left of 14px! */
+	margin-left:6px;
+	background:url(/web/20100713013845/https://www.nationalcity.com/content/images/background_job-alert.jpg) no-repeat #fff;
+}
+
+
+
+/*********************************************************************************************************************
+ * EXPANDING BUTTON  																							 *
+ *********************************************************************************************************************/
+
+.search .button {height:19px;display:block;margin-top:-5px;}
+.search .button a {color:#ffffff;font-size:12px;font-weight:bold;}
+.search .button .left {height:19px;width:10px;float:left;background:url(/web/20100713013845/https://www.nationalcity.com/content/images/btnCTAoff_left.gif) no-repeat top left;}
+.search .button .text {height:17px;float:left;padding-top:1px;padding-bottom:1px;background:url(/web/20100713013845/https://www.nationalcity.com/content/images/btnCTAoff_back.gif) repeat-x top;}
+.search .button .right {height:19px;width:10px;float:left;clear:right;background:url(/web/20100713013845/https://www.nationalcity.com/content/images/btnCTAoff_right.gif) no-repeat top right;}
+.search .div.button:hover .left {background:url(/web/20100713013845/https://www.nationalcity.com/content/images/btnCTAon_left.gif) no-repeat top left;}
+.search .div.button:hover .text {background:url(/web/20100713013845/https://www.nationalcity.com/content/images/btnCTAon_back.gif) repeat-x top;}
+.search .div.button:hover .right {background:url(/web/20100713013845/https://www.nationalcity.com/content/images/btnCTAon_right.gif) no-repeat top right;}
+
+
+/*********************************************************************************************************************
+ * COLLEGE SENIORS AND GRADUATES > EVENTS  	
+ *********************************************************************************************************************/
+
+/* Contains content of page */
+#content_back7 { 
+	float:left;
+	/* the contentB1 div has a padding-bottom of 50. Without this margin-bottom, the div overlaps blue gradient */
+	margin-bottom:25px;
+	width:809px;
+	/* margin-left to put into place. Give contentB1 a padding-left of 14px! */
+	margin-left:6px;
+	background:url(/web/20100713013845/https://www.nationalcity.com/content/images/background_events.jpg) no-repeat #fff;
+	background-position: top right;
+}
+
+
+/*********************************************************************************************************************
+ * COLLEGE SENIORS AND GRADUATES > COIS Rotation 
+ *********************************************************************************************************************/
+ 
+/* Contains content of page */
+#content_back9 { 
+	float:left;
+	/* the contentB1 div has a padding-bottom of 50. Without this margin-bottom, the div overlaps blue gradient */
+	margin-bottom:25px;
+	width:809px;
+	/* margin-left to put into place. Give contentB1 a padding-left of 14px! */
+	margin-left:6px;
+	background:url(/web/20100713013845/https://www.nationalcity.com/content/images/background_COISrotation.jpg) no-repeat #fff top right;
+}
+
+
+/*********************************************************************************************************************
+ * GO BUTTON  																							 
+ *********************************************************************************************************************/
+ 
+#gobutton a.button {width:17px;height:19px;display:block;padding:0px 10px;font-weight:bold;color:#ffffff;background:url(/web/20100713013845/https://www.nationalcity.com/content/images/button_go_blue.jpg) no-repeat top;}
+#gobutton a.button:hover {background:url(/web/20100713013845/https://www.nationalcity.com/content/images/button_go_blue_over.gif) no-repeat top;}
+
+	
+	
+
+.careerlink {FONT:bold 11px Arial,Helvetica,sans-serif;TEXT-DECORATION:none;color:#2d8cbb;}
+/* a.careerlink:visited {COLOR:#999;} */
+
+
+
+
+

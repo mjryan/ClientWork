@@ -1,0 +1,297 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 1:37:39 Jul 13, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:28:54 Aug 8, 2014.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+.templateB3#main {width:985px;}
+.templateB3#main #mainNav {width:980px;}
+.templateB3#main #mainNav .empty {width:318px;}
+.templateB3#main #outerWrapper,
+.templateB3#main #outerWrapper #innerWrapper,
+.templateB3#main #outerWrapper #innerWrapper #mainContent {width:985px;}
+.templateB3#main #outerWrapper #innerWrapper #mainContent #content {width:934px;}
+.templateB3#main #mainNav .empty {background:url(/web/20100713013739/https://www.nationalcity.com/content/images/rttab2.gif) top left repeat-x;}
+.templateB3#main #outerWrapper {background:url(/web/20100713013739/https://www.nationalcity.com/content/images/content_back3.jpg) repeat-y top;}
+.templateB3#main #outerWrapper #innerWrapper {background:url(/web/20100713013739/https://www.nationalcity.com/content/images/content_top3.jpg) no-repeat top;}
+.templateB3#main #outerWrapper #innerWrapper #mainContent {background:url(/web/20100713013739/https://www.nationalcity.com/content/images/content_bottom5.jpg) no-repeat bottom;}
+
+#mainNav a.selected {background:url(/web/20100713013739/https://www.nationalcity.com/content/images/tab_over.gif) top left repeat-x;}
+	
+.orange {color:#ff6600;}
+	
+#swfContainer {
+	position:relative;
+	padding:0;
+	margin:0;
+	width:980px;
+	height:580px;
+}
+
+#swfcontent {
+	padding:0;
+	margin:0px 1px;
+	position:relative;
+	display:none;
+}
+
+.noSwfBkg {margin:0px 4px;}
+
+#noSwfMsg {
+	position:absolute;
+	top:50px;
+	left:160px;
+	width:650px;
+	font:12px Arial,Helvetica,Verdana sans-serif;
+	text-align:left;
+	padding:10px;
+	background-color:#ffffff;
+	border:1px solid #999999;
+	z-index:4;
+}
+
+#noSwfMsg p {
+	padding:0;
+	margin:0;
+	font:12px Arial,Helvetica,Verdana sans-serif;
+}
+/*
+#noFlash8Msg {
+	padding:0;
+	margin:0;
+	position:relative;
+	width:985px;
+	height:580px;
+	font:12px Arial,Helvetica,Verdana sans-serif;
+	text-align:left;
+}
+*/
+
+/***** Styles for FAQ Page *****/
+dt {margin:0; padding:0;}
+dt.toggler {cursor:pointer; color:#2d8cbb;}
+
+#bkgFaq {
+	position:absolute;
+	top:0;
+	width:588px;
+	height:230px;
+	background-image:url(/web/20100713013739/https://www.nationalcity.com/content/images/bkg_faq_points.gif);
+	background-position:top left;
+	background-repeat:no-repeat;
+	font-size:11px;
+	padding-top:20px;
+}
+
+#goToPointsMain {
+	position:absolute;
+	top:9px;
+	right:22px;
+}
+
+#pointsFaqs {padding-top:130px;}
+	
+.faqTopic {
+	position:relative; 
+	background-image:url(/web/20100713013739/https://www.nationalcity.com/content/images/imgHorizRule.gif);
+	background-position:bottom left;
+	background-repeat:repeat-x;
+	padding:15px 0px;
+	}
+	
+.lastfaqTopic {position:relative; padding:15px 0px;}
+.topicHdr {color:#007253;}
+.backToTop {position:absolute; left:514px; top:18px; font-size:11px;}
+
+.faqs {font-size:11px;}
+.faqs dl {padding:0; margin:0; padding-top:4px; vertical-align:top;}
+.faqs dl dt {margin:0; padding:3px;}
+.faqs dt {text-indent:12px; background: url(/web/20100713013739/https://www.nationalcity.com/content/images/arrow_closed.gif) 0px 6px no-repeat;}
+.faqs dd {text-indent:0px; margin-left:29px; line-height:17px;}
+.faqs dt.expanded {background: url(/web/20100713013739/https://www.nationalcity.com/content/images/arrow_open.gif) 0px 6px no-repeat;}
+.faqs a:link, .faqs a:visited, .faqs a:hover, .faqs a:active {text-decoration:underline;}
+dd.togglee ul li{list-style-type:disc; margin:0; margin-left:30px; line-height:17px; padding:0; }
+dd div {padding:5px 0px; margin:0;}
+.shorten {margin-right:200px;}
+/***** Styles for FAQ Page *****/
+
+
+/***** Styles for Email Newsletter Page *****/
+#contentWid {margin:0px 5px;}
+#eNewsTop {position:relative; height:240px; width:975px; background:url(/web/20100713013739/https://www.nationalcity.com/content/images/emailNewsletter_top.jpg) top left no-repeat;}
+#eNewsTopContent {margin-left:416px; padding-top:54px; width:335px;}
+#eNewsTopContent div {font-size:11px;}
+#eNewsTopContent div ul {margin-left:20px;}
+#eNewsTopContent div ul li {list-style:disc;}
+
+#eNewsTop #require {position:absolute; margin-left:416px; bottom:5px; font-size:11px; font-weight:bold; color:#007253;}
+#eNewsTop #errorhead {position:absolute; margin-left:416px; bottom:5px; font-size:11px; font-weight:bold; color:#f00f00;}
+
+#eNewsMid {background:url(/web/20100713013739/https://www.nationalcity.com/content/images/emailNewsletter_bkg.jpg) top left repeat-y;}
+
+#emailFormContainer {height:280px;padding-left:407px; width:auto; background:url(/web/20100713013739/https://www.nationalcity.com/content/images/emailNewsletter_mid.jpg) top left no-repeat;}
+
+#emailFormContainer table {font-size:11px; padding:4px; margin:0; border-collapse:collapse;}
+
+#emailFormContainer table th {text-align:right; vertical-align:top; font-weight:normal; padding:4px; width:130px;}
+#emailFormContainer table td {text-align:left; font-weight:normal; padding:4px;}
+#emailFormContainer table td .textboxTip {font-size:10px;}
+#emailFormContainer table td #whyNumber {font-size:10px; width:350px;}
+
+/***** Styles for Program Details Page *****/
+#pointsCompare {padding-top:0px;}
+
+#bkgCompare {
+	position:absolute;
+	top:0;
+	width:588px;
+	height:967px;
+	background-image:url(/web/20100713013739/https://www.nationalcity.com/content/images/pc3_product_subcat.jpg);
+	background-position:top left;
+	background-repeat:no-repeat;
+	font-size:11px;
+	padding-top:0px;
+}	
+
+#pointsDetail {padding:0px;}
+
+#pointsDetail h1 {
+	padding:0; 
+	margin:0; 
+	font-size:24px; 
+	line-height:36px; 
+	font-weight:bold;
+	color:#ff6600;
+}
+
+#pointsDetail h3 {
+	padding:0; 
+	margin:0; 
+	margin-bottom:14px;
+	font-size:18px; 
+	font-weight:bold;
+	color:#007253;
+}
+
+.dotdivider {padding:29px 0px;}
+
+#bkgDetailTop {
+	position:relative;
+	width:588px;
+	height:426px;
+	background-image:url(/web/20100713013739/https://www.nationalcity.com/content/images/product_details_top.jpg);
+	background-position:top left;
+	background-repeat:no-repeat;
+	font-size:13px;
+	line-height:17px;
+	margin-top:-20px;
+	margin-right:-20px;
+}
+
+#bkgDetailMid {
+	position:relative;
+	width:588px;
+	background-image:url(/web/20100713013739/https://www.nationalcity.com/content/images/product_details_mid.jpg);
+	background-position:top left;
+	background-repeat:no-repeat;
+	font-size:13px;
+	line-height:17px;
+	margin-right:-20px;
+}
+
+#bkgDetailBtm {
+	position:relative;
+	width:588px;
+	background-image:url(/web/20100713013739/https://www.nationalcity.com/content/images/product_details_btm.jpg);
+	background-position:bottom right;
+	background-repeat:no-repeat;
+	font-size:13px;
+	line-height:17px;
+	margin-right:-20px;
+}
+
+#detailTopContent {padding-left:60px; padding-top:95px; width:260px;}
+#detailBtmContentEnroll, 
+#detailBtmContentEarn,
+#detailBtmContentWays {padding-left:60px; width:400px;}
+#detailBtmContentEmjoy {padding-left:60px; width:380px;}
+
+table.earningChart {
+	border-top:1px solid #ccc; 
+	border-left:1px solid #ccc; 
+	font-size:11px; 
+	line-height:13px; 
+	border-collapse: collapse;
+	margin:10px 1px;
+}
+
+table.earningChart th {
+	border-bottom:1px solid #ccc; 
+	border-right:1px solid #ccc; 
+	text-align:left;
+	font-family:verdana;
+	white-space:nowrap;
+	padding:4px;
+	font-weight:bold;
+}
+
+table.earningChart td {
+	border-bottom:1px solid #ccc; 
+	border-right:1px solid #ccc;
+	vertical-align:top;
+	padding:4px; 
+}
+
+.earningChart ul li {list-style-type:disc; margin-left:30px;}
+
+#earningChartDisclaimer {
+	padding:10px 0px;
+	font-size:10px; 
+	line-height:13px;
+}
+
+/***** Styles for Rewards Browser Page *****/
+#dstepContainer {padding:0; margin:0px; position:relative; height:490px;}
+
+#NationalCityRewards {width:980px; position:absolute; height:490px; left:0px;}
+#dstepContainer iframe {display:none;}
+
+/******Style for Gateway Page ****/
+#gatewayContent {
+	position:absolute; 
+	top:135px; 
+	left:355px; 
+	width:440px; 
+	font-size:13px; 
+	line-height:17px;
+}
+
+#gatewayButtons {
+	position:absolute; 
+	top:300px; 
+	left:355px; 
+	width:440px; 
+}
+
+#gatewayContent h1 {
+	padding:0; 
+	margin:0; 
+	font-size:24px; 
+	line-height:36px; 
+	font-weight:bold;
+}
+
+#gatewayContent h3 {
+	padding:0; 
+	margin:0; 
+	font-size:24px; 
+	line-height:24px; 
+	font-weight:normal;
+}

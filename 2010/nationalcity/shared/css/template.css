@@ -1,0 +1,497 @@
+/*********************************************************************************************************************
+ * TEMPLATE             																							 *
+ *********************************************************************************************************************/
+
+	/* Markup */
+	body {margin:0px;padding:0px;color:#666666;font-family:Arial,Helvetica,sans-serif;font-size:13px;background:#d6e9f4 url(../../content/images/background.jpg) repeat-x top;}
+	img {border:0px;}
+	form {margin:0px;padding:0px;}
+	p {margin:0px 0px 10px 0px;padding:0px;font-size:11px;color:#666;}
+	a:link {color:#2d8cbb; text-decoration:none;}
+	a:visited {color:#2d8cbb; text-decoration:none;}
+	a:hover {color:#056b9d; text-decoration:underline;}
+	a:active {color:#2d8cbb; text-decoration:none;}
+	ul {margin:0px;padding:0px;list-style:none;}
+	li {list-style:none;}
+	h1, h2, h3, h4, h5, h6, h7 {margin:0px 0px 10px 0px;padding:0px;cursor:default;}
+	select {margin:0px;padding:0px;}
+
+	/* This centers the page */
+    #container {z-index:1;width:987px;margin-left:auto;margin-right:auto;}
+
+    /* This clears floating divs */
+    .clear {height:1px;clear:both;}
+
+	/* Hide/Show elements */
+	.off {display:none;}
+	.on {display:block;}
+
+	/* Header */
+    	#header {z-index:2;height:113px;background:#007253 url(../../content/images/header.jpg) no-repeat center;}
+	#header h1 {width:221px;height:31px;margin:0px;padding:0px;position:relative;left:25px;top:28px;background:url(../../content/images/NationalCity.gif) no-repeat top left;}
+	#header h1 a {width:199px;height:31px;text-indent:-5000px;display:block;overflow:hidden;}
+	#header h2 {height:21px;width:300px;margin:0px;padding:0px;position:relative;left:267px;top:3px;color:#ffffff;font-size:19px;font-weight:normal;}
+	#header h2 a {height:21px;width:300px;color:#ffffff;font-size:19px;cursor:hand;text-decoration:none;font-weight:normal;}
+
+	/* Header for page breastcancerpromotion.asp */
+
+	#headerbreastcancer {z-index:2;height:113px;background:#007253 url(../../content/images/b_header.jpg) no-repeat center;}
+	#headerbreastcancer  h1 {width:199px;height:31px;margin:0px;padding:0px;position:relative;left:25px;top:28px;background:url(../../content/images/b_NationalCity.jpg) no-repeat top left;}
+	#headerbreastcancer  h1 a {width:199px;height:31px;text-indent:-5000px;display:block;overflow:hidden;}
+	#headerbreastcancer  h2 {height:21px;width:300px;margin:0px;padding:0px;position:relative;left:245px;top:3px;color:#ffffff;font-size:19px;font-weight:normal;}
+	#headerbreastcancer  h2 a {height:21px;width:300px;color:#ffffff;font-size:19px;cursor:hand;text-decoration:none;font-weight:normal;}
+
+   	/*  ends    */
+
+
+	/* Header for page HomePage BCA */
+
+	#headerBCA {z-index:2;height:113px;background:#F3BDD7 url(../../content/images/b_header.jpg) no-repeat stretch ;}
+	#headerBCA  h1 {width:199px;height:31px;margin:0px;padding:0px;position:relative;left:25px;top:28px;background:url(../../content/images/nclogoribbon.png) no-repeat top left;_behavior: url(/web/20100713013810/https://www.nationalcity.com/shared/js/iepngfix.htc); }
+	#headerBCA  h1 a {width:199px;height:31px;text-indent:-5000px;display:block;overflow:hidden;}
+	#headerBCA  h2 {height:21px;width:300px;margin:0px;padding:0px;position:relative;left:245px;top:3px;color:#ffffff;font-size:19px;font-weight:normal;}
+	#headerBCA  h2 a {height:21px;width:300px;color:#ffffff;font-size:19px;cursor:hand;text-decoration:none;font-weight:normal;}
+
+   /*  ends    */
+
+	/* Global Nav */
+	#globalNav {width:476px;height:24px;position:relative;float:left;top:-53px;left:510px;}
+	.main#container #globalNav {left:580px;}
+	.promotions#container #globalNav {left:537px;}
+	.gateway#container #globalNav {left:601px;width:392px;}
+	.locator#container #globalNav {left:647px;}
+	.pointsgateway#container #globalNav {left:647px;}
+	.specialoffercode#container #globalNav {left:647px;}
+	.about#container #globalNav {left:541px;}
+	.economics#container #globalNav {left:609px;}
+	.chicagoland#container #globalNav {left:609px;}
+	.espanol#container #globalNav {left:617px;}
+	.shareholder#container #globalNav {left:555px;}
+	.polish#container #globalNav {left:574px;}
+	.breastCancer#container #globalNav {left:737px;}
+
+	#globalNav ul {display:inline;}
+	#globalNav ul li {float:left;display:inline;}
+	#globalNav ul li a {text-align:center;padding-top:5px;color:#ffffff;font-size:11px;}
+	#globalNav .home a {
+		width:62px;
+		height:24px;
+		display:block;
+		margin-right:11px;
+		background:url(/web/20100713013810/https://www.nationalcity.com/content/images/home.gif) top left repeat-x;
+	}
+	#globalNav .home a:hover,
+	#globalNav .home a.selected {
+		background:url(/web/20100713013810/https://www.nationalcity.com/content/images/home_over.gif) top left repeat-x;
+	}
+	#globalNav .home a span {margin-left:10px;}
+
+	#globalNav .personal a,
+	#globalNav .business a,
+	#globalNav .commercial a,
+	#globalNav .about a,
+	#globalNav .commercial_bca a,
+	#globalNav .about_bca a
+	{
+		display:block;
+		background:url("../../content/images/personal_banking.gif") top left repeat-x;
+	}
+
+	#globalNav .personal_main a,
+	#globalNav .personal a:hover,
+	#globalNav .business_main a,
+	#globalNav .business a:hover,
+	#globalNav .commercial_main a,
+	#globalNav .commercial a:hover,
+	#globalNav .about_main a,
+	#globalNav .about a:hover,
+	#globalNav .commercial_bca a:hover,
+	#globalNav .commercial_main_bca a,
+	#globalNav .about_main_bca a,
+	#globalNav .about_bca a:hover {
+		background:url("../../content/images/personal_banking_over_OLD.gif") top left repeat-x;
+	}
+
+	#globalNav .personal a,
+	#globalNav .personal_main a,
+	#globalNav .business a,
+	#globalNav .business_main a,
+	#globalNav .commercial a,
+	#globalNav .commercial_bca a,
+	#globalNav .commercial_main_bca a {
+		display:block;
+		width:134px;
+		height:24px;
+	}
+	#globalNav .about a,
+	#globalNav .about_main a,
+	#globalNav .about_bca a,
+	#globalNav .about_main_bca a {
+		width:104px;
+		height:24px;
+	}
+
+
+	#globalNav .locations a {
+		width:67px;
+		height:24px;
+		display:block;
+		background:url(../../content/images/locations.gif) top left repeat-x;
+	}
+	#globalNav .locations a:hover {
+		background:url(../../content/images/locations_over.gif) top left repeat-x;
+	}
+
+	#globalNav .contact a {width:73px;height:24px;display:block;background:url(../../content/images/contact.gif) top left repeat-x;}
+	#globalNav .contact a:hover {background:url(../../content/images/contact_over.gif) top left repeat-x;}
+	#globalNav .contactpromo a {width:73px;height:24px;display:block;background:url(../../content/images/contactpromo.gif) top left repeat-x;}
+	#globalNav .contactpromo a:hover {background:url(../../content/images/contactpromo_over.gif) top left repeat-x;}
+	#globalNav .NCcompromo a {width:103px;height:24px;display:block;background:url(../../content/images/globalNav_nationalcity.gif) top left repeat-x;}
+	#globalNav .NCcompromo a:hover {background:url(../../content/images/globalNav_nationalcity_over.gif) top left repeat-x;}
+
+	/*Header for HOME page*/
+	#globalNav ul {display:inline;}
+	#globalNav ul li {float:left;display:inline;}
+	#globalNav ul li a {text-align:center;padding-top:5px;color:#ffffff;font-size:11px;}
+	#globalNav .home_bca a {width:62px;height:24px;display:block;margin-right:11px;background:url(../../content/images/top_home.gif) top left repeat-x;}
+	#globalNav .home_bca a:hover,
+	#globalNav .home_bca a.selected {background:url(../../content/images/top_homeOver.gif) top left repeat-x;}
+	#globalNav .home_bca a span {margin-left:10px;}
+	#globalNav .personal_bca a {width:134px;height:24px;display:block;background:url("../../content/images/top_personal.gif") top left repeat-x;}
+	#globalNav .personal_bca a:hover {background:url("../../content/images/top_personalOver.gif") top left repeat-x;}
+	#globalNav .personal_main_bca a {width:134px;height:24px;display:block;background:url("../../content/images/top_personalOver.gif") top left repeat-x;}
+	#globalNav .business_bca a {width:134px;height:24px;display:block;background:url("../../content/images/top_personal.gif") top left repeat-x;}
+	#globalNav .business_bca a:hover {background:url("../../content/images/top_personalOver.gif") top left repeat-x;}
+	#globalNav .business_main_bca a {width:134px;height:24px;display:block;background:url("../../content/images/top_personalOver.gif") top left repeat-x;}
+
+	#globalNav .locations_bca a {width:67px;height:24px;display:block;background:url(../../content/images/top_locations.gif) top left repeat-x;}
+	#globalNav .locations_bca a:hover {background:url(../../content/images/top_locationsOver.gif) top left repeat-x;}
+	#globalNav .contact_bca a {width:73px;height:24px;display:block;background:url(../../content/images/top_contactus.gif) top left repeat-x;}
+	#globalNav .contact_bca a:hover {background:url(../../content/images/top_contactusover.gif) top left repeat-x;}
+	#globalNav .contactpromo_bca a {width:73px;height:24px;display:block;background:url(../../content/images/contactpromo.gif) top left repeat-x;}
+	#globalNav .contactpromo_bca a:hover {background:url(../../content/images/contactpromo_over.gif) top left repeat-x;}
+	#globalNav .polish_bca a {width:67px;height:24px;display:block;background:url(../../content/images/top_popolsku.gif) top left repeat-x;}
+	#globalNav .polish_bca a:hover {background:url(../../content/images/top_polposkuOver.gif) top left repeat-x;}
+	#globalNav .espanol_bca a {width:57px;height:23px;display:block;background:url(../../content/images/top_espanol.gif) top left repeat-x;}
+	#globalNav .espanol_bca a:hover {background:url(../../content/images/top_espanolOver.gif) top left repeat-x;}
+
+
+	/*End for HOME page*/
+
+
+  	/* Header for page breastcancerpromotion.asp */
+  #globalNav .NCcompromo_b a {width:103px;height:24px;display:block;background:url(../../content/images/natcity.jpg) top left repeat-x;}
+ 	#globalNav .NCcompromo_b a:hover {background:url(../../content/images/natcityOn.jpg) top left repeat-x;}
+	#globalNav .locations_b a {width:67px;height:24px;display:block;background:url(../../content/images/locations.jpg) top left repeat-x;}
+	#globalNav .locations_b a:hover {background:url(../../content/images/locationsOn.jpg) top left repeat-x;}
+	#globalNav .contactpromo_b a {width:73px;height:24px;display:block;background:url(../../content/images/contactus.jpg) top left repeat-x;}
+	#globalNav .contactpromo_b a:hover {background:url(../../content/images/contactusOn.jpg) top left repeat-x;}
+	/*   end    */
+
+	#globalNav .polish a {width:67px;height:24px;display:block;background:url(../../content/images/locations.gif) top left repeat-x;}
+	#globalNav .polish a:hover {background:url(../../content/images/locations_over.gif) top left repeat-x;}
+
+	#globalNav .espanol a {width:58px;height:24px;display:block;background:url(../../content/images/espanol.gif) top left repeat-x;}
+	#globalNav .espanol a:hover {background:url(../../content/images/espanol_over.gif) top left repeat-x;}
+	#globalNav .NCcom a {width:103px;height:24px;display:block;background:url(../../content/images/globalNav_nationalcity_over.gif) top left repeat-x;}
+	#globalNav .NCcom a:hover {background:url(../../content/images/globalNav_nationalcity_over.gif) top left repeat-x;}
+	#globalNav .login a {width:47px;height:24px;display:block;background:url(../../content/images/globalNav_login.gif) top left repeat-x;}
+	#globalNav .login a:hover {background:url(../../content/images/globalNav_login_over.gif) top left repeat-x;}
+	#globalNav .customer a {width:107px;height:24px;display:block;background:url(../../content/images/customer_service.gif) top left repeat-x;}
+	#globalNav .customer a:hover {background:url(../../content/images/customer_service_over.gif) top left repeat-x;}
+	#globalNav .esp_main a {width:157px;height:24px;display:block;background:url("../../content/images/esp_personal_banking_over_OLD.gif") top left repeat-x;}
+	#globalNav .esp_main a:hover {background:url("../../content/images/esp_personal_banking_over_OLD.gif") top left repeat-x;}
+	#globalNav .esp_contact a {width:81px;height:24px;display:block;background:url(../..content/images/esp_contact.gif) top left repeat-x;}
+	#globalNav .esp_contact a:hover {background:url(../../content/images/esp_contact_over.gif) top left repeat-x;}
+	#globalNav .esp_english a {width:54px;height:24px;display:block;background:url(../../content/images/english.gif) top left repeat-x;}
+	#globalNav .esp_english a:hover {background:url(../../content/images/english_over.gif) top left repeat-x;}
+
+	#globalNav .pol_home a {width:106px;height:24px;display:block;margin-right:11px;background:url(../../content/images/pol_home.gif) top left repeat-x;}
+	#globalNav .pol_home a:hover,
+	#globalNav .pol_home a.selected {background:url(../../content/images/pol_home_on.gif) top left repeat-x;}
+	#globalNav .pol_home a span {margin-left:10px;}
+	#globalNav .pol_main a {width:157px;height:24px;display:block;background:url("../../content/images/esp_personal_banking_over_OLD.gif") top left repeat-x;}
+	#globalNav .pol_main a:hover {background:url("../../content/images/esp_personal_banking_over_OLD.gif") top left repeat-x;}
+	#globalNav .pol_contact a {width:81px;height:24px;display:block;background:url(../../content/images/esp_contact.gif) top left repeat-x;}
+	#globalNav .pol_contact a:hover {background:url(/web/20100713013810/https://www.nationalcity.com/content/images/esp_contact_over.gif) top left repeat-x;}
+	#globalNav .pol_english a {width:54px;height:24px;display:block;background:url(/web/20100713013810/https://www.nationalcity.com/content/images/english.gif) top left repeat-x;}
+	#globalNav .pol_english a:hover {background:url(/web/20100713013810/https://www.nationalcity.com/content/images/english_over.gif) top left repeat-x;}
+
+	#globalNav .economics a {width:103px;height:24px;display:block;background:url(/web/20100713013810/https://www.nationalcity.com/content/images/globalNav_econ_over.gif) top left repeat-x;}
+	#globalNav .economics a:hover {background:url(/web/20100713013810/https://www.nationalcity.com/content/images/globalNav_econ_over.gif) top left repeat-x;}
+
+	#globalNav .chicagoland a {width:103px;height:24px;display:block;background:url(/web/20100713013810/https://www.nationalcity.com/content/images/globalNav_econ_over.gif) top left repeat-x;}
+	#globalNav .chicagoland a:hover {background:url(/web/20100713013810/https://www.nationalcity.com/content/images/globalNav_econ_over.gif) top left repeat-x;}
+
+	#globalNav .shareholder a {width:103px;height:24px;display:block;background:url(/web/20100713013810/https://www.nationalcity.com/content/images/globalNav_econ.gif) top left repeat-x;}
+	#globalNav .shareholder a:hover {background:url(/web/20100713013810/https://www.nationalcity.com/content/images/globalNav_econ_over.gif) top left repeat-x;}
+	#globalNav .extraLogin a {width:50px;height:24px;display:block;background:url(/web/20100713013810/https://www.nationalcity.com/content/images/imgLogin800x600.gif) top left repeat-x;}
+	#globalNav .extraLogin a:hover {background:url(/web/20100713013810/https://www.nationalcity.com/content/images/imgLogin800x600OVER.gif) top left repeat-x;}
+
+	#globalNav .extraLogin_bca a {width:50px;height:24px;display:block;background:url(/web/20100713013810/https://www.nationalcity.com/content/images/imgLogin800x600.gif) top left repeat-x;}
+	#globalNav .extraLogin_bca a:hover {background:url(/web/20100713013810/https://www.nationalcity.com/content/images/imgLogin800x600OVER.gif) top left repeat-x;}
+
+	.default#globalNav #extraLogin {display:none;}
+	.default#globalNav #extraLink {display:none;}
+
+	.login#globalNav {left:435px;width:533px;}
+	.login#globalNav .extraLogin {margin-right:11px;}
+	.login#globalNav #extraLogin {display:block;}
+	.login#globalNav #extraLink {display:block;}
+
+	/* Search Nav */
+	#searchNav {position:relative;float:left;top:-10px;left:283px;}
+	.gateway#container #header #searchNav {display:none;}
+	.main#container #header #searchNav {display:none;}
+	.promotions#container #header #searchNav {display:none;}
+	.locator#container #header #searchNav {display:none;}
+	.pointsgateway#container #header #searchNav {display:none;}
+	.specialoffercode#container #header #searchNav {display:none;}
+	.espanol#container #header #searchNav {display:none;}
+	.polish#container #header #searchNav {display:none;}
+	.economics#container #header #searchNav {display:none;}
+	.chicagoland#container #header #searchNav {display:none;}
+	.specialoffers#container #header #searchNav {display:none;}
+	#searchNav .textbox {width:164px;float:left;}
+	#searchNav .textbox input {width:149px;height:14px;}
+	#searchNav .button {float:left;}
+	#searchNav .button a {width:59px;height:20px;display:block;text-align:center;padding-top:1px;margin-top:1px;background:url(../../content/images/imgSearchOFF.gif) top left no-repeat;color:#ffffff;font-size:12px;font-weight:bold;}
+	#searchNav .button a:hover {background:url(../../content/images/imgSearchON.gif) top left no-repeat;}
+	#searchNav .dropdown {float:left;}
+	#searchNav .dropdown a {width:17px;height:19px;display:block;margin-top:1px;background:url(../../content/images/btn_search_arrow.gif) no-repeat top;text-decoration:none;}
+
+	.login#searchNav {left:225px;}
+
+/* Search Nav BCA */
+	#searchNav_BCA {position:relative;float:left;top:-10px;left:283px;}
+	.gateway#container #header #searchNav {display:none;}
+	.main#container #header #searchNav {display:none;}
+	.promotions#container #header #searchNav {display:none;}
+	.locator#container #header #searchNav {display:none;}
+	.pointsgateway#container #header #searchNav {display:none;}
+	.specialoffercode#container #header #searchNav {display:none;}
+	.espanol#container #header #searchNav {display:none;}
+	.polish#container #header #searchNav {display:none;}
+	.economics#container #header #searchNav {display:none;}
+	.chicagoland#container #header #searchNav {display:none;}
+	#searchNav_BCA .textbox {width:164px;float:left;}
+	#searchNav_BCA .textbox input {width:149px;height:14px;}
+	#searchNav_BCA .button {float:left;}
+	#searchNav_BCA .button a {width:59px;height:20px;display:block;text-align:center;padding-top:1px;margin-top:1px;background:url(/web/20100713013810/https://www.nationalcity.com/content/images/search_bca.gif) top left no-repeat;color:#ffffff;font-size:12px;font-weight:bold;}
+	#searchNav_BCA .button a:hover {background:url(/web/20100713013810/https://www.nationalcity.com/content/images/search_bca.gif) top left no-repeat;}
+	#searchNav_BCA .dropdown {float:left;}
+	#searchNav_BCA .dropdown a {width:17px;height:19px;display:block;margin-top:1px;background:url(/web/20100713013810/https://www.nationalcity.com/content/images/btn_search_arrow.gif) no-repeat top;text-decoration:none;}
+	#searchNav_BCA .dropdown a:hover {background:url(/web/20100713013810/https://www.nationalcity.com/content/images/btn_search_arrow_over.gif) no-repeat top;}
+
+	.login#searchNav_BCA {left:225px;}
+	/* Main Template */
+	#main {z-index:3;float:left;position:relative;top:-30px;margin-right:2px;}
+
+	.templateA1#main {width:785px;}
+	.templateA1#main #mainNav {width:780px;}
+	.templateA1#main #outerWrapper {width:785px;background:url(../../content/images/content_back.jpg) repeat-y top;}
+	.templateA1#main #outerWrapper #innerWrapper {width:785px;background:url(../../content/images/content_top.jpg) no-repeat top;}
+	.templateA1#main #outerWrapper #innerWrapper #mainContent {width:785px;z-index:4;background:url(../../content/images/content_bottom.jpg) no-repeat bottom;}
+	.templateA1#main #outerWrapper #innerWrapper #mainContent #contentA1 {width:568px;}
+
+	.templateA2#main {width:785px;}
+	.templateA2#main #mainNav {width:780px;}
+	.templateA2#main #outerWrapper {width:785px;background:url(../../content/images/content_back2.jpg) repeat-y top left;}
+	.templateA2#main #outerWrapper #innerWrapper {width:785px;background:url(../../content/images/content_top2.jpg) no-repeat top left;}
+	.templateA2#main #outerWrapper #innerWrapper #mainContent {width:785px;z-index:4;background:url(../../content/images/content_bottom2.jpg) no-repeat bottom left;}
+	.templateA2#main #outerWrapper #innerWrapper #mainContent #contentA2 {width:734px;}
+
+	/* Breast Cancer Promotion*/
+	.templateA2_Br#main {width:785px;}
+	.templateA2_Br#main #mainNav {width:780px;}
+	.templateA2_Br#main #outerWrapper {width:785px;background:url(images/bcontent_back2.jpg) repeat-y top left;}
+	.templateA2_Br#main #outerWrapper #innerWrapper {width:785px;background:url(../../content/images/bcontent_top2.jpg) no-repeat top left;}
+	.templateA2_Br#main #outerWrapper #innerWrapper #mainContent {width:785px;z-index:4;background:url(../../content/images/bcontent_bottom2.jpg) no-repeat bottom left;}
+	.templateA2_Br#main #outerWrapper #innerWrapper #mainContent #contentA2 {width:734px;}
+	/* End*/
+
+	.templateA3#main {width:785px;}
+	.templateA3#main #mainNav {width:780px;}
+	.templateA3#main #outerWrapper {width:785px;background:url(../../content/images/content_back2.jpg) repeat-y top left;}
+	.templateA3#main #outerWrapper #innerWrapper {width:785px;background:url(../../content/images/content_top2.jpg) no-repeat top left;}
+	.templateA3#main #outerWrapper #innerWrapper #mainContent {width:785px;z-index:4;background:url(../../content/images/content_bottom2.jpg) no-repeat bottom left;}
+	.templateA3#main #outerWrapper #innerWrapper #mainContent #contentA3 {width:785px;}
+
+	.templateA3_BCA#main {width:785px;}
+	.templateA3_BCA#main #mainNav {width:780px;}
+	.templateA3_BCA#main #outerWrapper {width:785px;background:url(../../content/images/content_back2_bca.jpg) repeat-y top left;}
+	.templateA3_BCA#main #outerWrapper #innerWrapper {width:785px;background:url(../../content/images/content_top2_bca.jpg) no-repeat top left;}
+	.templateA3_BCA#main #outerWrapper #innerWrapper #mainContent {width:785px;z-index:4;background:url(../../content/images/content_bottom2_bca.jpg) no-repeat bottom left;}
+	.templateA3_BCA#main #outerWrapper #innerWrapper #mainContent #contentA3 {width:785px;}
+
+	.templateB1#main {width:985px;}
+	.templateB1#main #mainNav {width:980px;}
+	.templateB1#main #outerWrapper {width:985px;background:url(../../content/images/content_back4.jpg) repeat-y top left;}
+	.templateB1#main #outerWrapper #innerWrapper {width:985px;background:url(../../content/images/content_top4.jpg) no-repeat top left;}
+	.templateB1#main #outerWrapper #innerWrapper #mainContent {width:985px;z-index:4;background:url(../../content/images/content_bottom4.jpg) no-repeat bottom left;}
+	.templateB1#main #outerWrapper #innerWrapper #mainContent #contentB1 {width:768px;}
+
+	.templateB2#main {width:985px;}
+	.templateB2#main #mainNav {width:980px;}
+	.templateB2#main #outerWrapper {width:985px;background:url(../../content/images/content_back3.jpg) repeat-y top left;}
+	.templateB2#main #outerWrapper #innerWrapper {width:985px;background:url(../../content/images/content_top3.jpg) no-repeat top left;}
+	.templateB2#main #outerWrapper #innerWrapper #mainContent {width:985px;z-index:4;background:url(../../content/images/content_bottom3.jpg) no-repeat bottom left;}
+	.templateB2#main #outerWrapper #innerWrapper #mainContent #contentB2 {width:934px;}
+	.locator#container .templateB2#main #outerWrapper #innerWrapper {background:url(../../content/images/content_top_locator.jpg) no-repeat top left;}
+	.specialoffercode#container .templateB2#main #outerWrapper #innerWrapper {background:url(../../content/images/content_top_SpecialOfferCode.jpg) no-repeat top left;}
+	.pointsgateway#container .templateB2#main #outerWrapper {width:985px;background:url(../../content/images/spacer.gif) no-repeat;}
+	.pointsgateway#container .templateB2#main #outerWrapper #innerWrapper {background:url(../../content/images/content_top_pointsGateway.jpg) no-repeat top left;}
+	.pointsgateway#container .templateB2#main #outerWrapper #innerWrapper #mainContent {width:985px;z-index:4;background:url(../../content/images/spacer.gif) no-repeat;}
+
+	.templateG1#main {width:985px;}
+	.templateG1#main #mainNav {width:980px;}
+	.templateG1#main #outerWrapper {width:985px;background:url(../../content/images/content_back3.jpg) repeat-y top left;}
+	.templateG1#main #outerWrapper #innerWrapper {width:985px;background:url(../../content/images/content_top3.jpg) no-repeat top left;}
+	.templateG1#main #outerWrapper #innerWrapper #mainContent {width:985px;z-index:4;background:url(../../content/images/content_bottom6.jpg) no-repeat bottom left;}
+	.templateG1#main #outerWrapper #innerWrapper #mainContent #contentG1 {width:934px;min-height:389px;}
+
+	.templateG2#main {width:985px;}
+	.templateG2#main #mainNav {width:980px;}
+	.templateG2#main #outerWrapper {width:985px;background:url(../../content/images/content_back3.jpg) repeat-y top left;}
+	.templateG2#main #outerWrapper #innerWrapper {width:985px;background:url(../../content/images/content_top3.jpg) no-repeat top left;}
+	.templateG2#main #outerWrapper #innerWrapper #mainContent {width:985px;z-index:4;background:url(../../content/images/content_bottom3.jpg) no-repeat bottom left;}
+	.templateG2#main #outerWrapper #innerWrapper #mainContent #contentG1 {width:934px;min-height:389px;}
+
+	/* Resource Center start*/
+	.templateC2#main {width:985px;}
+	.templateC2#main #mainNav {width:980px;}
+	.templateC2#main #outerWrapper {width:985px;background:url(../../content/images/content_back4.jpg) repeat-y top left;}
+	.templateC2#main #outerWrapper #innerWrapper {width:985px;background:url(../../content/images/content_top4.jpg) no-repeat top left;}
+	.templateC2#main #outerWrapper #innerWrapper #mainContent {width:985px;z-index:4;background:url(../../content/images/content_bottom4.jpg) no-repeat bottom left;}
+	.templateC2#main #outerWrapper #innerWrapper #mainContent #contentC2 {width:769px;}
+
+	.templateC1#main {width:985px;}
+	.templateC1#main #mainNav {width:980px;}
+	.templateC1#main #outerWrapper {width:985px;background:url(../../content/images/content_back3.jpg) repeat-y top left;}
+	.templateC1#main #outerWrapper #innerWrapper {width:985px;background:url(../../content/images/content_top3.jpg) no-repeat top left;}
+	.templateC1#main #outerWrapper #innerWrapper #mainContent {width:985px;z-index:4;background:url(../../content/images/content_bottom3.jpg) no-repeat bottom left;}
+	.templateC1#main #outerWrapper #innerWrapper #mainContent #contentC1 {width:915px;}
+
+      /* Resource Center end*/
+
+
+	/* Cause for design */
+	.breastCancer#container .templateB2#main {width:985px;}
+	.breastCancer#container .templateB2#main #outerWrapper {width:985px;}
+	.breastCancer#container .templateB2#main #outerWrapper #innerWrapper {width:985px;}
+	.breastCancer#container .templateB2#main #outerWrapper #innerWrapper .bc_home {width:985px;z-index:4;background:url(/web/20100713013810/https://www.nationalcity.com/images/causefordesign/content_bottom_BC_home.jpg) no-repeat bottom left;min-height:603px;height:603px;}
+	.breastCancer#container .templateB2#main #outerWrapper #innerWrapper .bc_judging {width:985px;z-index:4;background:url(/web/20100713013810/https://www.nationalcity.com/images/causefordesign/content_bottom_BC_judging.jpg) no-repeat bottom left;min-height:611px;height:611px;}
+	.breastCancer#container .templateB2#main #outerWrapper #innerWrapper .bc_prizes {width:985px;z-index:4;background:url(/web/20100713013810/https://www.nationalcity.com/images/causefordesign/content_bottom_BC_prizes.jpg) no-repeat bottom left;min-height:1820px;height:1820px;}
+	.breastCancer#container .templateB2#main #outerWrapper #innerWrapper .bc_register {width:985px;z-index:4;background:url(/web/20100713013810/https://www.nationalcity.com/images/causefordesign/content_bottom_BC_register.jpg) no-repeat bottom left;min-height:710px;height:710px;}
+	.breastCancer#container .templateB2#main #outerWrapper #innerWrapper #mainContent #contentB2 {width:934px;}
+	.breastCancer#container .templateB2#main #outerWrapper #innerWrapper .bc_winners {width:985px;z-index:4;background:url(/web/20100713013810/https://www.nationalcity.com/images/causefordesign/BgWinnersPage.gif) no-repeat bottom center;min-height:600px;height:600px}
+
+
+
+    /* Left Nav */
+    #leftNav {width:140px;float:left;padding:9px 10px 15px 16px;}
+    #leftNav ul li {padding:8px;background:url(../../content/images/leftNavBorder.jpg) no-repeat top left;}
+    #leftNav ul li.first {background:none;}
+    #leftNav ul li a {font-size:12px;}
+    #leftNav ul li span {cursor:default;}
+    #leftNav ul li ul li {margin-left:6px;padding:3px;background:none;}
+    #leftNav ul li ul li a {font-size:11px;}
+    #leftNav ul li span.selected a,
+    #leftNav ul li a.selected {color:#ff6600;}
+    #leftNav ul li.selected ul li a {color:#2d8cbb;}
+
+	/* Content */
+	#contentA1 {float:left;padding:20px;position:relative;left:6px;}
+	#contentA2 {float:left;padding:20px;position:relative;left:6px;}
+	#contentA3 {float:left;padding:20px;position:relative;left:6px;}
+	.swf#contentA3 {height:516px;width:773px;padding:0px;left:5px;}
+	#contentB1 {float:left;padding:20px;position:relative;left:6px;}
+	#contentB2 {float:left;padding:20px;position:relative;left:6px;}
+	.swf#contentB2 {height:579px;width:984px;padding:0px;left:2px;}
+	#contentB3 {float:left;padding:20px;position:relative;left:6px;}
+	.swfpointsnavigator#contentB3 {height:579px;width:984px;padding:0px;left:5px;}
+	#contentG1 {float:left;padding:20px;position:relative;left:6px;}
+
+	#contentC2 {float:left;padding:20px;position:relative;left:6px;}
+	#contentC1 {float:left;padding:19px 30px 30px 20px;position:relative;left:6px;}
+	.swf#contentC1 {height:579px;width:984px;padding:0px;left:2px;}
+
+	/* Promo Area */
+	#promo {width:200px;float:left;position:relative;top:-30px;}
+
+	/* Footer */
+	#footer {width:750px;float:left;font-size:11px;padding:0px 25px;}
+	#footer p {font-size:11px;}
+	#footer .boxed {border:solid 1px #666666;padding:5px;font:11px Arial,Helvetica,sans-serif;COLOR:#666666;line-height:14px;}
+	#footer .boxed {border:solid 1px #666666;padding:5px;font:11px Arial,Helvetica,sans-serif;COLOR:#666666;line-height:14px;}
+	#footer ul {display:inline;}
+	#footer ul li {margin-left:5px;display:inline;}
+	#disclosures {width:934px;float:left;font-size:11px;padding:10px 20px 0px 25px;}
+	#disclosuresP1 {width:572px;float:left;font-size:11px;padding:20px 20px 0px 25px;}
+	#disclosures .boxed {border:solid 1px #666666;padding:5px;font:11px Arial,Helvetica,sans-serif;COLOR:#666666;line-height:14px;}
+	#disclosuresP1 .boxed {border:solid 1px #666666;padding:5px;font:11px Arial,Helvetica,sans-serif;COLOR:#666666;line-height:14px;}
+	.disclosureColumns td {border:solid 1px #666666;border-right:none;font-size:11px;}
+	.disclosureColumns td.last {border:solid 1px #666666;}
+	#container #footer {width:934px;float:left;font-size:11px;padding:0px 25px;}
+
+	/* Popup Header */
+	body.popup {background:none;}
+	body.popup #header {background:#007253 url(../../content/images/popup_header.jpg) no-repeat center;height:63px;width:624px;}
+	body.popup #header h1 {width:161px;height:26px;background:url(../../content/images/popup_logo.jpg) no-repeat top left;top:20px;left:30px;}
+	body.popup #main {padding:26px 28px;top:0px;}
+	body.popup #main h2 {margin-bottom:10px;}
+	body.popup #main p {margin-bottom:15px;}
+	body.popup #main ul {margin-bottom:15px;margin-top:6px;}
+	body.popup #main ul li {font-size:11px;padding-left:10px;background:url(../../content/images/bullet.gif) no-repeat top left;}
+	body.popup #main ul li span {position:relative;top:-6px;}
+	body.popup #main h4 {font-size:13px;}
+	body.popup #header #popupNav .print {position:absolute;top:27px;left:440px;padding-right:15px;background:url(../../content/images/popup_print.gif) no-repeat right;}
+	body.popup #header #popupNav .print a {font-size:9px;color:#ffffff;text-transform:uppercase;position:relative;top:-2px;}
+	body.popup #header #popupNav .close {position:absolute;top:27px;left:510px;padding-right:15px;background:url(../../content/images/popup_close.gif) no-repeat right;}
+	body.popup #header #popupNav .close a {font-size:9px;color:#ffffff;text-transform:uppercase;position:relative;top:-2px;}
+
+	body.popup .productSmall {width:120px;padding-top:10px;}
+
+	/* Popup Table */
+	.popupTable {}
+	.popupTable tr {height:25px;}
+	.popupTable .border {background-color:#d1d1d1;}
+	.popupTable .border img {width:1px;height:1px;display:block;}
+	.popupTable tr.border {height:1px;}
+	.popupTable tr td.border {width:1px;}
+	.popupTable .text {width:130px;padding-left:15px;font-size:11px;}
+	.popupTable .alternate {background:#f5f5f5;}
+	.popupTable .header {height:28px;background:url(../../content/images/popup_back.jpg) repeat-x left;}
+	.popupTable .header .text {font-weight:bold;font-size:10px;text-transform:uppercase;cursor:default;}
+	.popupTable .header .border {background-image:none;background-color:#d1d1d1;}
+	.popupTable .dots {width:1px;background:url(../../content/images/imgVertRule.gif) repeat-y top;}
+	.popupTable .header .dots {width:1px;background:url(../../content/images/headerDots.gif) no-repeat top;}
+	.popupTable .footer {font-size:10px;padding:15px;}
+
+
+/*********************************************************************************************************************
+ *					      																							 *
+ *********************************************************************************************************************/
+
+/*********************************************************************************************************************
+ * Pre Load Images					      																							 *
+ *********************************************************************************************************************/
+	#preLoadGNHome {background:url(../../content/images/home_over.gif);}
+	#preLoadGNPersonal {background:url("../../content/images/personal_banking_over_OLD.gif");}
+	#preLoadGNLocations {background:url(../../content/images/locations_over.gif);}
+	#preLoadGNContact {background:url(../../content/images/contact_over.gif);}
+	#preLoadGNEspanol {background:url(../../content/images/espanol_over.gif);}
+	#preLoadGNNCcom {background:url(../../content/images/globalNav_nationalcity_over.gif);}
+	#preLoadGNLogin {background:url(../../content/images/globalNav_login_over.gif);}
+	#preLoadGNCustomer {background:url(../../content/images/customer_service_over.gif);}
+	#preLoadGNEsp_main {background:url("../../content/images/esp_personal_banking_over_OLD.gif");}
+	#preLoadGNEsp_contact {background:url(../../content/images/esp_contact_over.gif);}
+	#preLoadGNEsp_english {background:url(../../content/images/english_over.gif);}
+	#preLoadGNEconomics {background:url(../../content/images/globalNav_econ_over.gif);}
+	#preLoadGNChicagoland {background:url(../../content/images/globalNav_econ_over.gif);}
+	#preLoadGNExtraLogin {background:url(../../content/images/imgLogin800x600OVER.gif);}
+	#preLoadGNSearch {background:url(../../content/images/imgSearchON.gif);}
+
+/*********************************************************************************************************************
+ *					      																							 *
+ *********************************************************************************************************************/

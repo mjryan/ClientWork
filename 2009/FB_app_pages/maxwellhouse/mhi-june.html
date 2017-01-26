@@ -1,0 +1,470 @@
+<style type="text/css">
+ h3{
+  padding-left:30px;
+  color:#9f8764;
+}
+.popular-links{
+  float:left;
+  padding-left:30px;
+}
+.popular-links a{
+  color:#736553;
+  text-decoration:underline;
+}
+a {outline:none;}
+
+.fb-container {
+  text-align:right;
+  width:510px;
+  background-color:#fff;
+  padding-bottom:20px;
+}
+  
+/* FB overwrite */
+.ui-dialog {
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  top:160px !important;
+  width: 436px !important;
+}
+.ui-widget-content {
+  background-color: transparent;
+  border: none !important;
+  color: #222222;
+}
+.ui-dialog .ui-dialog-titlebar {
+    padding: 0;
+    height:30px;
+    position: relative;
+}
+.ui-widget-header {
+  background:url({% editable_image name:"modal-top" src_only:true %}) no-repeat 0 0 transparent;
+  border: none;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+.ui-dialog .ui-dialog-title {
+    display:none;
+}
+.ui-dialog .ui-dialog-titlebar-close {
+  position: absolute;
+  right: .75em;
+  top: 50%;
+  width: 19px;
+  margin: -10px 0 0 0;
+  padding: 1px;
+  height: 18px;
+}
+.ui-widget-header .ui-icon {
+    background-image: none;
+}
+.ui-state-hover .ui-icon, ui-state-focus .ui-icon {
+  background-image:none;
+}
+.ui-dialog .ui-dialog-content {
+  background: none repeat scroll 0 0 transparent;
+  background:url({% editable_image name:"modal-bkg" src_only:true %}) repeat-y 0 0 transparent;
+  border: 0 none;
+  overflow: auto;
+  padding: 0 30px;
+  position: relative;
+  overflow:hidden;
+  min-height:150px;
+  height:auto !important;
+}
+.ui-dialog .ui-dialog-buttonpane {
+  text-align: right;
+  border: none;
+  background:url({% editable_image name:"modal-btm" src_only:true %}) no-repeat 0 0 transparent;
+  margin: 0;
+  padding: .3em 1.5em 1.5em .4em;
+}
+.ui-dialog .ui-dialog-buttonpane button {
+  display: none;
+}
+  
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+  border: none;
+  background: none;
+  font-weight: normal;
+  color: #000000;
+}
+.sml-contest-form-outer {
+  font-size:12px;
+  color:#9f8764;
+  font-weight:bold;
+}
+/* END: FB overwrite */
+  
+/* START: Form Container */
+  
+.fb-like-wrapper {
+  padding-left:18px;
+  padding-bottom:8px;
+}
+.confirm-container,
+.form-container {
+  width:380px;
+  padding:0;
+  margin:0;
+}
+.confirm-container {
+  text-align:center;
+}
+.confirm-container h2 {
+  font-weight:normal;
+  font-size:18px;
+  margin:0;
+  color:#2074c1;
+}
+.confirm-container p {
+  margin:0;
+  margin:7px;
+}
+.confirm-container .confirm-fb-container{
+  width:365px;
+  height:110px;
+  margin-bottom:8px;
+  margin-left:5px;
+  border:1px solid #cecece;
+
+}
+.confirm-container .confirm-fb-container p {
+  color:#605e5e;  
+}
+#contest-top p,
+.confirm-container p,
+.form-container p {
+  font-size:11px;
+  color:#9f8764;
+  font-weight:normal;
+  padding:0;
+  margin:0 0 8px;
+}
+  
+.entry-form-textarea{
+  background:url({% editable_image name:"textarea-bkg" src_only:true %}) no-repeat 0 0;
+  width:355px;
+  height:103px;
+}
+.entry-form-textarea textarea{
+  background: none repeat scroll 0 0 transparent;
+  border: medium none;
+  font-size:12px;
+  line-height:15px;
+  color: #000;
+  height: 100px;
+  /*overflow: hidden;*/
+  padding-left: 5px;
+  width: 348px;
+}
+.submit-button{
+  padding:15px 0 8px 0;
+}
+/* END: Form Container */
+
+#contest-top {
+  background:url({% editable_image name:"mhi-top-bkg" src_only:true %}) repeat-y 0 0;
+}
+#contest-top img {display:block;}
+#contest-top p {
+  padding:0;
+  margin:0;
+}
+#contest-top .form-link-container {
+  padding-left:30px;
+  padding-bottom:10px;
+}
+#gallery_container {
+  padding:0 0 40px 30px;
+  width:450px;
+}  
+#gallery_container h4, #gallery_container p {
+  padding:0;
+  margin:0;
+  padding-bottom:12px;
+  font-size:11px;
+  line-height:14px;  
+}
+#gallery_container .gallery-item{
+  padding:18px 0px;
+  vertical-align:top;
+  border-bottom:1px dotted #ccc;
+}
+
+#gallery_container .gallery-item div {vertical-align:top;}
+  
+#gallery_container div.big-mug {
+  float:left;
+  width:50px;
+  height:50px;
+  padding-right:12px;
+}
+#gallery_container .gallery-item h4 {
+  font-weight:bold;
+  color:#3b5998;
+}
+#gallery_container .gallery-entry {
+  width:300px;
+  float:left;
+}
+.gallery-entry a {
+  background:url({% editable_image name:"liked-it" src_only:true %}) no-repeat right 0;
+  display: block;
+  float: left;
+  height: 14px;
+  margin-right: 4px;
+  width: 38px;
+}
+.gallery-entry a.share-it {
+  background:none;
+  width:28px;
+  margin:0;
+  padding-right:5px;
+}  
+.paginate-link{
+  float:right;
+  font-family:Tahoma, Geneva, sans-serif;
+}
+.paginate-link a{
+  color:#736553;
+}
+.paginate-current{
+  color:#736553;
+  font-weight:bold;
+}
+.top-page-link{
+  margin-top:55px;
+  right:0;
+}
+.clear {
+  clear:both;
+}
+.bold {
+  font-weight:bold;
+}
+
+.footer{
+  width:486px;
+  height:205px;
+  margin-left:17px;
+  background:url({% editable_image name:"footer-bkg" src_only:true %}) no-repeat 0 0;
+}
+.footer div{
+  padding:45px 0 0 17px;
+}
+.footer p,
+.footer a{
+  font-size:10px;
+  color:#9f8764;
+}
+.footer a{
+  text-decoration:underline;
+}
+a.clicked {
+  font-weight: bold;
+  text-decoration:none;
+}   
+</style>
+
+<script>
+ var myRules = {
+        'submission[mood]': {
+                required: true
+        }
+};
+  
+$(document).ready(function(){
+
+  if($.browser.msie){
+    // usage: log('inside coolFunc', this, arguments);
+    // paulirish.com/2009/log-a-lightweight-wrapper-for-consolelog/
+    window.log = function(){
+      log.history = log.history || [];   // store logs to an array for reference
+      log.history.push(arguments);
+      arguments.callee = arguments.callee.caller;  
+      if(this.console) console.log( Array.prototype.slice.call(arguments) );
+    };
+    // make it safe to use console.log always
+    (function(b){function c(){}for(var d="assert,count,debug,dir,dirxml,error,exception,group,groupCollapsed,groupEnd,info,log,markTimeline,profile,profileEnd,time,timeEnd,trace,warn".split(","),a;a=d.pop();)b[a]=b[a]||c})(window.console=window.console||{});
+  }
+
+  
+$(".popular-links a").click(function(){           //omit .targetLinkList only if you want this to apply to all links on the page
+     $("a.clicked").removeClass("clicked");  // remove previous clicked class
+        $(this).addClass("clicked");                   // set current clicked class
+});
+});
+  
+  
+  
+  
+function share(options) {
+  sml.ui.Facebook.share({
+    message: 'Check out this post, then share your own and get $1 off on Maxwell House International!',
+    user_message_prompt: "What is on your mind?",
+    attachment: {
+      name: 'Share your moments with Maxwell House International ',
+      caption: options.caption,
+      description: options.description,
+      href: '{{ application_url }}',
+     media: [{
+        type: 'image',
+        src: '{% editable_image name:"mh-logo" src_only:true %}',
+        href: '{{ application_url }}'
+      }]
+    },
+    action_links: [{
+      text: 'Share your moments',
+      href: '{{ application_url }}'
+    }],
+    success: function(post_id) {
+      sml.log("Success!");
+    },
+    error: function() {
+      sml.log("Error! ");
+  }
+  });
+}
+</script>
+<!-- FIRST: Facebook Like Button Placement -->
+<div class="fb-container">
+  {% facebook_like layout:button_count width:100px href:'http://www.kraftbrands.com/maxwellhousecoffee/our-brews/international-cafe/Pages/Default.aspx' %}
+</div>
+
+<!-- FORM SUBMISSION -->
+{% partial name: "form" %}
+{% contest_form rules_var: 'myRules' %}
+
+<div class="form-container">
+    <p><b>THIS MONTH'S QUESTION:</b><br />
+     Yoga, reading, shopping, hiding... There are lots of ways to spend some quality alone time. What are some of your favorites?
+   </p>
+    {% if contest.contest_entries | size < 2 %}
+       <p>TELL US: (the first 200 answers receive a $1 off coupon)</p>
+    {% else %}
+    <p>Come back next month for another question and chance at another coupon.</p>
+    {% endif %}
+    <div class="entry-form-textarea">
+      <textarea rows="5" cols="50"name="submission[mood]"></textarea>
+    </div>
+    <div class="submit-button">
+    
+      <input type="submit" value="Submit"/>
+      <!--
+      <a href="#_" onclick=''{{ do_submit }}''><img src='{% editable_image name:"btn-submit" src_only:true %}' alt="Submit" /></a>
+      -->
+    </div>
+    <p>Come back next month for another question and chance at another coupon.</p>
+  </div>
+{% endcontest_form %}
+{% endpartial %}
+
+
+<!-- SUCCESS CONFIRMATION MESSAGE -->
+{% partial name: "confirmation" %}
+<div class="confirm-container">
+  <h2>THANK YOU!</h2>
+
+  {% capture_int total_entries %}
+  {{ contest.contest_entries | size }}
+  {% endcapture_int %}    
+
+  {% if total_entries <= 200 %}
+ <p>Now go enjoy a relaxing moment on us.<br />
+ Come back next month for your chance at another coupon.</p>
+{% else %}
+  <p>We've run out of coupons for this month.<br />
+    Come back next month for your chance at another coupon.</p>
+{% endif %}   
+  <div class="confirm-fb-container">
+      <p>
+        <b>'Like' Maxwell House International</b> to<br />
+        stay up on the latest offers and promotions!
+      </p>
+      {% facebook_like show_faces:true width:280 href:'http://www.kraftbrands.com/maxwellhousecoffee/our-brews/international-cafe/Pages/Default.aspx' %}
+    </div>
+  
+  {% if total_entries <= 200 %}
+  <a href="http://www.kraftbrands.com/maxwellhousecoffee/our-brews/international-cafe/Pages/MHICouponDownload.aspx"><img src='{% editable_image name:"coupon-btn" src_only:true %}' alt="" /></a>
+  {% endif %}
+
+</div>
+{% endpartial %}
+
+
+<!-- ENTRY PAGE -->
+{% contest name:'mhi-june' %}
+<div id="contest-top">
+  <img src='{% editable_image name:"mhi-question-top" src_only:true %}' border="0" />
+  <img src='{% editable_image name:"mhi-question-june" src_only:true %}' border="0" />
+
+  <div class="form-link-container">
+    {% contest_form_link entry_form_partial: "form" success_partial: "confirmation"  %}
+    <img src='{% editable_image name:"tell-us-your-answer" src_only:true %}' border="0" />
+    {% endcontest_form_link %}
+
+    {% capture_int total_entries %}
+    {{ contest.contest_entries | size }}
+    {% endcapture_int %}      
+    {% if total_entries <= 200 %}
+    <p>The first 200 answers receive a $1 off coupon.<br />
+      There's a new question each month.</p>
+    {% else %}
+    <p>Sorry, we're out of this month's coupon. Please<br />
+    give us your answer and check back again for<br />next month's coupon.</p>
+{% endif %} 
+  </div>
+</div>
+
+<!-- AJAX LINKS TO REORDER GALLERY -->
+<div class="popular-links">
+  <img src='{% editable_image name:"hdr-others-said" src_only:true %}' border="0" alt="See what others have said:"><br />
+  {% ajax_link partial: 'gallery' container: 'gallery_container' contest: contest order_by: "created_at DESC" class:'clicked' %}most recent{% endajax_link %} |
+  {% ajax_link partial: 'gallery' container: 'gallery_container' contest: contest order_by: "vote_count DESC" %}most popular{% endajax_link %}
+</div>
+
+{% partial name: "gallery" %}
+<!-- GALLERY PAGINATION -->
+  {% paginate contest.contest_entries per_page: 10 order: order_by previous_label:"<" gap_marker:"..." outer_window:1 inner_window:1 next_label:">" %}
+  <div class="paginate-link top-page-link">{{ pagination_links }}</div>
+  <div class="clear"></div>
+    {% for entry in contest_entries %}
+      <div class="gallery-item">
+        <div class="big-mug"><img src="{{entry.contest_user.big_mug}}" width="50" height="50"></div>
+        <div class="gallery-entry">
+          <h4>{{ entry.contest_user.name }}</h4>
+          <p>{{entry.submission.mood}}</p>
+           <a href="#_" class="share-it" onclick="share({caption:'{{entry.title}}', description: '{{entry.submission.mood}}'}); return false;">Share</a>  {% content_vote entry action_text:Like verb:like this ver_plural:likes this %}
+        </div>
+        <div class="clear"></div>
+    </div>
+    {% endfor %}
+<br />
+  <div class="paginate-link">{{ pagination_links }}</div>
+  {% endpaginate %}
+{% endpartial %}
+ 
+
+<!-- GALLERY CONTAINER RENDERED OUT -->
+<div id="gallery_container">
+  {% render partial: 'gallery' contest: contest order_by: "created_at DESC" %}
+</div>
+
+<!-- FOOTER AREA -->
+<div class="footer">
+  <div>
+  <p>*The first 200 answers receive a coupon. While supplies last. One coupon per household per month. </p>
+  <p><a href="http://www.kraftrecipes.com/about/PrivacyNotice.aspx" target="_blank">Privacy Policy</a><br>
+    ©2011 Kraft Foods, Inc. All Rights Reserved.
+  </p>
+  </div>
+</div>
+
+{% endcontest %}

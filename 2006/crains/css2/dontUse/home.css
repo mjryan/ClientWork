@@ -1,0 +1,341 @@
+@import url("masthead.css");
+
+
+#IndexMainColumn {
+	width: 425px;
+	position: absolute;
+	left: 217px;
+	top: 170px;
+}
+#IndexMainColumn2 {
+	width: 425px;
+	position: absolute;
+	left: 217px;
+	top: 567px;
+}
+#IndexMainColumn3 {
+	width: 425px;
+	position: absolute;
+	left: 217px;
+	top: 647px;
+}
+#IndexBodyColumn {
+	width: 400px;
+	margin: 0px 0px 0px 10px;
+}
+
+
+
+
+
+/* 
+	Begin Global RightNav  Styles 
+	- these styles change the look of all grey buttons in the RightNav -
+*/
+#IndexRightColumn {
+	position: absolute;
+	top: 170px;
+	left: 644px;
+	width: 311px;
+}
+#IndexRightColumn2 {
+	position: absolute;
+	top: 567px;
+	left: 644px;
+	width: 311px;
+}
+#IndexRightColumn3 {
+	position: absolute;
+	top: 647px;
+	left: 644px;
+	width: 311px;
+}
+#IndexRightColumn a, #IndexRightColumn a:link {
+	font-size: 10px;
+	color: #8b2121;
+	font-weight: bold;
+}
+	.RightNav {
+		position: relative;
+		border: 1px solid #D2D2D2;	
+		border-top: 0px none;
+		width: 100%;
+		
+	}
+		.RightNav a, .RightNav a:link {
+			font-size: 10px;
+			color: #8b2121;
+			font-weight: bold;
+		}
+		.RightNav table {
+			border: 2px solid #FFFFFF;
+		}
+		.RightNav .Header .Headline {
+			font-weight: bold;
+			font-size: 12px;
+			color: #8b2121;
+		}
+		.RightNav .Header {
+			background-color: #FFFFFF;
+			font-weight: normal;
+			padding: 7px 7px 10px 7px;
+			font-size: 12px;
+			vertical-align: top;
+		}
+		.RightNav .Header .Headline {
+			padding-bottom: 5px;
+		}
+		.RightNav .Header ul {
+			margin: 16px;
+			padding: 0px;
+		}
+		.RightNav .Header li {
+			margin: 1px;
+			padding: 0px;
+		}
+		.RightNav .Button {
+			background-color: #f4f3e9;
+			padding: 4px 7px 7px 7px;
+			font-size: 10px;
+			border: 2px solid #FFFFFF;
+		}
+		.RightNav .Icon {
+			border: 2px solid #FFFFFF;
+			border-left: 0px;
+		}
+		.RightNav .Button .Headline {
+			font-weight: bold;
+			font-size: 10px;
+			padding-bottom: 3px;
+		}
+		.RightNav .Button .Label {
+			font-weight: bold;
+			font-size: 11px;
+			margin: 10px 0px;
+		}
+		.RightNav .Button .Text {
+			font-size: 10px;
+			margin-bottom: 10px;
+		}
+		.RightNav .ButtonRed a {
+				color: #8B2121;
+		}
+		.Subscription {
+			position: relative;
+			border: 1px solid #D2D2D2;	
+			width: 100%;
+			margin-bottom: 3px;
+		}
+		.Subscription .Button {
+			background-color: #f4f3e9;
+			padding: 1px 7px 1px 7px;
+			font-size: 10px;
+			border: 2px solid #FFFFFF;
+			height: 64px;
+			text-align: center;
+		}
+	/* End Global RightNav Styles */
+/* End RightNav Styles */
+	
+	
+
+/* Begin Advertisement Styles */
+	.IndexRightAd {
+		border: 1px solid #D2D2D2;
+		background-color: #f4f3e9;
+		text-align: center;
+		font-size: 10px;
+		color: #666666;
+		padding: 3px;
+		padding-top: 5px;
+		margin: 20px 0px 10px 0px;
+	}
+	.IndexRightAd img {
+		display: block;
+		padding-top: 5px;
+	}
+/* End Advertisement Styles */
+
+
+/* -------------------------------------------- ADDED: 08/10, by Kam --------------------------------------------- */
+
+
+
+/* BEGIN: Column Headers */
+#LeftColumnHeader {
+	border: 1px solid #d2d2d2;
+	margin-bottom: 2px;
+	padding: 2px;
+}
+	#LeftColumnHeader table {
+		width: 176px;
+		height: 31px;
+	}
+#MainColumnHeader {
+	border: 1px solid #d2d2d2;
+	margin-bottom: 2px;
+	padding: 2px;
+}
+	#MainColumnHeader table {
+		height: 31px;
+	}
+	#MainColumnHeader .Right {
+		background-color: #ecebeb;
+		font-size: 9px;
+		padding: 2px 5px;
+	}
+#RightColumnHeader {
+	border: 1px solid #d2d2d2;
+	margin-bottom: 2px;
+	padding: 2px;
+}
+	#RightColumnHeader table {
+		height: 31px;
+	}
+	#RightColumnHeader .Right {
+		background-color: #ecebeb;
+		font-size: 9px;
+		padding: 2px 5px;
+	}
+/* END: Column Headers */
+
+
+
+
+#FeaturedStory h1 {
+	font-size: 14px;
+	margin: 0px 0px 5px 0px;
+	padding: 0px;
+}
+	#FeaturedStory img {
+		float: left;
+		margin: 0.25em 14px 5px 2px;
+	}
+
+
+/* BEGIN: Crain's List */
+#MainCrainsList {
+	margin-bottom: 20px;
+}
+	#MainCrainsList caption {
+		text-align: left;
+	}
+	#MainCrainsList .Links {
+		padding-left: 10px;
+	}
+	#MainCrainsList h2 {
+		font-weight: bold;
+		font-size: 10px;
+		margin: 0px 0px 1em 0px;
+		padding: 0px;
+	}
+	#MainCrainsList ul {
+		margin: 0px;
+		padding: 0px;
+	}
+	#MainCrainsList li {
+		font-size: 10px;
+		margin: 0.4em 0px 0px 1.3em;
+		padding: 0px;
+	}
+	#MainCrainsList li.Last {
+		list-style-image: none;
+		list-style-type: none;
+		margin: 1.2em 0px 0px 1.2em;
+		padding: 0px;
+	}
+/* END: Crain's List */
+
+
+
+
+#MoreStories {
+	clear: both;
+	margin: 5px 0px 30px 0px;
+	padding: 0px;
+}
+	#MoreStories ul {
+		margin: 0px;
+		padding: 0px;
+	}
+	#MoreStories li {
+		list-style-image: url(/images2/icons/greyArrowSolid.gif);
+		margin: 0.5em 0px 0px 1.3em;
+		padding: 0px;
+	}
+	#MoreStories li.Last {
+		list-style-image: none;
+		list-style-type: none;
+		margin: 0.5em 0px 0px 1.3em;
+		padding: 0px;
+	}
+
+
+#MarketSnapshot {
+	margin-bottom: 15px;
+	border: 1px solid #D2D2D2;
+	padding:1px 2px;
+	border-top: none;
+			
+}
+	#MarketSnapshot td {
+		background-repeat: no-repeat;
+		background-position: 0px;
+		padding: 0px;
+		margin:3px;
+		border-top: 1px solid #FFFFFF;
+		border-bottom: 1px solid #FFFFFF;
+		background-color: #ECEBEB;
+		font-size: 10px;
+		height:21px;
+		text-align:right;
+	}
+	#MarketSnapshot .Down {
+		background-image: url(/images2/icons/arrowDown.gif);
+	}
+	#MarketSnapshot .Up {
+		background-image: url(/images2/icons/arrowUp.gif);
+	}
+	#MarketSnapshot .quotes {
+		text-align:left;
+
+	}
+	
+
+
+
+/* Begin Special Features */
+#MainSpecialFeatures {
+	margin-bottom: 20px;
+}
+	#MainSpecialFeatures caption {
+		text-align: left;
+		margin: 8px 0px 4px 0px;
+	}
+	#MainSpecialFeatures td {
+		font-size: 10px;
+		padding-bottom: 15px;
+	}
+	#MainSpecialFeatures .Summary {
+		font-size: 11px;
+		line-height: 1.3em;
+		padding-left: 11px;
+	}
+	#MainSpecialFeatures h3 {
+		font-weight: bold;
+		font-size: 11px;
+		margin: 0px;
+		padding: 0px;
+	}
+/* ENd Special Features */
+
+
+
+#MostRecentCrainsList, #PrintEdition {
+	margin-bottom: 1px;
+}
+
+#FeaturedStory {
+	font-size: 11px;
+	line-height: 1.3em;
+}

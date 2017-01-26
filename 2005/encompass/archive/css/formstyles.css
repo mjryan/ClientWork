@@ -1,0 +1,19 @@
+/* CSS Document */
+form {
+padding:0;
+margin:0;
+}
+	
+form input, textarea {
+border:1px solid #999;
+width:400px;
+}
+		
+.btn {
+padding:5px 19px;
+width:auto;
+background-color:#FE5400;
+color:#fff;
+font-size:11px;
+border:1px solid #FE5400;
+}

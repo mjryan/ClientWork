@@ -1,0 +1,978 @@
+/* Begin: General Styles */
+
+body {
+	padding: 0px;
+	margin: 0px;
+	background-color: #FFFFFF;
+}
+body, td, p, div {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+a, a:link, a:active, a:visited {
+	color: #274396;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: underline
+}
+
+form {
+	margin: 0px;
+	padding: 0px;
+}
+input, select {
+	font-size: 11px;
+}
+h1 {
+	color: #274396;
+	font-size: 16px;
+}
+h3, .h3 {
+	font-size:14px;
+        font-weight: bold;
+}
+h4, .h4 {
+	font-size:12px;
+	font-weight:bold;
+}
+.Small, .Small a, .small, .small a {
+	font-size: 9px;
+}
+.smaller {
+	font-size: 11px;
+	line-height:13px;
+}
+.Input {
+	width: 112px;
+}
+.Select {
+	width: 117px;
+}
+.Grey {
+	color: #d2d2d2;
+}
+
+
+	/* Begin Dividers */
+	.DottedDivider {
+		font-size: 1px;
+		height: 1px;
+		overflow: hidden;
+		background-image:url(/images2/global/dottedDivider.gif);
+		background-repeat: repeat-x;
+		margin: 2px 0px;
+		clear: both;
+	}
+	.DividerBlue {
+		font-size: 1px;
+		height: 4px;
+		overflow: hidden;
+		background-color: #274396;
+		margin-bottom: 2px;
+	}
+	.DividerRed {
+		font-size: 1px;
+		height: 4px;
+		overflow: hidden;
+		background-color: #8B2121;
+		margin-bottom: 0px;
+		clear: both;
+	}
+	.DividerAqua {
+		font-size: 1px;
+		height: 4px;
+		overflow: hidden;
+		background-color: #77A5B4;
+		margin-bottom: 0px;
+	}
+	.DividerYellow {
+		font-size: 1px;
+		height: 4px;
+		overflow: hidden;
+		background-color: #CBBE70;
+		margin-bottom: 0px;
+	}
+	.DividerGrey {
+		font-size: 1px;
+		height: 1px;
+		overflow: hidden;
+		background-color: #D2D2D2;
+	}
+	
+	.DividerWhite {
+			font-size: 1px;
+			height: 1px;
+			overflow: hidden;
+			margin: 0px;
+			padding: 0px;
+			background-color: #FFFFFF;
+		}
+	/* End Dividers */
+
+	/* Begin Section Headers */
+	.SectionHeaderLeft {
+		border: 1px solid #D2D2D2;
+		width: 180px;
+		height: 35px;
+		overflow: hidden;
+		margin-bottom: 2px;
+	}
+	.SectionHeaderMiddle {
+		border: 1px solid #D2D2D2;
+		width: 423px;
+		height: 35px;
+		overflow: hidden;
+		margin-bottom: 2px;
+	}
+	
+	.SectionHeaderRight {
+		border: 1px solid #D2D2D2;
+		width: 307px;
+		height: 35px;
+		overflow: hidden;
+		margin-bottom: 2px;
+	}
+	.GreyHeader {
+		background-color: #ECEBEB;
+		float: right;
+		height: 35px;
+		width: 123px;
+		font-size: 9px;
+		border: 2px solid #FFFFFF;
+	}
+	.GreyHeader td {
+		font-size: 9px;
+		padding: 3px;
+	}
+	/* End Section Headers */
+
+	/* Begin General Story Styles */
+	.Arrow {
+		width: 6px;
+	}
+	.Story {
+		clear: both;
+		line-height: 1.3em;
+	}
+	.Story h1 a {
+		text-decoration: underline;
+	}
+
+        .ImgInsert
+        {
+                float: right;
+                padding-right:0px;
+                margin-left:10px;
+                padding-bottom: 4px;
+        }
+
+        .LeftImgInsert
+        {
+                float: left;
+                padding-left:0px;
+                margin-right:10px;
+                padding-bottom: 4px;
+        }
+
+        .StoryInsert {
+                float: left;
+                margin-top: 10px;
+                padding-right: 10px;
+                padding-bottom: 4px;
+                width: 325px;
+        }
+
+	.More {
+		margin-top: 10px;
+		margin-bottom: 4px;
+		margin-left: 10px;
+	}
+	.More a, .More a:link, a.More {
+		font-weight: bold;
+		font-size: 10px;
+	}
+	.MoreRight {
+		margin-top: 10px;
+		margin-bottom: 4px;
+		margin-right: 10px;
+		text-align: right;
+	}
+	.MoreRight a, .MoreRight a:link, a.MoreRight {
+		font-weight: bold;
+		font-size: 10px;
+	}
+	
+	/* End General Story Styles */
+
+/* End: General Styles */
+
+
+
+
+/* Begin Masthead */
+
+#Masthead {
+	width: 921px;
+	position: absolute; 
+	top: 16px;
+	left: 33px;
+	font-size: 10px;
+}
+
+	/* Begin Masthead Left Box */
+	#MastheadBoxLeft {
+		position: relative;
+		border: 1px solid #D2D2D2;
+		height: 94px;
+		width: 180px;
+
+	}
+	#MastheadBoxLeftTop {
+		height: 46px;
+	}
+	#MastheadBoxLeftTop .Text {
+		padding-top: 5px;
+		padding-left: 10px;
+		font-size: 9px;
+	}
+	#MastheadBoxLeftMiddle {
+		position: relative;
+		border-top: 1px solid #d2d2d2;
+	}
+		#MastheadBoxLeftMiddle a {
+			text-decoration: none;
+		}
+		#MastheadBoxLeftMiddle .Button {
+			background-color: #ECEBEB;
+			height: 17px;
+			font-weight: bold;
+			padding: 0px 8px 1px 8px;
+			border: 2px solid #FFFFFF;
+			border-right: 0px none;
+			font-size: 10px;
+		}
+		#MastheadBoxLeftMiddle .Icon {
+			background-color: #ECEBEB;
+			width: 22px;
+			padding: 1px 2px 0px 2px;
+			margin: 0px;
+			text-align: center;
+			border: 2px solid #FFFFFF;
+			border-left: 0px none;
+			font-size: 10px;
+		
+		}
+
+	#MastheadBoxLeftBottom {
+		position: relative;
+		height: 16px;
+		width: 166px;
+		padding: 6px 8px;
+	}
+
+	#MastheadBoxLeftBottom a {
+		font-weight: bold;
+		text-decoration: underline;
+		margin: 0px;
+		padding: 0px 3px;
+		font-size: 10px;
+	}
+	/* End Masthead Left Box */
+	
+	/* Begin Masthead Right Box */
+
+	#MastheadBoxRight {
+		position: absolute;
+		top: 0px;
+		left: 184px;
+		
+	}
+	#MastheadBoxFarRight {
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		border: 1px solid #D2D2D2;
+		width: 308px;
+		padding: 0px;
+		height: 94px;
+	}
+	#MastheadBoxFarRight table {
+		border: 1px solid #FFFFFF;
+	}
+	#MastheadBoxFarRight td {
+		border: 1px solid #FFFFFF;
+		border-collapse: collapse;
+	}
+	#MastheadBoxFarRight .Button {
+		background-color: #ECEBEB;
+		border: 1px solid #FFFFFF;
+		border-collapse: collapse;
+		font-size: 9px;
+		height: 30px;
+		padding: 0px 5px;
+	}	
+/*
+		#MastheadAd {
+			border: 1px solid #D2D2D2;
+			width: 735px;
+			padding: 0px;
+			height: 94px;
+			
+		}
+		#MastheadAd img {
+			border: 2px solid #FFFFFF;
+		}
+*/		
+		#MastheadBoxIndexLogo {
+			border: 1px solid #D2D2D2;
+			width: 423px;
+			padding: 0px;
+			height: 94px;
+			text-align: center;
+		}
+		#MastheadBoxIndexLogo .Date {
+			padding: 10px 5px;
+			font-size: 10px;
+			text-align: center;
+		}
+		#MastheadBoxRightBreadcrumbs {
+			position: relative;
+			font-size: 9px;
+			padding: 3px 7px 4px 7px;
+		}
+		#MastheadBoxRightBreadcrumbs a {
+			text-decoration: underline;
+		}
+	/* End Right Box */
+
+	
+/* End: Masthead */
+
+/* Begin: LeftColumn  */
+
+#LeftColumn {
+	position: absolute;
+	top: 138px;
+	left: 33px;
+	width: 182px;
+	padding-bottom: 20px;
+}
+#LeftColumn a {
+			text-decoration: none;
+		}
+
+	/* Begin Global LeftNav  Styles 
+		- these styles change the look of all grey buttons in the leftnav -
+	*/
+
+	.LeftNav {
+		position: relative;
+		border: 1px solid #D2D2D2;	
+		border-top: 0px none;
+		width: 180px;
+		
+	}
+		.LeftNav a{
+			display: block;
+			width: 100%;
+			font-size: 10px;
+		}
+		.LeftNav table {
+			border: 2px solid #FFFFFF;
+		}
+		.LeftNav .Header {
+			background-color: #B5CBDF;
+			height: 20px;
+			font-weight: bold;
+			padding: 1px 7px 1px 7px;
+			font-size: 10px;
+		}
+		.LeftNav .Button, .LeftNav .ButtonRed {
+			background-color: #ECEBEB;
+			height: 20px;
+			padding: 1px 7px 1px 7px;
+		}
+		.LeftNav .ButtonRed a {
+			color: #8B2121;
+		}
+		.LeftNav .Selected {
+			background-color: #B5CBE0;
+		}
+		.LeftNav .Selected a{
+			color: black;
+		}
+		.LeftNav #RSS, .LeftNav #RSS table, .LeftNav #RSS tr, .LeftNav #RSS td {
+			margin: 0px; padding: 0px; border: 0px;
+		}
+		.LeftNav #RSS tr {
+			vertical-align: middle;
+		}
+		.LeftNav #RSS a {
+			color: #274396;
+			font-size: 10px; font-weight: bold; 
+		}
+	/* End Global Leftnav Styles */
+
+	/* Begin TopLeftNav Styles */
+	
+		#TopLeftNav a {
+			font-weight: bold;
+		}
+	/* End Top Left Nav Styles */
+	
+	/* Begin LeftColumn Form Boxes Styles */
+
+	.LeftColumnForm {
+		position: relative;
+		border: 1px solid #D2D2D2;	
+		border-top: 0px none;
+		height: 65px;
+		width: 180px;
+		
+		
+	}
+		.LeftColumnForm a {
+			font-weight: bold;
+			font-size: 10px;
+		}
+		.LeftColumnForm table {
+			border: 2px solid #FFFFFF;
+			background-color: #ECEBEB;
+			height: 65px;
+			
+		}
+		.LeftColumnForm th {
+			text-align: left;
+			padding: 0px 7px; 
+			font-size: 10px;
+		}
+		.LeftColumnForm td {
+			text-align: left;
+			padding: 0px 7px; 
+			font-size: 10px;
+		}
+	
+	/* End LeftColumn Form Boxes Styles */
+	
+	/* Start LeftAd Styles */
+		.LeftAd {
+			border: 1px solid #D2D2D2;
+			border-top: none;
+			width: 180px;
+			margin-bottom: 18px;
+		}
+		.LeftAd img {
+			border: 2px solid #FFFFFF;
+		}
+	/* End LeftAd Styles */
+	
+	
+	/* Begin Left Column Calendar Styles */
+		#EventCalendar {
+			border: 1px solid #FFFFFF;
+			width: 149px;
+			margin: 6px 0px 12px 0px;
+			border-collapse: collapse;
+		}
+		#EventCalendar table {
+			border: 1px solid #D2D2D2;
+			width: 149px;
+			border-collapse: collapse;
+		}
+		#EventCalendar td, #EventCalendar th {
+			border: 1px solid #D2D2D2;
+			text-align: center;
+			padding: 1px 1px 2px 1px;
+			width: 17px;
+			background-color:  #f1f1f1;
+			font-size: 10px;
+		}
+		#EventCalendar a {
+			color: #666666;		
+			text-decoration: underline;
+			font-weight: bold;
+		}
+		#EventCalendar .Current {
+			color: #ECEBEB;
+			background-color: #666666;
+		}
+		#EventCalendar .Current a {
+			color: #ECEBEB;
+		}
+	/* End Left Column  Calendar Styles */
+	
+/* End LeftNav Styles */
+
+
+
+
+
+/* Begin Inside Main Column Styles */
+
+#InsideMainColumn {
+	background-image: url(../images2/story/columnheader.bottom.gif); 
+	background-position: top; 
+	background-repeat: repeat-x;
+	position: absolute;
+	top: 138px;
+	left: 218px;
+	width: 736px;
+	padding-top: 7px; 
+}
+
+#InsideMainColumn .DividerBlue, #InsideMainColumn .DividerGrey{
+	display: none; 
+}
+
+
+
+	/* Begin Body Column Styles */
+	#InsideBodyColumn {
+		position: relative;
+		margin-top: 0px;
+		margin-left: 10px;
+		width: 530px;
+		padding-bottom: 20px;
+	}
+	#InsideBodyColumnHeader {
+		padding-top: 3px;
+	}
+	
+	#InsideBodyColumnHeader .Date {
+		font-size: 10px;
+		font-weight: bold;
+	}
+	#InsideBodyColumnHeader .Byline {
+		font-size: 10px;
+		font-weight: bold;
+		color: #666666;
+	}
+	#InsideBodyColumnHeader .Byline a {
+		font-size: 11px;
+		font-weight: bold;
+	}
+	
+	#Source {
+		background-color: #ECEBEB;
+		border: 0px none;
+		margin-bottom: 18px;
+		border-collapse: collapse;
+		float: right;
+		width: 235px;
+	}
+	#Source th {
+		border: 1px solid #FFFFFF;
+		border-top: 0px;
+		font-size: 9px;
+		color: #666666;
+		text-align: left;
+		font-weight: normal;
+		padding: 2px 5px;
+	}
+	#Source td {
+		border: 1px solid #FFFFFF;
+		border-top: 0px;
+		font-size: 9px;
+		color: #666666;
+	}
+/*
+	#StoryToolbar {
+		padding: 0px;
+		margin: 0px 0px 2px 0px;
+	}
+	#StoryToolbar .Arrow {
+		padding-right: 2px;
+		vertical-align: middle;
+		padding-top: 3px;
+	}	
+	
+	#StoryToolbar .Link {
+		font-weight: bold;
+		font-size: 10px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}	
+	
+	#StoryToolbar .Separator {
+		padding-left: 2px;
+		padding-right: 2px;
+		font-size: 10px;
+		color: #666666;
+	}	
+*/
+	#MiddleAdditionalResources {
+		width: 190px;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	#MiddleAdditionalResources table {
+		border-collapse: collapse;
+		font-weight: normal;
+	}
+	.MiddleAdditionalSourcesRelated {
+		margin-bottom: 7px;
+	}
+	.MiddleAdditionalSourcesRelated th {
+		text-align: left; 
+		font-weight: bold;
+		font-size: 10px;
+	}
+	.MiddleAdditionalSourcesRelated td {
+		font-weight: normal;
+		font-size: 10px;
+	}
+	
+	
+	#MiddleOtherHeadlines {
+		font-size: 12px;
+		font-weight: bold;
+	}
+	#MiddleOtherHeadlines table {
+		border-collapse: collapse;
+		font-weight: normal;
+	}
+	.MiddleOtherHeadlinesRelated {
+		margin-bottom: 7px;
+	}
+	.MiddleOtherHeadlinesRelated th {
+		text-align: left; 
+		font-weight: bold;
+		font-size: 10px;
+	}
+	.MiddleOtherHeadlinesRelated td {
+		font-weight: normal;
+		font-size: 10px;
+	}
+	
+	
+	#TopStories {
+		font-size: 12px;
+		font-weight: bold;
+		margin-bottom: 7px;
+	}
+	#TopStories table {
+		border-collapse: collapse;
+		font-weight: normal;
+	}
+	#TopStories th {
+		text-align: left; 
+		font-weight: bold;
+		font-size: 12px;
+	}
+	#TopStories td {
+		font-weight: bold;
+		font-size: 11px;
+		width: 25%;
+		padding: 2px 5px;
+	}
+	
+	#StoryNavigation {
+		font-size: 12px;
+		font-weight: bold;
+		margin-bottom: 7px;
+	}
+	#StoryNavigation table {
+		border-collapse: collapse;
+		font-weight: normal;
+	}
+	#StoryNavigation td {
+		font-weight: bold;
+		font-size: 12px;
+		text-align: center;
+		padding: 2px;
+	}
+	#StoryNavigation .Arrow{
+		width: 18px;
+		padding: 0px;
+	}
+	
+	#Footer {
+		font-size: 10px;
+		margin-top: 20px;
+	}
+	#Footer a {
+		font-size: 10px;
+		padding: 0px 4px 0px 0px;
+	}
+	
+	/* End Body Column Styles */
+	
+	/* Begin Right Column Styles */
+	#InsideRightColumn {
+		position: absolute;
+		top: 7px;
+		right: 0px;
+		width: 182px;
+	}
+	/* Sorted in order of appearance */
+	#ReadThisWeeks {
+		background-color: #ECEBEB;
+		border: 0px none;
+		margin-bottom: 18px;
+	}
+	#ReadThisWeeks img {
+		margin-top: 15px;
+	}
+	
+	#ArticleToolbox {
+		font-size: 10px;
+		margin-bottom: 18px;
+	}
+	#ArticleToolbox th {
+		text-align: left; 
+		font-weight: bold;
+		font-size: 11px;
+	}
+	#ArticleToolbox td {
+		font-weight: bold;
+		font-size: 10px;
+	}
+	
+	
+	#RelatedToArticle {
+		font-size: 10px;
+		margin-bottom: 18px;
+	}
+	#RelatedToArticle th {
+		text-align: left; 
+		font-weight: bold;
+		font-size: 11px;
+	}
+	#RelatedToArticle td {
+		font-weight: bold;
+		font-size: 10px;
+	}
+	
+	#TodaysOtherHeadlines {
+		font-size: 10px;
+		margin-bottom: 28px;
+	}
+	#TodaysOtherHeadlines th {
+		text-align: left; 
+		font-weight: bold;
+		font-size: 11px;
+	}
+	#TodaysOtherHeadlines td {
+		font-weight: bold;
+		font-size: 10px;
+	}
+	/* End Right Column Styles */
+	
+	/* Begin Advertisement Styles */
+		.MiddleAd {
+			border: 1px solid #D2D2D2;
+			background-color: #ECEBEB;
+			text-align: center;
+			font-size: 10px;
+			color: #666666;
+			padding: 10px;
+			padding-top: 5px;
+			float: left;
+			clear: both;
+			margin: 0px 0px 10px 0px;
+		}
+		.MiddleAd .MiddleAdCore {
+			display: block;
+			padding-top: 5px;
+		}
+		.RightAd1 {
+			border: 1px solid #D2D2D2;
+			width: 180px;
+			margin-bottom: 18px;
+			text-align: center;
+		}
+		.RightAd1 img {
+			border: 2px solid #FFFFFF;
+		}
+		.RightAd2 {
+			border: 1px solid #D2D2D2;
+			background-color: #ECEBEB;
+			width: 160px;
+			margin-bottom: 18px;
+			text-align: center;
+			font-size: 10px;
+			color: #666666;
+			padding: 10px;
+			padding-top: 5px;
+		}
+		.RightAd2 .RightAd2Core img {
+			display: block;
+			padding-top: 5px;
+		}
+	/* End Advertisement Styles */
+
+
+/* Begin Old Style Redefinitions */
+
+
+.rightNav, .rightNav p, .rightNav div, .rightNav a, .rightNav p a {
+        font-size:11px;
+}
+
+
+.brTitle {
+        font-size:14px;
+}
+a.brTitle, a.brTitle:link, a.brTitle:visited {
+        font-size:14px;
+}
+
+a.underline, a.underline:link, a.underline:visited, a.underline:hover {
+        text-decoration: underline;
+}
+
+.featureHeadline {
+        font-size:16px;
+}
+
+
+.inserttitle {
+        font-weight: bold;
+        font-size: 14px;
+        color: #b70608;
+        line-height: 18px;
+        text-transform: uppercase;
+        padding-bottom: 8px;
+}
+
+.smallishHeadline {
+
+        font-size: 13px;
+        font-weight: bold;
+        color: #B70608;
+        font-family:  Arial, Helvetica, sans-serif;
+}
+
+.TH3Small {
+        font-size: 11px;
+        background-color: #F4F3E9;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif
+}
+
+
+.TH1, .accountTH1 {
+        background-color: #666666;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: bold;
+}
+.TH2, .accountTH2 {
+        background-color: #999999;
+        font-size: 11px;
+        font-weight: bold;
+}
+.TH3 {
+         font-size: 11px;
+         background-color: #b9bbad;
+         font-weight: bold;
+}
+.TD1, .accountTD1 {
+        background-color: #ecebeb;
+        color: #000000;
+        font-size: 11px;
+}
+.TD2, .accountTD2 {
+        background-color: ##D6D6D6;
+        color: #000000;
+        font-size: 11px;
+}
+.TD3 {
+        font-size: 11px;
+        background-color: #cccccc;
+}
+
+.TText1 {
+        font-size: 12px;
+        color: #ffffff;
+        background-color: #666666;
+}
+.TText2 {
+         font-size: 12px;
+         color: #ffffff;
+         background-color: #777777;
+}
+.TText3 {
+        font-size: 12px;
+        color: #000000;
+}
+
+.todaysheadline {
+        font-weight: bold;
+        font-size: 15px;
+        color: #b70608;
+        line-height: 18px;
+}
+
+.date {
+        font-size:10px;
+}
+
+ .subport {
+		font-size: 14px;
+		font-weight: bold;
+		color: #000000;
+		margin-top: 24px
+}
+/* End Old Style Redefinitions */
+
+
+
+/* START: Clippings */
+a.AddToClippingLinkOld {
+	background-image: url(/images/icons/bluearrow.gif); 
+	background-position: right;
+	background-repeat: no-repeat;
+	padding-right: 20px; 
+}
+a.AddToClippingLink {
+	background-position: right;
+	background-repeat: no-repeat;
+}
+#MyClippingsForm {
+	display: none;
+}
+#MyClippingsContainer {
+	z-index: 9999;
+}
+#ClippingsArea td {
+	background-color: transparent;
+}
+#ClippingsMenu {
+	background-color: #ecebeb;
+	border-left: 1px solid #dddddd;
+	border-right: 1px solid #bbbbbb;
+	border-bottom: 1px solid #666666;
+	position: absolute;
+	top: 112px;
+	left: 33px;
+	width: 225px;
+	z-index: 99999;
+}
+#ClippingsMenu *{
+	font-size: 11px;
+	text-decoration: none;
+}
+#ClippingsArea, #ClippingsTools {
+	padding: 7px;
+}
+#ClippingsArea {
+	border-top: 1px solid #999999;
+	background-image: url(/images2/global/clippingsArea.bg.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+#ClippingsTools {
+	border-top: 1px solid #999999;
+	background-image: url(/images2/global/clippingsTools.bg.gif);
+	background-repeat: repeat-x;
+}
+.HasSelections {
+	display: none;
+}
+.HasNoSelection {
+	display: block;
+}
+/* END: Clippings */

@@ -1,0 +1,294 @@
+/* CSS Document */
+body {
+	font-family: verdana, arial, helvetica, serif;
+	font-size: 12px;
+	background-color: #fff;
+	padding: 0;
+	margin: 0;
+}
+
+td {
+	vertical-align:top;
+	}
+
+#topcontainer {
+	width: 761px;
+	padding: 0;
+	border: 1px solid #000;
+	margin: auto;
+	voice-family: "\"}\""; 
+	voice-family:inherit;
+	width: 756px;
+}
+
+html>body #topcontainer {
+	width: 756px;
+} 
+
+#footer {
+	width: 761px;
+	padding: 16px 0px;
+	margin: auto;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	voice-family: "\"}\""; 
+	voice-family:inherit;
+	width: 756px;
+}
+
+html>body #footer {
+	width: 756px;
+} 
+
+
+#footer a {
+	text-decoration: none;
+}
+
+#footer a:link {
+	color: #000;
+}
+
+#footer a:visited {
+	color: #000;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+}
+
+#footer a:active {
+	color: red;
+}
+
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#nav a {
+	font-weight: bold;
+	color: green;
+}
+
+#nav a {
+	text-decoration: none;
+}
+
+#nav li li a {
+	display: block;
+	font-weight: normal;
+	font-size:10px;
+	padding: 2px 0px;
+	text-align:center;
+	color: #000;
+}
+
+#nav li li a:hover {
+	background-color: #80CED9;
+	border-width: 0 5px;
+	padding: 2px 0px;
+	text-align:center;
+}
+
+
+/*----------- Home Dropdown ------------*/
+li#home {
+	float: left;
+	width: 94px;
+	position: relative;
+	text-align: center;
+	cursor: default;
+	background-color: #2BACC1;
+	border: 1px solid #000;
+}
+#home li a {width:94px;}
+#home li a:hover {width:94px;}
+ul li#home ul {width:94px;}
+/*----------- Home Dropdown ------------*/
+
+/*----------- About Us Dropdown ------------*/
+li#about {
+	float: left;
+	width: 109px;
+	position: relative;
+	text-align: center;
+	cursor: default;
+	background-color: #2BACC1;
+	border: 1px solid #000;
+}
+#about li a {width:109px;}
+#about li a:hover {width:109px;}
+ul li#about ul {width:109px;}
+/*----------- About Us Dropdown ------------*/
+
+/*----------- Programs Dropdown ------------*/
+li#programs {
+	float: left;
+	width: 118px;
+	position: relative;
+	text-align: center;
+	cursor: default;
+	background-color: #2BACC1;
+	border: 1px solid #000;
+}
+#programs li a {width:118px;}
+#programs li a:hover {width:118px;}
+ul li#programs ul {width:118px;}
+/*----------- Programs Dropdown ------------*/
+
+/*----------- Get Involved Dropdown ------------*/
+li#getinvolved {
+	float: left;
+	width: 124px;
+	position: relative;
+	text-align: center;
+	cursor: default;
+	background-color: #2BACC1;
+	border: 1px solid #000;
+}
+#getinvolved li a {width:124px;}
+#getinvolved li a:hover {width:124px;}
+ul li#getinvolved ul {width:124px;}
+/*----------- Get Involved Dropdown ------------*/
+
+/*----------- News Dropdown ------------*/
+li#news {
+	float: left;
+	width: 104px;
+	position: relative;
+	text-align: center;
+	cursor: default;
+	background-color: #2BACC1;
+	border: 1px solid #000;
+}
+#news li a {width:104px;}
+#news li a:hover {width:104px;}
+ul li#news ul {width:104px;}
+/*----------- News Dropdown ------------*/
+
+/*----------- Contact Dropdown ------------*/
+li#contact {
+	float: left;
+	width: 99px;
+	position: relative;
+	text-align: center;
+	cursor: default;
+	background-color: #2BACC1;
+	border: 1px solid #000;
+}
+#contact li a {width:99px;}
+#contact li a:hover {width:99px;}
+ul li#contact ul {width:99px;}
+/*----------- Contact Dropdown ------------*/
+
+/*----------- Donate Dropdown ------------*/
+li#donate {
+	float: left;
+	width: 94px;
+	position: relative;
+	text-align: center;
+	cursor: default;
+	background-color: #2BACC1;
+	border: 1px solid #000;
+}
+#donate li a {width:94px;}
+#donate li a:hover {width:94px;}
+ul li#donate ul {width:94px;}
+/*----------- Donate Dropdown ------------*/
+
+li ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	font-weight: normal;
+	border: 1px solid #000;
+}
+
+li>ul {
+	top: auto;
+	left: auto;
+}
+
+li li {
+	display: block;
+	float: none;
+	background-color: #2BACC1;
+	border: 0;
+}
+
+li:hover ul, li.over ul {
+	display: block;
+	background-color: #2BACC1;
+	
+}
+
+/*Opacity Effect works on IE 5.5+ and Mozilla Browsers*/
+.opacityit img{
+filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+-moz-opacity: 1;
+}
+
+.opacityit:hover img{
+filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+-moz-opacity: 0.7;
+}
+
+#secondarynav {
+	padding:0;
+	margin:0;
+	table-layout:fixed; 
+	width:756px;
+}
+
+#secondarynav td {
+	border:1px solid #000;
+}
+
+#bodycontainer {
+	width:761px;
+	padding-top:36px;
+	margin: auto;
+	voice-family: "\"}\""; 
+	voice-family:inherit;
+	width: 756px;
+}
+
+html>body #bodycontainer {
+	width: 756px;
+} 
+
+#bodycontainer p {
+	padding-bottom:25px;
+	margin:0px;
+}
+
+#bodycontainer p img {
+	display:block;
+	padding-bottom:11px;
+	margin:0px;
+}
+
+/*------- Styles for the Rates Table -----*/
+#ratestable {
+	table-layout:fixed;
+	padding-bottom:20px;
+	width:auto;
+}
+
+#ratestable thead th {
+	font-weight:normal;
+	color:#f60;
+	padding:0px 20px 5px 5px;
+	text-align:left;
+	border-bottom:2px solid #666;
+}
+
+#ratestable tbody td {
+	padding:10px 20px 10px 5px;
+	border-bottom:2px solid #666;
+}

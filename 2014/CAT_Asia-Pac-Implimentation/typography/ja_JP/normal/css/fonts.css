@@ -1,0 +1,753 @@
+/*********************************************** CAT.COM Fonts ************************************************/
+/**************************************************************************************************************/
+/*
+***** Directory Listing *****
+	01. English 		 (en-us default)
+	02. Japanese		 (ja)
+	03. Russian			 (ru)
+	04. Chinese			 (zh)
+	05. Polish			 (pl)
+	06. Arabic			 (ar)
+	
+	08. Korean      	 (ko)
+	09. Bahasa Indonesia (in)
+
+* Note *
+The English set of fonts also support of the following languages:
+Spanish, Portuguese, French, Dutch, Czech, Hungarian, Italian, German, Polish
+*/
+/**************************************************************************************************************/
+/* 01. Font Language - English (default) */
+@font-face {
+  font-family: "UniversLTW01-57Condense 723818";
+  src: url("../fonts/6fc47523-fa84-47de-b974-533db32eacd8.eot?#iefix");
+  src: url("../fonts/6fc47523-fa84-47de-b974-533db32eacd8.eot?#iefix") format("eot"), url("../fonts/34e6ea2e-62b2-49c9-b5e6-128fddfd9f6c.woff") format("woff"), url("../fonts/01a871ba-586f-4d5e-8924-d4ec3b44f723.ttf") format("truetype"), url("../fonts/5ebb44ef-5450-4b20-9612-66b2a127178b.svg#5ebb44ef-5450-4b20-9612-66b2a127178b") format("svg");
+}
+@font-face {
+  font-family: "UniversLTW01-57Condense 723821";
+  src: url("../fonts/aefefc4e-9cb8-4e8e-8599-dda705456734.eot?#iefix");
+  src: url("../fonts/aefefc4e-9cb8-4e8e-8599-dda705456734.eot?#iefix") format("eot"), url("../fonts/1eaf27c0-f4de-4273-9f4c-1b3236ad2f3c.woff") format("woff"), url("../fonts/9b913baf-b1f0-47d2-8c76-42f59650058f.ttf") format("truetype"), url("../fonts/0abcce12-2274-4ee7-b6d5-0066b5f5f670.svg#0abcce12-2274-4ee7-b6d5-0066b5f5f670") format("svg");
+}
+@font-face {
+  font-family: "UniversLTW01-67BoldCn";
+  src: url("../fonts/076b8d7a-91b5-4c89-86a1-546b980072c7.eot?#iefix");
+  src: url("../fonts/076b8d7a-91b5-4c89-86a1-546b980072c7.eot?#iefix") format("eot"), url("../fonts/21decb60-b395-4de2-bd04-e38eb2a56d2f.woff") format("woff"), url("../fonts/091058d4-36b2-43f6-80d3-16c88e098061.ttf") format("truetype"), url("../fonts/827d22bc-e38b-4ccf-8a21-1f9aaa76e402.svg#827d22bc-e38b-4ccf-8a21-1f9aaa76e402") format("svg");
+}
+@font-face {
+  font-family: "UniversLTW01-67BoldCnOb";
+  src: url("../fonts/6881ee98-4e9b-4409-9695-e5b0118c7c84.eot?#iefix");
+  src: url("../fonts/6881ee98-4e9b-4409-9695-e5b0118c7c84.eot?#iefix") format("eot"), url("../fonts/53f66cd7-168f-4c66-9514-9dd103c763a0.woff") format("woff"), url("../fonts/774a1d99-085d-4249-8c2c-0ce23fa975a6.ttf") format("truetype"), url("../fonts/056a520c-7f4a-4b3a-8465-a841cfe0b6b3.svg#056a520c-7f4a-4b3a-8465-a841cfe0b6b3") format("svg");
+}
+/*Univers Condense for Navigation*/
+header nav > ul > li.menu > ul > li.products > div > ul > li > ul > li > a,
+header nav > ul > li.location > div > ul > li > a,
+header nav > ul > li.location > div > ul > li > div ul > li > strong,
+header nav > ul > li.location > div > ul > li > div ul > li > b,
+.pricing strong em {
+  font-family: "UniversLTW01-57Condense 723821", "Arial Narrow", Arial, sans-serif;
+}
+/*Univers Bold for Most Elements*/
+h2,
+h3,
+h4,
+h5,
+h6,
+.eyebrow,
+body.no-hero h2,
+.title-btn,
+.link-list-item,
+.btn-primary,
+.btn-secondary,
+header nav > ul > li.menu > ul > li > a,
+header nav > ul > li.menu > ul > li.company > div a,
+header nav > ul > li.menu > ul > li.parts > div a,
+header nav > ul > li.menu > ul > li.support > div a,
+header nav > ul > li.menu > ul > li.products > div > ul > li > a,
+header nav > ul > li.menu.active > ul > li > div > ul li a,
+header nav > ul > li.menu.active > ul > li > div > ul li ul li a,
+body > footer h5,
+.unit-switch .unit-switch-container,
+.home .hero.container-fluid .hero-main .hero-text-wrapper .hero-text-container h2,
+body.hero .hero.container-fluid .hero-main .hero-text-wrapper .hero-text-container h2,
+.tab-wrapper .tab a,
+[data-toggle-handler],
+.search-filter-box [data-toggle-handler],
+table th,
+table.flextable.breakpoint .flextable-control a,
+.mini-form h5,
+.mini-form .loading,
+.content-module.content-module-secondary a,
+.product-gallery .gallery-filters ul li a,
+.pricing strong,
+.home .hero.container-fluid .hero-selector-container .hero-selector ul li a span,
+.sitemap > .text > .linkcontainer > .link > a,
+.sitemap > .text > .linkcontainer > .linkcontainer > .link > a,
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .link > a,
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .link > a,
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .link > a,
+.home .hero-selector-container .hero-selector ul li a,
+.packages .title-btn {
+  font-family: "UniversLTW01-67BoldCn", "Arial Narrow", Arial, sans-serif;
+}
+body,
+p,
+strong,
+table th,
+table td,
+.captionCopy,
+.large,
+figcaption,
+header nav > ul > li.menu > ul > li.products > div > ul > li > ul > li > div ul a,
+header nav > ul > li.location > a,
+header nav > ul > li.location > div > ul > li > div ul > li > strong > span,
+header nav > ul > li.location > div > ul > li > div ul > li > b > span,
+.mini-form label,
+.selector .content h6,
+.content-module.content-module-secondary ul a,
+.product-gallery .gallery-text,
+.product-gallery .paginator .paginator-number,
+.product-gallery .mobile-controls .paginator-number,
+.pricing h3 span,
+.search-results .search-item .title,
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .link > a,
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .link > a {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+/**************************************************************************************************************/
+/* 02. Font Language - Japanese */
+header nav > ul > li.menu > ul > li.products > div > ul > li > ul > li > a:lang(ja),
+header nav > ul > li.location > div > ul > li > a:lang(ja),
+header nav > ul > li.location > div > ul > li > div ul > li > strong:lang(ja),
+header nav > ul > li.location > div > ul > li > div ul > li > b:lang(ja),
+.pricing strong em:lang(ja) {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-weight: bold;
+}
+h2:lang(ja),
+h3:lang(ja),
+h4:lang(ja),
+h5:lang(ja),
+h6:lang(ja),
+.eyebrow:lang(ja),
+body.no-hero h2:lang(ja),
+.title-btn:lang(ja),
+.link-list-item:lang(ja),
+.btn-primary:lang(ja),
+.btn-secondary:lang(ja),
+header nav > ul > li.menu > ul > li > a:lang(ja),
+header nav > ul > li.menu > ul > li.company > div a:lang(ja),
+header nav > ul > li.menu > ul > li.parts > div a:lang(ja),
+header nav > ul > li.menu > ul > li.support > div a:lang(ja),
+header nav > ul > li.menu > ul > li.products > div > ul > li > a:lang(ja),
+header nav > ul > li.menu.active > ul > li > div > ul li a:lang(ja),
+header nav > ul > li.menu.active > ul > li > div > ul li ul li a:lang(ja),
+body > footer h5:lang(ja),
+.unit-switch .unit-switch-container:lang(ja),
+.home .hero.container-fluid .hero-main .hero-text-wrapper .hero-text-container h2:lang(ja),
+body.hero .hero.container-fluid .hero-main .hero-text-wrapper .hero-text-container h2:lang(ja),
+.tab-wrapper .tab a:lang(ja),
+[data-toggle-handler]:lang(ja),
+.search-filter-box [data-toggle-handler]:lang(ja),
+table th:lang(ja),
+table.flextable.breakpoint .flextable-control a:lang(ja),
+.mini-form h5:lang(ja),
+.mini-form .loading:lang(ja),
+.content-module.content-module-secondary a:lang(ja),
+.product-gallery .gallery-filters ul li a:lang(ja),
+.pricing strong:lang(ja),
+.home .hero.container-fluid .hero-selector-container .hero-selector ul li a span:lang(ja),
+.sitemap > .text > .linkcontainer > .link > a:lang(ja),
+.sitemap > .text > .linkcontainer > .linkcontainer > .link > a:lang(ja),
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .link > a:lang(ja),
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .link > a:lang(ja),
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .link > a:lang(ja),
+.home .hero-selector-container .hero-selector ul li a:lang(ja),
+.packages .title-btn:lang(ja) {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-weight: bold;
+}
+body:lang(ja),
+p:lang(ja),
+strong:lang(ja),
+table th:lang(ja),
+table td:lang(ja),
+.captionCopy:lang(ja),
+.large:lang(ja),
+figcaption:lang(ja),
+header nav > ul > li.menu > ul > li.products > div > ul > li > ul > li > div ul a:lang(ja),
+header nav > ul > li.location > a:lang(ja),
+header nav > ul > li.location > div > ul > li > div ul > li > strong > span:lang(ja),
+header nav > ul > li.location > div > ul > li > div ul > li > b > span:lang(ja),
+.mini-form label:lang(ja),
+.selector .content h6:lang(ja),
+.content-module.content-module-secondary ul a:lang(ja),
+.product-gallery .gallery-text:lang(ja),
+.product-gallery .paginator .paginator-number:lang(ja),
+.product-gallery .mobile-controls .paginator-number:lang(ja),
+.pricing h3 span:lang(ja),
+.search-results .search-item .title:lang(ja),
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .link > a:lang(ja),
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .link > a:lang(ja) {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+.large:lang(ja) {
+  line-height: 24px;
+}
+p:lang(ja),
+.selector .content p:lang(ja) {
+  line-height: 20px;
+}
+.disclosures p:lang(ja),
+figcaption:lang(ja) {
+  line-height: 16px;
+}
+header nav > ul > li.logo h1 a:lang(ja) {
+  text-indent: -9999px;
+}
+/***************************************************** END ****************************************************/
+/**************************************************************************************************************/
+/* 03. Font Language - Russian */
+@font-face {
+  font-family: "UniversLTW10-67BoldCn";
+  src: url("../fonts/de8453e9-b2a6-4554-bf75-5f0ff5a2e236.eot?#iefix");
+  src: url("../fonts/de8453e9-b2a6-4554-bf75-5f0ff5a2e236.eot?#iefix") format("eot"), url("../fonts/e6c2f397-706a-4224-9c0a-069effd9da88.woff") format("woff"), url("../fonts/528d0fca-b028-48b5-8003-f010575e8949.ttf") format("truetype"), url("../fonts/c52f6cb2-23c6-46b1-b6c5-e0a1da3e577c.svg#c52f6cb2-23c6-46b1-b6c5-e0a1da3e577c") format("svg");
+}
+header nav > ul > li.menu > ul > li.products > div > ul > li > ul > li > a:lang(ru),
+header nav > ul > li.location > div > ul > li > a:lang(ru),
+header nav > ul > li.location > div > ul > li > div ul > li > strong:lang(ru),
+header nav > ul > li.location > div > ul > li > div ul > li > b:lang(ru),
+.pricing strong em:lang(ru) {
+  font-family: "UniversLTW10-67BoldCn", "Arial Narrow", Arial, sans-serif;
+}
+h2:lang(ru),
+h3:lang(ru),
+h4:lang(ru),
+h5:lang(ru),
+h6:lang(ru),
+.eyebrow:lang(ru),
+body.no-hero h2:lang(ru),
+.title-btn:lang(ru),
+.link-list-item:lang(ru),
+.btn-primary:lang(ru),
+.btn-secondary:lang(ru),
+header nav > ul > li.menu > ul > li > a:lang(ru),
+header nav > ul > li.menu > ul > li.company > div a:lang(ru),
+header nav > ul > li.menu > ul > li.parts > div a:lang(ru),
+header nav > ul > li.menu > ul > li.support > div a:lang(ru),
+header nav > ul > li.menu > ul > li.products > div > ul > li > a:lang(ru),
+header nav > ul > li.menu.active > ul > li > div > ul li a:lang(ru),
+header nav > ul > li.menu.active > ul > li > div > ul li ul li a:lang(ru),
+body > footer h5:lang(ru),
+.unit-switch .unit-switch-container:lang(ru),
+.home .hero.container-fluid .hero-main .hero-text-wrapper .hero-text-container h2:lang(ru),
+body.hero .hero.container-fluid .hero-main .hero-text-wrapper .hero-text-container h2:lang(ru),
+.tab-wrapper .tab a:lang(ru),
+[data-toggle-handler]:lang(ru),
+.search-filter-box [data-toggle-handler]:lang(ru),
+table th:lang(ru),
+table.flextable.breakpoint .flextable-control a:lang(ru),
+.mini-form h5:lang(ru),
+.mini-form .loading:lang(ru),
+.content-module.content-module-secondary a:lang(ru),
+.product-gallery .gallery-filters ul li a:lang(ru),
+.pricing strong:lang(ru),
+.home .hero.container-fluid .hero-selector-container .hero-selector ul li a span:lang(ru),
+.sitemap > .text > .linkcontainer > .link > a:lang(ru),
+.sitemap > .text > .linkcontainer > .linkcontainer > .link > a:lang(ru),
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .link > a:lang(ru),
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .link > a:lang(ru),
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .link > a:lang(ru),
+.home .hero-selector-container .hero-selector ul li a:lang(ru),
+.packages .title-btn:lang(ru) {
+  font-family: "UniversLTW10-67BoldCn", "Arial Narrow", Arial, sans-serif;
+}
+body:lang(ru),
+p:lang(ru),
+strong:lang(ru),
+table th:lang(ru),
+table td:lang(ru),
+.captionCopy:lang(ru),
+.large:lang(ru),
+figcaption:lang(ru),
+header nav > ul > li.menu > ul > li.products > div > ul > li > ul > li > div ul a:lang(ru),
+header nav > ul > li.location > a:lang(ru),
+header nav > ul > li.location > div > ul > li > div ul > li > strong > span:lang(ru),
+header nav > ul > li.location > div > ul > li > div ul > li > b > span:lang(ru),
+.mini-form label:lang(ru),
+.selector .content h6:lang(ru),
+.content-module.content-module-secondary ul a:lang(ru),
+.product-gallery .gallery-text:lang(ru),
+.product-gallery .paginator .paginator-number:lang(ru),
+.product-gallery .mobile-controls .paginator-number:lang(ru),
+.pricing h3 span:lang(ru),
+.search-results .search-item .title:lang(ru),
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .link > a:lang(ru),
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .link > a:lang(ru) {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+/**************************************************************************************************************/
+/* 04. Font Language - Chinese */
+header nav > ul > li.menu > ul > li.products > div > ul > li > ul > li > a:lang(zh),
+header nav > ul > li.location > div > ul > li > a:lang(zh),
+header nav > ul > li.location > div > ul > li > div ul > li > strong:lang(zh),
+header nav > ul > li.location > div > ul > li > div ul > li > b:lang(zh),
+.pricing strong em:lang(zh) {
+  font-family: "Microsoft YaHei Bold", STHeiti, "微软雅黑", "Arial Narrow", Arial, sans-serif;
+}
+h2:lang(zh),
+h3:lang(zh),
+h4:lang(zh),
+h5:lang(zh),
+h6:lang(zh),
+.eyebrow:lang(zh),
+body.no-hero h2:lang(zh),
+.title-btn:lang(zh),
+.link-list-item:lang(zh),
+.btn-primary:lang(zh),
+.btn-secondary:lang(zh),
+header nav > ul > li.menu > ul > li > a:lang(zh),
+header nav > ul > li.menu > ul > li.company > div a:lang(zh),
+header nav > ul > li.menu > ul > li.parts > div a:lang(zh),
+header nav > ul > li.menu > ul > li.support > div a:lang(zh),
+header nav > ul > li.menu > ul > li.products > div > ul > li > a:lang(zh),
+header nav > ul > li.menu.active > ul > li > div > ul li a:lang(zh),
+header nav > ul > li.menu.active > ul > li > div > ul li ul li a:lang(zh),
+body > footer h5:lang(zh),
+.unit-switch .unit-switch-container:lang(zh),
+.home .hero.container-fluid .hero-main .hero-text-wrapper .hero-text-container h2:lang(zh),
+body.hero .hero.container-fluid .hero-main .hero-text-wrapper .hero-text-container h2:lang(zh),
+.tab-wrapper .tab a:lang(zh),
+[data-toggle-handler]:lang(zh),
+.search-filter-box [data-toggle-handler]:lang(zh),
+table th:lang(zh),
+table.flextable.breakpoint .flextable-control a:lang(zh),
+.mini-form h5:lang(zh),
+.mini-form .loading:lang(zh),
+.content-module.content-module-secondary a:lang(zh),
+.product-gallery .gallery-filters ul li a:lang(zh),
+.pricing strong:lang(zh),
+.home .hero.container-fluid .hero-selector-container .hero-selector ul li a span:lang(zh),
+.sitemap > .text > .linkcontainer > .link > a:lang(zh),
+.sitemap > .text > .linkcontainer > .linkcontainer > .link > a:lang(zh),
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .link > a:lang(zh),
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .link > a:lang(zh),
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .link > a:lang(zh),
+.home .hero-selector-container .hero-selector ul li a:lang(zh),
+.packages .title-btn:lang(zh) {
+  font-family: "Microsoft YaHei Bold", STHeiti, "微软雅黑", "Arial Narrow", Arial, sans-serif;
+}
+body:lang(zh),
+p:lang(zh),
+strong:lang(zh),
+table th:lang(zh),
+table td:lang(zh),
+.captionCopy:lang(zh),
+.large:lang(zh),
+figcaption:lang(zh),
+header nav > ul > li.menu > ul > li.products > div > ul > li > ul > li > div ul a:lang(zh),
+header nav > ul > li.location > a:lang(zh),
+header nav > ul > li.location > div > ul > li > div ul > li > strong > span:lang(zh),
+header nav > ul > li.location > div > ul > li > div ul > li > b > span:lang(zh),
+.mini-form label:lang(zh),
+.selector .content h6:lang(zh),
+.content-module.content-module-secondary ul a:lang(zh),
+.product-gallery .gallery-text:lang(zh),
+.product-gallery .paginator .paginator-number:lang(zh),
+.product-gallery .mobile-controls .paginator-number:lang(zh),
+.pricing h3 span:lang(zh),
+.search-results .search-item .title:lang(zh),
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .link > a:lang(zh),
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .link > a:lang(zh) {
+  font-family: "Microsoft YaHei", "STXihei", "STHeiti", "微软雅黑", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.large:lang(zh) {
+  line-height: 26px;
+}
+p:lang(zh),
+.selector .content p:lang(zh) {
+  line-height: 23px;
+}
+.disclosures p:lang(zh),
+figcaption:lang(zh) {
+  line-height: 20px;
+}
+/**************************************************************************************************************/
+/* 05. Font Language - Polish */
+@font-face {
+  font-family: "UniversLTW02-67BoldCn";
+  src: url("../fonts/c1f2f059-579b-465a-a13f-d70acd6c6212.eot?#iefix");
+  src: url("../fonts/c1f2f059-579b-465a-a13f-d70acd6c6212.eot?#iefix") format("eot"), url("../fonts/b2388651-dd56-4c8e-8455-c55318f6a734.woff") format("woff"), url("../fonts/346ec69d-90a7-4fef-a216-1a0dafbd3798.ttf") format("truetype"), url("../fonts/d39b0ff2-cca2-4288-8f6a-c730f44feb81.svg#d39b0ff2-cca2-4288-8f6a-c730f44feb81") format("svg");
+}
+header nav > ul > li.menu > ul > li.products > div > ul > li > ul > li > a:lang(pl),
+header nav > ul > li.location > div > ul > li > a:lang(pl),
+header nav > ul > li.location > div > ul > li > div ul > li > strong:lang(pl),
+header nav > ul > li.location > div > ul > li > div ul > li > b:lang(pl),
+.pricing strong em:lang(pl) {
+  font-family: "UniversLTW02-67BoldCn", "UniversLTW10-67BoldCn", "Arial Narrow", Arial, sans-serif;
+}
+h2:lang(pl),
+h3:lang(pl),
+h4:lang(pl),
+h5:lang(pl),
+h6:lang(pl),
+.eyebrow:lang(pl),
+body.no-hero h2:lang(pl),
+.title-btn:lang(pl),
+.link-list-item:lang(pl),
+.btn-primary:lang(pl),
+.btn-secondary:lang(pl),
+header nav > ul > li.menu > ul > li > a:lang(pl),
+header nav > ul > li.menu > ul > li.company > div a:lang(pl),
+header nav > ul > li.menu > ul > li.parts > div a:lang(pl),
+header nav > ul > li.menu > ul > li.support > div a:lang(pl),
+header nav > ul > li.menu > ul > li.products > div > ul > li > a:lang(pl),
+header nav > ul > li.menu.active > ul > li > div > ul li a:lang(pl),
+header nav > ul > li.menu.active > ul > li > div > ul li ul li a:lang(pl),
+body > footer h5:lang(pl),
+.unit-switch .unit-switch-container:lang(pl),
+.home .hero.container-fluid .hero-main .hero-text-wrapper .hero-text-container h2:lang(pl),
+body.hero .hero.container-fluid .hero-main .hero-text-wrapper .hero-text-container h2:lang(pl),
+.tab-wrapper .tab a:lang(pl),
+[data-toggle-handler]:lang(pl),
+.search-filter-box [data-toggle-handler]:lang(pl),
+table th:lang(pl),
+table.flextable.breakpoint .flextable-control a:lang(pl),
+.mini-form h5:lang(pl),
+.mini-form .loading:lang(pl),
+.content-module.content-module-secondary a:lang(pl),
+.product-gallery .gallery-filters ul li a:lang(pl),
+.pricing strong:lang(pl),
+.home .hero.container-fluid .hero-selector-container .hero-selector ul li a span:lang(pl),
+.sitemap > .text > .linkcontainer > .link > a:lang(pl),
+.sitemap > .text > .linkcontainer > .linkcontainer > .link > a:lang(pl),
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .link > a:lang(pl),
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .link > a:lang(pl),
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .link > a:lang(pl),
+.home .hero-selector-container .hero-selector ul li a:lang(pl),
+.packages .title-btn:lang(pl) {
+  font-family: "UniversLTW02-67BoldCn", "UniversLTW10-67BoldCn", "Arial Narrow", Arial, sans-serif;
+}
+body:lang(pl),
+p:lang(pl),
+strong:lang(pl),
+table th:lang(pl),
+table td:lang(pl),
+.captionCopy:lang(pl),
+.large:lang(pl),
+figcaption:lang(pl),
+header nav > ul > li.menu > ul > li.products > div > ul > li > ul > li > div ul a:lang(pl),
+header nav > ul > li.location > a:lang(pl),
+header nav > ul > li.location > div > ul > li > div ul > li > strong > span:lang(pl),
+header nav > ul > li.location > div > ul > li > div ul > li > b > span:lang(pl),
+.mini-form label:lang(pl),
+.selector .content h6:lang(pl),
+.content-module.content-module-secondary ul a:lang(pl),
+.product-gallery .gallery-text:lang(pl),
+.product-gallery .paginator .paginator-number:lang(pl),
+.product-gallery .mobile-controls .paginator-number:lang(pl),
+.pricing h3 span:lang(pl),
+.search-results .search-item .title:lang(pl),
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .link > a:lang(pl),
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .link > a:lang(pl) {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+/***************************************************** END ****************************************************/
+/**************************************************************************************************************/
+/* 06. Font Language - Arabic */
+header nav > ul > li.menu > ul > li.products > div > ul > li > ul > li > a:lang(ar),
+header nav > ul > li.location > div > ul > li > a:lang(ar),
+header nav > ul > li.location > div > ul > li > div ul > li > strong:lang(ar),
+header nav > ul > li.location > div > ul > li > div ul > li > b:lang(ar),
+.pricing strong em:lang(ar) {
+  font-family: "Univers Next W23 Bold", "Geeza Pro", "Simplified Arabic", "arabic typesetting", serif;
+}
+h2:lang(ar),
+h3:lang(ar),
+h4:lang(ar),
+h5:lang(ar),
+h6:lang(ar),
+.eyebrow:lang(ar),
+body.no-hero h2:lang(ar),
+.title-btn:lang(ar),
+.link-list-item:lang(ar),
+.btn-primary:lang(ar),
+.btn-secondary:lang(ar),
+header nav > ul > li.menu > ul > li > a:lang(ar),
+header nav > ul > li.menu > ul > li.company > div a:lang(ar),
+header nav > ul > li.menu > ul > li.parts > div a:lang(ar),
+header nav > ul > li.menu > ul > li.support > div a:lang(ar),
+header nav > ul > li.menu > ul > li.products > div > ul > li > a:lang(ar),
+header nav > ul > li.menu.active > ul > li > div > ul li a:lang(ar),
+header nav > ul > li.menu.active > ul > li > div > ul li ul li a:lang(ar),
+body > footer h5:lang(ar),
+.unit-switch .unit-switch-container:lang(ar),
+.home .hero.container-fluid .hero-main .hero-text-wrapper .hero-text-container h2:lang(ar),
+body.hero .hero.container-fluid .hero-main .hero-text-wrapper .hero-text-container h2:lang(ar),
+.tab-wrapper .tab a:lang(ar),
+[data-toggle-handler]:lang(ar),
+.search-filter-box [data-toggle-handler]:lang(ar),
+table th:lang(ar),
+table.flextable.breakpoint .flextable-control a:lang(ar),
+.mini-form h5:lang(ar),
+.mini-form .loading:lang(ar),
+.content-module.content-module-secondary a:lang(ar),
+.product-gallery .gallery-filters ul li a:lang(ar),
+.pricing strong:lang(ar),
+.home .hero.container-fluid .hero-selector-container .hero-selector ul li a span:lang(ar),
+.sitemap > .text > .linkcontainer > .link > a:lang(ar),
+.sitemap > .text > .linkcontainer > .linkcontainer > .link > a:lang(ar),
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .link > a:lang(ar),
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .link > a:lang(ar),
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .link > a:lang(ar),
+.home .hero-selector-container .hero-selector ul li a:lang(ar),
+.packages .title-btn:lang(ar) {
+  font-family: "Univers Next W23 Bold", "Geeza Pro", "Simplified Arabic", "arabic typesetting", serif;
+}
+body:lang(ar),
+p:lang(ar),
+strong:lang(ar),
+table th:lang(ar),
+table td:lang(ar),
+.captionCopy:lang(ar),
+.large:lang(ar),
+figcaption:lang(ar),
+header nav > ul > li.menu > ul > li.products > div > ul > li > ul > li > div ul a:lang(ar),
+header nav > ul > li.location > a:lang(ar),
+header nav > ul > li.location > div > ul > li > div ul > li > strong > span:lang(ar),
+header nav > ul > li.location > div > ul > li > div ul > li > b > span:lang(ar),
+.mini-form label:lang(ar),
+.selector .content h6:lang(ar),
+.content-module.content-module-secondary ul a:lang(ar),
+.product-gallery .gallery-text:lang(ar),
+.product-gallery .paginator .paginator-number:lang(ar),
+.product-gallery .mobile-controls .paginator-number:lang(ar),
+.pricing h3 span:lang(ar),
+.search-results .search-item .title:lang(ar),
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .link > a:lang(ar),
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .link > a:lang(ar) {
+  font-family: "Simplified Arabic", "Geeza Pro", "arabic typesetting", serif;
+}
+body.hero .hero.container-fluid .hero-main .hero-text-wrapper .hero-text-container h2:lang(ar) {
+  font-size: 60px;
+  line-height: 80px;
+}
+body.no-hero h2:lang(ar) {
+  padding-top: 10px;
+}
+.eyebrow a:lang(ar) {
+  line-height: 20px;
+}
+h2:lang(ar) {
+  line-height: 44px;
+}
+h3:lang(ar) {
+  line-height: 32px;
+}
+h4:lang(ar) {
+  line-height: 32px;
+}
+h5:lang(ar) {
+  line-height: 22px;
+}
+.large:lang(ar) {
+  line-height: 24px;
+}
+p:lang(ar),
+.selector .content p:lang(ar) {
+  line-height: 20px;
+}
+.disclosures p:lang(ar),
+figcaption:lang(ar) {
+  line-height: 16px;
+}
+@media screen and (max-width: 767px) and (min-width: 480px) {
+  body.hero .hero.container-fluid .hero-main .hero-text-wrapper .hero-text-container h2:lang(ar) {
+    font-size: 45px;
+    line-height: 55px;
+  }
+}
+@media screen and (max-width: 480px) {
+  body.hero .hero.container-fluid .hero-main .hero-text-wrapper .hero-text-container h2:lang(ar) {
+    font-size: 28px;
+    line-height: 38px;
+  }
+}
+@media screen and (max-width: 767px) {
+  body.no-hero h2:lang(ar) {
+    line-height: 44px;
+  }
+}
+header nav > ul > li.logo h1 a:lang(ar) {
+  text-indent: -9999px;
+}
+/***************************************************** END ****************************************************/
+/**************************************************************************************************************/
+/* 08. Font Language - Korean */
+header nav > ul > li.menu > ul > li.products > div > ul > li > ul > li > a:lang(ko),
+header nav > ul > li.location > div > ul > li > a:lang(ko),
+header nav > ul > li.location > div > ul > li > div ul > li > strong:lang(ko),
+header nav > ul > li.location > div > ul > li > div ul > li > b:lang(ko),
+.pricing strong em:lang(ko) {
+  font-family: "Apple SD Gothic Neo", "Malgun Gothic", "AppleGothic", Arial, sans-serif;
+  font-weight: bold;
+}
+h2:lang(ko),
+h3:lang(ko),
+h4:lang(ko),
+h5:lang(ko),
+h6:lang(ko),
+.eyebrow:lang(ko),
+body.no-hero h2:lang(ko),
+.title-btn:lang(ko),
+.link-list-item:lang(ko),
+.btn-primary:lang(ko),
+.btn-secondary:lang(ko),
+header nav > ul > li.menu > ul > li > a:lang(ko),
+header nav > ul > li.menu > ul > li.company > div a:lang(ko),
+header nav > ul > li.menu > ul > li.parts > div a:lang(ko),
+header nav > ul > li.menu > ul > li.support > div a:lang(ko),
+header nav > ul > li.menu > ul > li.products > div > ul > li > a:lang(ko),
+header nav > ul > li.menu.active > ul > li > div > ul li a:lang(ko),
+header nav > ul > li.menu.active > ul > li > div > ul li ul li a:lang(ko),
+body > footer h5:lang(ko),
+.unit-switch .unit-switch-container:lang(ko),
+.home .hero.container-fluid .hero-main .hero-text-wrapper .hero-text-container h2:lang(ko),
+body.hero .hero.container-fluid .hero-main .hero-text-wrapper .hero-text-container h2:lang(ko),
+.tab-wrapper .tab a:lang(ko),
+[data-toggle-handler]:lang(ko),
+.search-filter-box [data-toggle-handler]:lang(ko),
+table th:lang(ko),
+table.flextable.breakpoint .flextable-control a:lang(ko),
+.mini-form h5:lang(ko),
+.mini-form .loading:lang(ko),
+.content-module.content-module-secondary a:lang(ko),
+.product-gallery .gallery-filters ul li a:lang(ko),
+.pricing strong:lang(ko),
+.home .hero.container-fluid .hero-selector-container .hero-selector ul li a span:lang(ko),
+.sitemap > .text > .linkcontainer > .link > a:lang(ko),
+.sitemap > .text > .linkcontainer > .linkcontainer > .link > a:lang(ko),
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .link > a:lang(ko),
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .link > a:lang(ko),
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .link > a:lang(ko),
+.home .hero-selector-container .hero-selector ul li a:lang(ko),
+.packages .title-btn:lang(ko) {
+  font-family: "Apple SD Gothic Neo", "Malgun Gothic", "AppleGothic", Arial, sans-serif;
+  font-weight: bold;
+}
+body:lang(ko),
+p:lang(ko),
+strong:lang(ko),
+table th:lang(ko),
+table td:lang(ko),
+.captionCopy:lang(ko),
+.large:lang(ko),
+figcaption:lang(ko),
+header nav > ul > li.menu > ul > li.products > div > ul > li > ul > li > div ul a:lang(ko),
+header nav > ul > li.location > a:lang(ko),
+header nav > ul > li.location > div > ul > li > div ul > li > strong > span:lang(ko),
+header nav > ul > li.location > div > ul > li > div ul > li > b > span:lang(ko),
+.mini-form label:lang(ko),
+.selector .content h6:lang(ko),
+.content-module.content-module-secondary ul a:lang(ko),
+.product-gallery .gallery-text:lang(ko),
+.product-gallery .paginator .paginator-number:lang(ko),
+.product-gallery .mobile-controls .paginator-number:lang(ko),
+.pricing h3 span:lang(ko),
+.search-results .search-item .title:lang(ko),
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .link > a:lang(ko),
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .link > a:lang(ko) {
+  font-family: "Apple SD Gothic Neo", "Malgun Gothic Regular", "AppleGothic", Arial, sans-serif;
+}
+.large:lang(ko) {
+  line-height: 24px;
+}
+p:lang(ko),
+.selector .content p:lang(ko) {
+  line-height: 20px;
+}
+.disclosures p:lang(ko),
+figcaption:lang(ko) {
+  line-height: 16px;
+}
+/***************************************************** END ****************************************************/
+/**************************************************************************************************************/
+/* 09. Font Language - Bahasa Indonesia */
+@font-face {
+  font-family: "UniversLTW10-67BoldCn";
+  src: url("../fonts/de8453e9-b2a6-4554-bf75-5f0ff5a2e236.eot?#iefix");
+  src: url("../fonts/de8453e9-b2a6-4554-bf75-5f0ff5a2e236.eot?#iefix") format("eot"), url("../fonts/e6c2f397-706a-4224-9c0a-069effd9da88.woff") format("woff"), url("../fonts/528d0fca-b028-48b5-8003-f010575e8949.ttf") format("truetype"), url("../fonts/c52f6cb2-23c6-46b1-b6c5-e0a1da3e577c.svg#c52f6cb2-23c6-46b1-b6c5-e0a1da3e577c") format("svg");
+}
+header nav > ul > li.menu > ul > li.products > div > ul > li > ul > li > a:lang(in),
+header nav > ul > li.location > div > ul > li > a:lang(in),
+header nav > ul > li.location > div > ul > li > div ul > li > strong:lang(in),
+header nav > ul > li.location > div > ul > li > div ul > li > b:lang(in),
+.pricing strong em:lang(in) {
+  font-family: "UniversLTW02-67BoldCn", "UniversLTW01-67BoldCn", "Arial Narrow", Arial, sans-serif;
+}
+h2:lang(in),
+h3:lang(in),
+h4:lang(in),
+h5:lang(in),
+h6:lang(in),
+.eyebrow:lang(in),
+body.no-hero h2:lang(in),
+.title-btn:lang(in),
+.link-list-item:lang(in),
+.btn-primary:lang(in),
+.btn-secondary:lang(in),
+header nav > ul > li.menu > ul > li > a:lang(in),
+header nav > ul > li.menu > ul > li.company > div a:lang(in),
+header nav > ul > li.menu > ul > li.parts > div a:lang(in),
+header nav > ul > li.menu > ul > li.support > div a:lang(in),
+header nav > ul > li.menu > ul > li.products > div > ul > li > a:lang(in),
+header nav > ul > li.menu.active > ul > li > div > ul li a:lang(in),
+header nav > ul > li.menu.active > ul > li > div > ul li ul li a:lang(in),
+body > footer h5:lang(in),
+.unit-switch .unit-switch-container:lang(in),
+.home .hero.container-fluid .hero-main .hero-text-wrapper .hero-text-container h2:lang(in),
+body.hero .hero.container-fluid .hero-main .hero-text-wrapper .hero-text-container h2:lang(in),
+.tab-wrapper .tab a:lang(in),
+[data-toggle-handler]:lang(in),
+.search-filter-box [data-toggle-handler]:lang(in),
+table th:lang(in),
+table.flextable.breakpoint .flextable-control a:lang(in),
+.mini-form h5:lang(in),
+.mini-form .loading:lang(in),
+.content-module.content-module-secondary a:lang(in),
+.product-gallery .gallery-filters ul li a:lang(in),
+.pricing strong:lang(in),
+.home .hero.container-fluid .hero-selector-container .hero-selector ul li a span:lang(in),
+.sitemap > .text > .linkcontainer > .link > a:lang(in),
+.sitemap > .text > .linkcontainer > .linkcontainer > .link > a:lang(in),
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .link > a:lang(in),
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .link > a:lang(in),
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .link > a:lang(in),
+.home .hero-selector-container .hero-selector ul li a:lang(in),
+.packages .title-btn:lang(in) {
+  font-family: "UniversLTW02-67BoldCn", "UniversLTW01-67BoldCn", "Arial Narrow", Arial, sans-serif;
+}
+body:lang(in),
+p:lang(in),
+strong:lang(in),
+table th:lang(in),
+table td:lang(in),
+.captionCopy:lang(in),
+.large:lang(in),
+figcaption:lang(in),
+header nav > ul > li.menu > ul > li.products > div > ul > li > ul > li > div ul a:lang(in),
+header nav > ul > li.location > a:lang(in),
+header nav > ul > li.location > div > ul > li > div ul > li > strong > span:lang(in),
+header nav > ul > li.location > div > ul > li > div ul > li > b > span:lang(in),
+.mini-form label:lang(in),
+.selector .content h6:lang(in),
+.content-module.content-module-secondary ul a:lang(in),
+.product-gallery .gallery-text:lang(in),
+.product-gallery .paginator .paginator-number:lang(in),
+.product-gallery .mobile-controls .paginator-number:lang(in),
+.pricing h3 span:lang(in),
+.search-results .search-item .title:lang(in),
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .link > a:lang(in),
+.sitemap > .text > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .linkcontainer > .link > a:lang(in) {
+  font-family: Arial, sans-serif;
+}
+/***************************************************** END ****************************************************/

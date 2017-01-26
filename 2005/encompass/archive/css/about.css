@@ -1,0 +1,24 @@
+/* CSS Document */
+#aboutpgs #subnav li {background-color:#D92500;}
+
+li#about a {width:109px; background-image:url(../images/nav/aboutus.gif); background-position:0px -34px;}
+li#about a:hover {width:109px; background-image:url(../images/nav/aboutus.gif); background-position:0px -34px;}
+
+
+li#mission a {float:left; width:84px; height:30px; background-image:url(../images/nav/ab_mission.gif); background-position:top left; background-repeat:no-repeat;}
+li#mission a:hover {height:30px; background-image:url(../images/nav/ab_mission.gif); background-position:0px -70px;}
+
+li#hist a {float:left; width:69px; height:30px; background-image:url(../images/nav/ab_history.gif); background-position:top left; background-repeat:no-repeat;}
+li#hist a:hover {background-image:url(../images/nav/ab_history.gif); background-position:0px -70px;}
+
+li#staff a {float:left;width:57px; height:30px; background-image:url(../images/nav/ab_staff.gif); background-position:top left; background-repeat:no-repeat;}
+li#staff a:hover {background-image:url(../images/nav/ab_staff.gif); background-position:0px -70px;}
+
+li#artist a {float:left;width:199px; height:30px; background-image:url(../images/nav/ab_artistic.gif); background-position:top left; background-repeat:no-repeat;}	
+li#artist a:hover {background-image:url(../images/nav/ab_artistic.gif); background-position:0px -70px;}
+
+li#dir a {float:left;width:146px; height:30px; background-image:url(../images/nav/ab_directors.gif); background-position:top left; background-repeat:no-repeat;}
+li#dir a:hover {background-image:url(../images/nav/ab_directors.gif); background-position:0px -70px;}
+
+li#adv a {float:left;width:190px; height:30px; background-image:url(../images/nav/ab_advisors.gif); background-position:top left; background-repeat:no-repeat;}
+li#adv a:hover {background-image:url(../images/nav/ab_advisors.gif); background-position:0px -70px;}

@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+/* 
+.wrapper {
+	width: 768px;
+	margin: 0 auto;
+	position: relative;
+}
+*/
+
+#video {
+	width:640px !important; 
+	height:480px !important;
+}
+
+ul#menu li {
+	min-width:47%;
+	width:328px;
+	margin:1.0%;
+}
+
+ul#menu li span {
+	line-height: 70%;
+	font-size: 50%;
+	font-weight: bold;
+	color: #9e9c9d;
+	display: block;
+}
+
+ul#menu a {
+	text-decoration:none; 
+	color:#1ba3dd; 
+	font-size:180%;
+}
+
+
+
+.wrapper {width: auto; margin: 0 5%; position: relative;}
+ul#menu {padding-left:2%;}
+/* ul#menu li {width:45%; margin:.35em 1.0em;}
+*/
+ul li#home_nav,
+ul li#mobile,
+ul li#television,
+ul li#fridge,
+ul li#merchandising,
+ul li#fitmyspace,
+ul li#showroom,
+ul li#videos,
+ul li#global {display:inline-block;}
+
+ul li#mobile_app,
+ul li#mobile_web {display:none;}
+

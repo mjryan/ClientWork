@@ -1,0 +1,801 @@
+/* --------------------------------------------- */
+/* Title	Default Maxwell House Styles
+/* Author	Paul Karlik | Razorfish
+/* Updated	Oct 25th 2009
+/* --------------------------------------------- */
+
+/* basic CSS reset styles ---------------------- */
+
+body, div, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, embed, object{
+	padding: 0;
+	margin: 0;
+}
+
+address, caption, cite, code, em, h1, h2, h3, h4, h5, h6, strong, var {
+	font-weight: normal;
+	font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 1.em;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+fieldset, img, abbr {
+	border: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+caption, div, span {
+	text-align: left;
+}
+
+a, ins {
+	text-decoration: none;
+}
+
+:focus {
+	outline: 0;
+}
+
+.clear{
+	clear:both;
+}
+
+/* --------------------------------------------- */
+
+
+/* basic page layout styles -------------------- */
+
+#brand-wrapper{
+	width:100%;
+}
+
+#brand-container{
+	width:960px;
+	margin:auto;
+}
+
+#brand-header{
+	width:960px;
+}
+
+#brand-content{
+/* set if navigtion is using floats ------------ */
+	clear:both;
+}
+
+#brand-footer{
+	text-align: center;
+	margin:auto;
+	width:595px;
+	margin-top:20px;
+}
+
+/* --------------------------------------------- */
+
+/* basic template layout styles ---------------- */
+
+#page-header{
+}
+
+#page-container {
+	width:100%;
+}
+
+#page-main {
+	width:708px;
+	vertical-align:top;
+	padding:0px;
+	margin:0px;
+}
+
+#page-left {
+	width: 200px;
+	vertical-align:top;
+	padding:0px;
+	margin:0px;
+}
+
+#page-right {
+	width:252px;
+	height:264px;
+	vertical-align:top;
+	padding:0px;
+	margin:0px;
+}
+
+#page-footer {
+	padding-top:3px;
+	clear: both;
+	text-align: center;
+	margin:0px;
+}
+
+/* --------------------------------------------- */
+
+/* brand header styles ------------------------- */
+
+#custom-alert{
+	font-size:10px;
+	color:#ffc720;
+	float:left;
+	margin:4px 0px 0px 3px;
+	width:500px;
+	display:none;
+}
+
+#custom-alert a{
+	color:#ffc720;
+	text-decoration:underline;
+}
+
+#custom-alert a:hover{
+	color:#ffffff;
+	text-decoration:none;
+}
+
+/* --------------------------------------------- */
+
+/* utility navigation styles ------------------- */
+
+#utility-navigation{
+	float:right;
+	text-align:right;
+	margin:9px 0px 6px 0px;
+}
+
+#utility-navigation ul{
+	font-size:10px;
+	color:#4da5ec;
+}
+
+#utility-navigation ul li{
+	float:left;
+	padding:0px 0px 0px 19px;
+	background:url('../images/brand/bullet-utility.gif') no-repeat 8px 3px;
+}
+
+#utility-navigation ul li.first{
+	background:url() no-repeat;
+}
+
+#utility-navigation ul li a{
+	color:#4da5ec;
+}
+
+#utility-navigation ul li a:hover{
+	color:#ffffff;
+}
+
+#maxwellhouse-header{
+	height:101px;
+	width:960px;
+	background:url('../images/brand/brand-header-01.gif') no-repeat;
+	clear:both;
+}
+
+/* --------------------------------------------- */
+
+/* page and brand styles ----------------------- */
+
+#header{
+
+}
+
+#our-brews-header{
+	background:#ffffff url('../images/brand/head-our-brews.gif') no-repeat left top;
+	width:708px;
+	height:130px;
+}
+
+#recipes-header{
+	background:#ffffff url('../images/brand/head-recipes.gif') no-repeat left top;
+	width:708px;
+	height:130px;
+}
+
+#inside-scoop-header{
+	background:#ffffff url('../images/brand/head-inside-scoop.gif') no-repeat left top;
+	width:708px;
+	height:130px;
+}
+
+#flavor-lock-fun-header{
+	background:#ffffff url('../images/brand/head-flavor-lock-fun.gif') no-repeat left top;
+	width:708px;
+	height:130px;
+}
+
+.msg-text{
+	padding:28px 0px 0px 0px;
+	margin:0px 0px 0px 270px;
+	font-size:12px;
+	line-height:18px;
+	font-weight:bold;
+	color:#ffffff;
+	width:430px;
+}
+
+.center-left{
+	float:left;
+	width:153px;
+}
+
+.center-area{
+	float:right;
+	width:555px;
+}
+
+.center-area p{
+	font-size:12px;
+}
+
+/* --------------------------------------------- */
+
+/* example styles for the products ------------- */
+
+
+.products-left{
+	float:left;
+	width:125px;
+	margin:0px 14px 0px 8px;
+}
+
+.scoop-full{
+	width:708px;
+}
+
+.products-center{
+	float:left;
+	width:560px;
+}
+
+.products-center{
+	color:#024c88;
+	font-size:12px;
+}
+
+.products-center p{
+	width:275px;
+	padding:5px 0px 0px 0px
+}
+
+.products-center h1{
+	font-size:18px;
+	font-weight:bold;
+}
+
+.hero-image{
+	width:234px;
+	height:264px;
+	float:right;
+}
+
+.hero-image-left{
+	width:234px;
+	height:264px;
+	float:left;
+}
+
+.product-detail-info{
+	width:270px;
+	float:left;
+}
+
+.related-recipe{
+	float:left;
+}
+
+
+.product-category,
+.product-category-end{
+	width:145px;
+	margin:0px 53px 31px 0px;
+	float:left;
+	color:#091433;
+	font-size:12px;
+}
+
+.product-category-end{
+	margin:0px 0px 31px 0px;
+}
+
+.product-category p,
+.product-category-end p{
+	margin:2px 0px 2px 0px;
+}
+
+a.prod{
+	background:url('../images/brand/arrow-circle.gif') no-repeat;
+	display:block;
+	padding:3px 0px 0px 23px;
+	color:#9e3d1f;
+	height:20px;
+}
+/* --------------------------------------------- */
+
+/* form styles and input styles ---------------- */
+#long-form #SubmitForm{
+	width:479px;
+	height:125px;
+}
+
+#side-form #SubmitForm{
+	width:242px;
+	height:330px;
+}
+
+#long-form #cfgCenterForm{
+	padding-left:20px;
+}
+
+#side-form #cfgCenterForm{
+	padding:0px 0px 0px 18px;
+	clear:both;
+}
+
+#long-form{
+	width:479px;
+	height:125px;
+	background:url('../images/brand/background-long-form-header.jpg') no-repeat;
+	float:right;
+}
+
+#side-form{
+	width:242px;
+	height:330px;
+	background:url('../images/brand/background-side-form-header.jpg') no-repeat;
+	margin:10px 0px 0px 7px;
+}
+
+#long-form #FormHeaderContent{
+	width:479px;
+	height:125px;
+	background:url('../images/brand/background-long-form.jpg') no-repeat;
+	position:absolute;
+
+}
+
+#long-form #ButtonPanelFooterContent{
+	color:#ffffff;
+	font-size:9px;
+	width:230px;
+	margin-left:13px;
+}
+
+#long-form #ButtonPanelHeaderContent{
+	display:none;
+}
+
+#side-form #ButtonPanelFooterContent{
+	display:none;
+}
+
+#side-form #ButtonPanelHeaderContent{
+	color:#ffffff;
+	font-size:9px;
+	width:200px;
+	margin-left:13px;
+}
+
+#long-form #form-options{
+	text-align:left;
+	color:#ffffff;
+	font-size:9px;
+	float:left;
+	width:258px;
+	height:18px;
+	clear:both;
+	padding-top:2px;
+}
+
+#side-form #form-options{
+	text-align:left;
+	color:#ffffff;
+	font-size:9px;
+	width:220px;
+	padding-top:2px;
+	margin:5px 10px 0px 0px;
+}
+#side-form #FormHeaderContent{
+	width:242px;
+}
+
+#long-form #SuccessContent{
+	width:479px;
+	height:125px;
+	position:absolute;
+	display:none;
+}
+
+#side-form #SuccessContent{
+	width:242px;
+	position:absolute;
+	display:none;
+}
+
+#long-form.SuccessContent div#SuccessContent,
+#side-form.SuccessContent div#SuccessContent{
+	display:block;
+}
+
+#long-form .success-message{
+	color:#ffffff;
+	margin:44px 0px 0px 20px;
+	font-size:12px;
+	width:400px;
+}
+#side-form .success-message{
+	color:#ffffff;
+	margin:95px 0px 0px 17px;
+	font-size:12px;
+	width:220px;
+}
+
+.yellow,
+.yello{
+	color:#ffc720;
+}
+
+#long-form.SuccessContent #SubmitForm,
+#side-form.SuccessContent #SubmitForm{
+	display:none;
+}
+
+#ErrorContent{
+	width:479px;
+	height:125px;
+	background:url('../images/brand/background-long-form.jpg') no-repeat;
+	position:absolute;
+	display:none;
+}
+
+#long-form #cfgFirstName,
+#long-form #cfgLastName,
+#long-form #cfgPostalCode{
+	float:left;
+	width:100px;
+	margin-top:44px;
+}
+
+#side-form #cfgFirstName,
+#side-form #cfgLastName,
+#side-form #cfgPostalCode{
+	float:left;
+	width:92px;
+	margin-top:5px;
+}
+
+#side-form #cfgLastName{
+	margin-left:10px;
+}
+
+#long-form #cfgEmail{
+	float:left;
+	width:140px;
+	margin-top:44px;
+}
+
+#side-form #cfgPostalCode,
+#side-form #cfgEmail{
+	float:left;
+	width:194px;
+	clear:both;
+	margin-top:5px;
+}
+
+#long-form #cfgButtonContent{
+	padding:5px 16px 0px 0px;
+	float:right;
+	width:175px;
+}
+
+#side-form #cfgButtonContent{
+	padding:5px 0px 0px 0px;
+	float:left;
+	width:175px;
+}
+
+#long-form #ButtonPanelHeaderContent{
+	color:#ffffff;
+	font-size:9px;
+	padding:4px 2px 0px 2px;
+}
+
+#side-form #ButtonPanelHeaderContent{
+	color:#ffffff;
+	font-size:9px;
+	width:200px;
+	margin:5px 2px 5px 2px;
+}
+
+.required{
+	padding:5px 10px 0px 0px;
+	font-size:9px;
+	float:left;
+	color:#ffffff;
+}
+
+.form-image-header{
+	margin:24px 0px 10px 0px;
+}
+
+.can-image{
+	width:199px;
+	height:125px;
+	background:url('../images/brand/form-coffee-cans-overlay.gif') no-repeat;
+	margin:0px 20px 0px 0px;
+	float:left;
+}
+
+.can-copy{
+	width:225px;
+	font-size:12px;
+	color:#ffffff;
+	float:left;
+}
+
+#side-form .can-copy{
+	margin:90px 0px 10px 0px;
+	padding:0px 0px 0px 17px;
+	font-size:12px;
+	color:#ffffff;
+	clear:both;
+}
+
+a.can-link,
+a.can-link:visited{
+	display:block;
+	height:20px;
+	background:url('../images/brand/arrow-circle-fill.gif') no-repeat;
+	padding:2px 0px 0px 25px;
+	color:#fd811d;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.form-label{
+
+	font-weight:bold;
+	text-align:left;
+	color:#ffffff;
+	font-size:12px;
+}
+
+.form-input{
+	float:left;
+	text-align:left;
+	font-size:11px;
+}
+
+.form-input span{
+	display:none;
+	visibility:hidden;
+	height:1px;
+	position:absolute;
+}
+
+.form-box{
+	float:left;
+	text-align:left;
+	color:#ffffff;
+	font-size:11px;
+	width:100px;
+}
+
+.form-input input{
+	width:90px;
+}
+
+#cfgEmail .form-input input{
+	width:130px;
+}
+
+#side-form #cfgPostalCode .form-input input,
+#side-form #cfgEmail .form-input input{
+	width:194px;
+}
+
+.form-show{
+	display:block;
+}
+
+.form-hide{
+	display:none;
+}
+
+/* --------------------------------------------- */
+
+
+/* brand footer styles ------------------------- */
+
+#footer-extra{
+	float:left;
+	width:115px;
+	height:95px;
+}
+
+#footer-container{
+	border-left:1px dotted #ffffff;
+	/*width:475px;*/
+	padding: 0 10px 0 0;
+	height:132px;
+	clear:both;
+	float:left;
+}
+
+
+#footer-container li a{
+	color:#4da5ec;
+	margin:-3px 0px 2px 10px;
+}
+
+#footer-extra li a {
+	color:#ffffff;
+}
+#footer-extra li.footer-col,
+#footer-container li.footer-col{
+	border-right:1px dotted #ffffff;
+	width:115px;
+	/*height:95px;*/
+    height:132px;
+	display:block;
+	float:left;
+	font-size:10px;
+}
+
+#footer-extra ul.sub-footer,
+#footer-container ul.sub-footer{
+	padding:0px;
+	margin:0px 0px 0px 0px;
+}
+
+#footer-extra ul.sub-footer li,
+#footer-container ul.sub-footer li{
+	margin:0px 0px 2px 0px;
+}
+
+#footer-extra ul ul li a,
+#footer-container ul ul li a{
+	color:#bebfc0;
+    display:block;
+	margin-top:0px;
+}
+
+
+#footer-extra ul ul li a:hover,
+#footer-container ul ul li a:hover{
+	color:#ffffff;
+}
+
+.copyright{
+	width:580px;
+	text-align:center;
+	color:#4da5ec;
+	font-size:10px;
+	margin:auto;
+	padding:20px 0px 0px 0px;
+	clear:both;
+}
+
+/* --------------------------------------------- */
+
+
+/* just for 'looks' styles --------------------- */
+
+body{
+	background-color:#024c89;
+	font-family: Arial, Helvetica, Sans-Serif;
+}
+
+#page-container{
+	height:250px;
+}
+
+#newsletter-placeholder{
+	margin-left:9px;
+}
+
+.flash-over{
+	width:255px;
+	height:264px;
+	margin-left:9px;
+	color:#ffffff;
+	text-align:center;
+}
+
+#flavor-flash{
+	margin-left:8px;
+}
+
+.no-flash-brew{
+	background:url('../images/assets/no-flash-brew.gif') no-repeat left top;
+	height:265px;
+}
+
+.no-flash-brew p{
+	padding:140px 10px 0px 0px;
+	width:230px;
+	text-align:center;
+	font-weight:bold;
+}
+
+.no-flash-brew a{
+	color:#ffffff;
+	text-decoration:underline;
+}
+
+.Flavor-Lock-Fun #page-main {
+	background:#FFFFFF url('../images/brand/bottom-box.gif') no-repeat left bottom;
+	padding-bottom:13px;
+}
+
+/* --------------------------------------------- */
+
+#tellAFriend{
+	width:568px;
+	height:400px;
+	padding:100px 10px 10px 10px;
+	background: #ffffff url(../images/email/maxwellhouse-header.jpg) top center no-repeat ;
+		color:#024c88;
+		font-size:12px;
+}
+
+#tellAFriend #SenderEmail,
+#tellAFriend #SenderName{
+	width:200px;
+	float:left;
+	padding:0px 20px 0px 20px;
+}
+
+#tellAFriend #PersonalMessage{
+	clear:both;
+	padding:0px 20px 0px 20px;
+	width:500px;
+}
+
+#tellAFriend #RecipentEmail{
+	clear:both;
+}
+
+#RecipentEmail .form-show{
+	width:200px;
+	float:left;
+	padding:0px 20px 0px 20px;
+}
+
+#PersonalMessage textarea{
+	width:380px;
+	height:45px;
+}
+.email-button{
+	margin:0px 20px 0px 20px;
+	width:387px;
+	text-align:right;
+}
+
+.thank-you{
+	font-size:12px;
+	width:400px;
+	padding:40px 10px 10px 20px;
+	color:#024c89;
+}
+
+.thank-you h2{
+	font-size:16px;
+}
+.SuccessContent #SuccessContent{
+	display:block;
+}
+
+.SuccessContent #SubmitForm{
+	display:none;
+}

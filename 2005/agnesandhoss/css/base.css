@@ -1,0 +1,7 @@
+html {margin: 0; padding: 0;}
+body {font: 0.85em Verdana,Arial,Helvetica,sans-serif; margin:0; padding:0; background:white; color:black;}
+h1 {font-size:200%; text-transform:lowercase; letter-spacing:3px; margin: 0; padding: 0.66em 0 0.33em 16%; background: rgb(80%,80%,50%);}
+#main {background: white;}   
+#boundingborders {border-left:1px dotted #666; border-right:1px dotted #666; border-bottom:1px dotted #666; width:760px;}
+div.clearing {clear:both; height:1px; font-size:0; line-height:0;}
+#footer {width:760px; text-align:left; height:30px;}

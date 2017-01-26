@@ -1,0 +1,29 @@
+#StoryToolbar {
+	clear: both;
+	padding: 0px;
+	margin: 0px 0px 2px 0px;
+}
+#StoryToolbar thead td, #StoryToolbar tfoot td {
+	background-image: url(/images2/global/dottedDivider.gif); 
+	background-position: top; 
+	background-repeat: repeat-x;
+}
+#StoryToolbar tbody td {
+	font-size: 10px; 
+	padding-bottom: 8px; 
+	padding-top: 4px;
+}
+#StoryToolbar tbody td a {
+	background-image: url(/images2/icons/blueArrow.gif); 
+	background-repeat: no-repeat; 
+	background-position: left 4px; 
+	font-weight: bold; 
+	padding-left: 8px;
+}
+#Source {
+	width: auto;
+	margin-bottom: 9px;
+}
+#InsideBodyColumn .bodyCopy li {
+	margin-left: 1.5em;
+}

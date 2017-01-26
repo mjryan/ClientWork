@@ -1,0 +1,241 @@
+    body {
+      background:#fff;
+      margin:0;
+      padding:0;
+      color:#000;
+	  text-align:center;
+      }
+    
+	#container
+	{
+	 position:relative;
+     width:700px;
+	 height:660px;
+     margin:0 auto;
+	 text-align:left;
+	 padding:0;
+     border:1px solid #000;
+     background-color:#fff;
+	}	 
+	 
+	  
+ /****** STYLES FOR TOP NAVIGATION AREA *******/  		
+	#topnav
+	{
+	background-image:url(../shared/images/topFiller.gif);
+	position:absolute;
+	top:0;
+	left:0;
+	text-align:left;
+	height:120px;
+	width:100%;
+	}
+		
+	
+    #header {
+      float:left;
+      width:80%;
+	  height:32px;
+      background:#00255D repeat-x bottom;
+      line-height:normal;
+	  position:absolute;
+	  left:140px;
+	  top:43px;
+      }  
+	  
+	  /**/
+    #header ul {
+      margin:0;
+      padding:0;
+      list-style:none;
+      }
+    
+	#header li {
+      float:left;
+      margin:0;
+      padding:0;
+      }
+	
+	#header li#current {
+      float:left;
+      margin:0;
+      padding:0;
+	  background:#405C86 repeat-x bottom;
+	  height:33px;
+      }
+	    
+    #header a {
+      float:left;
+      display:block;
+      background:url("/shared/images/nav_shim.gif") no-repeat right top;
+      padding:1px;
+ 	  margin:0;
+    
+      }
+    /* Commented Backslash Hack
+       hides rule from IE5-Mac \*/
+    #header a {float:none;}
+    /* End IE5-Mac hack */
+	
+	 #header ul li a#last
+	 {
+	 background-image:url("/shared/images/nav_shim_rt_drkbl.gif");
+	 }
+	 
+	 #purchase
+	 {
+	 position:absolute;
+	 right:1px;
+	 top:0;
+	 }
+ 
+	 #padreslogo
+	 {
+	 position:absolute;
+	 left:10px;
+	 top:0;
+	 }	
+ /****** STYLES FOR TOP NAVIGATION AREA *******/ 	  
+
+ 
+ /*******  CENTER CONTENT AREA  *******/
+	 #maincontent
+	 {
+	 position:relative;
+	 top:120px;
+	 }
+	
+	#maincontent #content
+	{
+	overflow: auto;
+	width:550px;
+	height:350px;
+	text-align:left;
+	padding:15px;
+	margin:0;
+	scrollbar-face-color: #00255D;
+	scrollbar-darkshadow-color: #405C86;
+	scrollbar-3dlight-color: #405C86;
+	scrollbar-arrow-color: #fff;
+	scrollbar-highlight-color: #405C86;
+	scrollbar-shadow-color: #405C86;
+	scrollbar-track-color: #CDB87C;
+	}
+	
+ 
+/*******  CENTER CONTENT AREA  *******/	
+
+
+
+
+/****** STYLES FOR FOOTER NAVIGATION AREA *******/  		
+	#bottom {
+	background-image:url(../shared/images/btmFiller.gif);
+	position:absolute;
+	bottom:0;
+	height:26px;
+	width:100%;
+	font:x-small/0.5em arial, helvetica, sans-serif;
+    voice-family: "\"}\""; voice-family:inherit;
+    font-size:small;
+	} html>#bottom {font-size:0.5em;}
+	
+    #footer {
+      float:left;
+      width:70%;
+      background:#CDB87C repeat-x bottom;
+	  position:absolute;
+	  left:160px;
+	  top:6px;
+      }
+	  
+    #footer ul {
+      margin:0;
+      padding:0;
+      list-style:none;
+      }
+	  
+    #footer li {
+      float:left;
+      background:url no-repeat left top;
+      margin:0;
+      padding:0;
+      }
+	  
+    #footer a {
+      float:left;
+      display:block;
+      background:url("/shared/images/nav_shim_tan.gif") no-repeat right top;
+      padding:1px;
+      }
+	  
+    /* Commented Backslash Hack
+       hides rule from IE5-Mac \*/
+    #footer a {float:none;}
+    /* End IE5-Mac hack */
+	
+	 #footer ul li a#last {
+	 border-right:1px solid #CDB87C ;
+	 background-image:url("/shared/images/nav_shim_rt_tan.gif");
+     
+	 }
+	 
+ /****** STYLES FOR FOOTER NAVIGATION AREA *******/ 	
+ 
+ 
+ /****** FONT STYLES ******/
+	TD {
+	font-family:arial, helvetica, verdana, sans-serif; 
+	font-size:11px; 
+	font-weight:normal; 
+	font-style:normal; 
+	color:#000;
+	}
+
+	H3 {
+	font-family:arial, helvetica, verdana, sans-serif; 
+	font-size:16px; 
+	font-weight:bold; 
+	font-style:normal; 
+	color:#000;
+	}
+
+	P {
+	font-family:arial, helvetica, verdana, sans-serif; 
+	font-size:12px; 
+	font-weight:normal; 
+	font-style:normal; 
+	color:#000;
+	}
+  
+ 
+	 .eleven {
+	font-family:arial, helvetica, verdana, sans-serif; 
+	font-size:11px;
+	font-weight:normal;
+	color: #036;
+	}
+
+	A:visited { color:#036; text-decoration:underline;}
+	A:active { color:#036; text-decoration:underline;}
+	A:hover { color:#036; text-decoration:underline;}
+	A:link { color:#036; text-decoration:underline;}
+
+
+	.ten {
+	font-family:arial, helvetica, verdana, sans-serif; 
+	font-size:10px;
+	}
+
+	.thirteen {
+	font-family:arial, helvetica, verdana, sans-serif; 
+	font-size:13px;
+	font-weight:bold;
+	}
+	
+	
+	.error {
+	color:#FF0000;
+	}
+ /****** FONT STYLES ******/
+ 

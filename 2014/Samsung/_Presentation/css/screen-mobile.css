@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* =========================================================================================
+   Mobile css
+   ========================================================================================= */
+.wrapper {
+	width:320px;
+	margin:0 auto;
+}
+
+#video {
+	margin:0 auto;
+	width:320px !important; 
+	height:240px !important;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.1) 4px 4px 6px, rgba(0, 0, 0, 0.1) 0 0 4px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.1) 4px 4px 6px, rgba(0, 0, 0, 0.1) 0 0 4px;
+	box-shadow: rgba(0, 0, 0, 0.1) 4px 4px 6px, rgba(0, 0, 0, 0.1) 0 0 4px;
+	background-color: #f4f4f4;
+}
+
+ul, li {padding:0; margin:0; list-style:none;}
+ul#menu {padding-top:1em; padding-left:1em; padding-bottom:1em;}
+
+ul#menu li {
+	background-color:#f6f6f6;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#dcdcdc')"; /* IE8 */
+	width: 278px;
+	display:inline-block;
+	border-top: solid 1px #f8f8f8;
+	border-left: solid 1px #eee;
+	border-right: solid 1px #eee;
+	border-bottom: solid 1px #e0e0e0;
+	/*margin: 5px;*/
+	margin:1.0% 1.0% 2.25% 1.0%;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	border-radius: 8px;
+	background-image: linear-gradient(top, #f6f6f6 35%, #dcdcdc 80%);
+	background-image: -o-linear-gradient(top, #f6f6f6 35%, #dcdcdc 80%);
+	background-image: -moz-linear-gradient(top, #f6f6f6 35%, #dcdcdc 80%);
+	background-image: -webkit-linear-gradient(top, #f6f6f6 35%, #dcdcdc 80%);
+	background-image: -ms-linear-gradient(top, #f6f6f6 35%, #dcdcdc 80%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0.35, #f6f6f6),
+		color-stop(0.80, #dcdcdc)
+	);
+}
+
+ul#menu li span {
+	line-height: 70%;
+	font-size: 45%;
+	font-weight: bold;
+	color: #9e9c9d;
+	display: block;
+}
+
+ul#menu a {
+	display:block;
+	/*padding:10px;*/
+	padding:3.5%;
+	text-decoration:none; 
+	color:#1ba3dd; 
+	font-size:150%;
+}
+
+
+/*	*/	
+ul li#home_nav,
+ul li#mobile,
+ul li#television,
+ul li#fridge,
+ul li#merchandising,
+ul li#fitmyspace,
+ul li#showroom,
+ul li#global,
+ul li#videos {display:none;}
+ul li#mobile_app,
+ul li#mobile_web {display:inline-block;}
+
+		
