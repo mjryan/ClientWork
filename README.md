@@ -5,7 +5,6 @@ A collection of various projects from over the years.
  
 
 *** CAT - Font Exploration for Asia Pac expansion to Catpillar's site ***
-- Typography: https://mjryan.github.io/ClientWork/2014/CAT_Asia-Pac-Implimentation/index.html
 - Global Language Selector (page available on live site): http://www.cat.com/global-selector.html
 
 
